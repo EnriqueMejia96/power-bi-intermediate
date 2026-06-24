@@ -42,8 +42,8 @@ class Settings:
     training_end_date: str = "2024-12-31"
     project_start_date: str = "2025-01-01"
     project_end_date: str = "2025-06-30"
-    n_areas: int = 6
-    n_equipment: int = 40
+    n_areas: int = 17
+    n_equipment: int = 60
     n_clients: int = 20
     n_projects: int = 80
     n_responsibles: int = 30
@@ -70,7 +70,8 @@ class Settings:
     def with_small_counts(self) -> "Settings":
         return replace(
             self,
-            n_equipment=12,
+            n_areas=17,
+            n_equipment=18,
             n_clients=8,
             n_projects=16,
             n_responsibles=10,
@@ -103,8 +104,8 @@ def load_settings(repo_root: Path | None = None) -> Settings:
         training_end_date=os.getenv("TRAINING_END_DATE", "2024-12-31"),
         project_start_date=os.getenv("PROJECT_START_DATE", "2025-01-01"),
         project_end_date=os.getenv("PROJECT_END_DATE", "2025-06-30"),
-        n_areas=_int("N_AREAS", 6),
-        n_equipment=_int("N_EQUIPMENT", 40),
+        n_areas=_int("N_AREAS", 17),
+        n_equipment=_int("N_EQUIPMENT", 60),
         n_clients=_int("N_CLIENTS", 20),
         n_projects=_int("N_PROJECTS", 80),
         n_responsibles=_int("N_RESPONSIBLES", 30),

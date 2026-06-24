@@ -1,21 +1,21 @@
 ClientID,ClientName,Segment,Region,ContractType
-C001,Cliente Sintético 01,Energía,Norte,Proyecto
-C002,Cliente Sintético 02,Energía,Norte,Retainer
-C003,Cliente Sintético 03,Minería,Oriente,Spot
-C004,Cliente Sintético 04,Servicios,Centro,Retainer
-C005,Cliente Sintético 05,Servicios,Norte,Spot
-C006,Cliente Sintético 06,Energía,Oriente,Retainer
-C007,Cliente Sintético 07,Minería,Sur,Proyecto
-C008,Cliente Sintético 08,Minería,Sur,SLA
-C009,Cliente Sintético 09,Minería,Sur,Spot
-C010,Cliente Sintético 10,Servicios,Lima,Spot
-C011,Cliente Sintético 11,Servicios,Oriente,SLA
-C012,Cliente Sintético 12,Minería,Lima,Retainer
-C013,Cliente Sintético 13,Infraestructura,Lima,SLA
-C014,Cliente Sintético 14,Minería,Norte,Retainer
-C015,Cliente Sintético 15,Energía,Norte,Spot
-C016,Cliente Sintético 16,Manufactura,Lima,SLA
-C017,Cliente Sintético 17,Infraestructura,Lima,Proyecto
-C018,Cliente Sintético 18,Servicios,Centro,SLA
-C019,Cliente Sintético 19,Minería,Oriente,Retainer
-C020,Cliente Sintético 20,Minería,Lima,Spot
+C001,Operaciones Mina Norte,Energía Industrial,Pampa,SLA Operacional
+C002,Planta Concentradora Central,Minería,Norte,SLA Operacional
+C003,Gerencia de Mantenimiento,Minería,Costa,Proyecto Mina
+C004,Gerencia HSE,Mantenimiento Industrial,Cordillera,Servicio Especializado
+C005,Gerencia Energía,Minería,Cordillera,Contrato Marco
+C006,Gerencia Proyectos Mina,Minería,Cordillera,SLA Operacional
+C007,Contrato Servicios Mina,Minería,Centro,Servicio Especializado
+C008,Contrato Mantenimiento Planta,Minería,Pampa,Servicio Especializado
+C009,Centro Integrado de Operaciones,Minería,Costa,Servicio Especializado
+C010,Superintendencia Chancado,Minería,Pampa,Servicio Especializado
+C011,Superintendencia Molienda,Minería,Cordillera,SLA Operacional
+C012,Superintendencia Relaves,Minería,Norte,Servicio Especializado
+C013,Superintendencia Mina,Servicios Mineros,Norte,Proyecto Mina
+C014,Contrato Automatización OT,Servicios Mineros,Cordillera,Servicio Especializado
+C015,Contrato Energía Planta,Minería,Costa,Contrato Marco
+C016,Superintendencia Flotación,Minería,Pampa,Servicio Especializado
+C017,Operaciones Mina Norte,Servicios Mineros,Costa,Contrato Marco
+C018,Planta Concentradora Central,Energía Industrial,Norte,Contrato Marco
+C019,Gerencia de Mantenimiento,Energía Industrial,Norte,Contrato Marco
+C020,Gerencia HSE,Minería,Costa,Servicio Especializado

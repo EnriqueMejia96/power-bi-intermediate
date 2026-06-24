@@ -68,3 +68,8 @@ Completar:
 
 ## Parte H: cierre
 Responder el exit ticket y guardar el `.pbix` solo si el instructor lo pide. El repositorio no debe almacenar `.pbix`.
+
+## Caso minero para el entregable
+Usa este enunciado: "La operación minera está en riesgo de no cumplir sus metas operacionales por una combinación de bajo rendimiento en chancado, backlog de mantenimiento, consumo energético anormal y acciones HSE pendientes. Diseñe una solución Power BI para priorizar decisiones."
+
+Tu respuesta debe conectar al menos producción, mantenimiento, SLA/backlog, energía y HSE.

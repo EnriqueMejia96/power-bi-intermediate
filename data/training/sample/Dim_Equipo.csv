@@ -1,41 +1,61 @@
 EquipmentID,EquipmentName,EquipmentType,Criticality,AreaID,Manufacturer,Model,CommissioningDate,ActiveFlag
-EQ0001,Equipo Sintético 0001,Sensor,Alta,A006,Kuntur Labs,M-501,2018-03-24,True
-EQ0002,Equipo Sintético 0002,Sensor,Alta,A003,InnovaPower,M-911,2021-02-11,True
-EQ0003,Equipo Sintético 0003,Tablero,Alta,A004,Kuntur Labs,M-214,2022-07-22,True
-EQ0004,Equipo Sintético 0004,Sensor,Baja,A003,AndesTech,M-509,2018-03-13,True
-EQ0005,Equipo Sintético 0005,PLC,Media,A002,InnovaPower,M-732,2019-02-07,True
-EQ0006,Equipo Sintético 0006,Tablero,Media,A006,Aster Systems,M-281,2023-06-24,True
-EQ0007,Equipo Sintético 0007,Servidor OT,Baja,A005,InnovaPower,M-748,2023-12-06,True
-EQ0008,Equipo Sintético 0008,PLC,Media,A004,InnovaPower,M-375,2021-01-25,True
-EQ0009,Equipo Sintético 0009,Tablero,Media,A003,AndesTech,M-826,2020-02-18,True
-EQ0010,Equipo Sintético 0010,PLC,Alta,A005,NovaControls,M-620,2019-06-06,True
-EQ0011,Equipo Sintético 0011,Bomba,Alta,A004,NovaControls,M-591,2021-04-16,True
-EQ0012,Equipo Sintético 0012,Servidor OT,Media,A003,NovaControls,M-258,2021-02-19,True
-EQ0013,Equipo Sintético 0013,Transportador,Media,A003,Aster Systems,M-516,2019-01-24,True
-EQ0014,Equipo Sintético 0014,Compresor,Media,A002,Aster Systems,M-870,2017-02-28,True
-EQ0015,Equipo Sintético 0015,Servidor OT,Baja,A001,Aster Systems,M-117,2018-01-23,True
-EQ0016,Equipo Sintético 0016,Compresor,Media,A004,NovaControls,M-781,2023-09-18,True
-EQ0017,Equipo Sintético 0017,Sensor,Media,A006,Kuntur Labs,M-542,2019-12-06,True
-EQ0018,Equipo Sintético 0018,Servidor OT,Media,A001,AndesTech,M-746,2020-05-18,True
-EQ0019,Equipo Sintético 0019,PLC,Media,A006,NovaControls,M-696,2020-04-09,True
-EQ0020,Equipo Sintético 0020,Compresor,Alta,A005,AndesTech,M-488,2022-06-25,True
-EQ0021,Equipo Sintético 0021,Transformador,Media,A002,NovaControls,M-377,2017-06-16,False
-EQ0022,Equipo Sintético 0022,Sensor,Alta,A004,Kuntur Labs,M-663,2017-07-31,True
-EQ0023,Equipo Sintético 0023,Tablero,Media,A001,NovaControls,M-226,2018-12-07,True
-EQ0024,Equipo Sintético 0024,Servidor OT,Baja,A005,Kuntur Labs,M-625,2020-05-29,True
-EQ0025,Equipo Sintético 0025,Compresor,Alta,A005,InnovaPower,M-185,2021-09-13,True
-EQ0026,Equipo Sintético 0026,Transportador,Alta,A003,Aster Systems,M-684,2020-06-08,True
-EQ0027,Equipo Sintético 0027,Sensor,Media,A001,InnovaPower,M-665,2020-02-03,True
-EQ0028,Equipo Sintético 0028,Sensor,Media,A006,NovaControls,M-175,2023-07-27,True
-EQ0029,Equipo Sintético 0029,Bomba,Media,A003,Aster Systems,M-780,2018-02-16,False
-EQ0030,Equipo Sintético 0030,PLC,Media,A006,Kuntur Labs,M-473,2021-01-01,True
-EQ0031,Equipo Sintético 0031,Transportador,Baja,A005,NovaControls,M-807,2020-10-18,True
-EQ0032,Equipo Sintético 0032,Transportador,Media,A005,Aster Systems,M-137,2020-04-25,True
-EQ0033,Equipo Sintético 0033,Servidor OT,Media,A005,NovaControls,M-261,2022-08-28,True
-EQ0034,Equipo Sintético 0034,Transportador,Baja,A002,Aster Systems,M-544,2018-11-14,True
-EQ0035,Equipo Sintético 0035,Transportador,Alta,A003,Aster Systems,M-269,2023-09-05,True
-EQ0036,Equipo Sintético 0036,Servidor OT,Alta,A003,InnovaPower,M-396,2019-04-28,True
-EQ0037,Equipo Sintético 0037,Tablero,Alta,A003,Aster Systems,M-693,2020-10-25,True
-EQ0038,Equipo Sintético 0038,PLC,Media,A001,NovaControls,M-229,2020-08-24,True
-EQ0039,Equipo Sintético 0039,Compresor,Media,A004,AndesTech,M-709,2022-12-13,True
-EQ0040,Equipo Sintético 0040,Sensor,Alta,A001,AndesTech,M-192,2020-01-28,True
+EQ0001,PLC Sintético 0001,PLC,Crítica,A017,Kuntur Industrial,MIN-703,2020-08-06,False
+EQ0002,Camión CAEX Sintético 0002,Camión CAEX,Media,A004,Pampa Controls,MIN-541,2019-08-21,True
+EQ0003,Cargador frontal Sintético 0003,Cargador frontal,Media,A004,Kuntur Industrial,MIN-496,2023-02-25,True
+EQ0004,Sensor de vibración Sintético 0004,Sensor de vibración,Media,A017,Pampa Controls,MIN-943,2017-04-21,True
+EQ0005,PLC Sintético 0005,PLC,Media,A017,NovaMine,MIN-244,2023-12-04,True
+EQ0006,Chancador secundario Sintético 0006,Chancador secundario,Alta,A005,Sierra Motion,MIN-613,2023-06-05,True
+EQ0007,Camión CAEX Sintético 0007,Camión CAEX,Media,A004,Sierra Motion,MIN-587,2016-08-17,True
+EQ0008,Servidor SCADA Sintético 0008,Servidor SCADA,Crítica,A017,Andes Mining Systems,MIN-525,2016-06-25,True
+EQ0009,Camión CAEX Sintético 0009,Camión CAEX,Crítica,A004,Sierra Motion,MIN-826,2019-10-20,True
+EQ0010,Switch industrial Sintético 0010,Switch industrial,Media,A017,NovaMine,MIN-340,2015-05-28,True
+EQ0011,Molino de bolas Sintético 0011,Molino de bolas,Alta,A008,Andes Mining Systems,MIN-957,2017-09-09,True
+EQ0012,Medidor de energía Sintético 0012,Medidor de energía,Media,A013,Kuntur Industrial,MIN-398,2018-12-01,True
+EQ0013,Servidor Historiador Sintético 0013,Servidor Historiador,Media,A017,Sierra Motion,MIN-589,2023-09-23,True
+EQ0014,Espesador Sintético 0014,Espesador,Media,A010,Kuntur Industrial,MIN-568,2023-12-07,True
+EQ0015,Cargador frontal Sintético 0015,Cargador frontal,Alta,A004,Kuntur Industrial,MIN-863,2016-05-13,True
+EQ0016,Switch industrial Sintético 0016,Switch industrial,Alta,A017,Sierra Motion,MIN-494,2023-01-10,True
+EQ0017,Pala eléctrica Sintético 0017,Pala eléctrica,Alta,A004,Pampa Controls,MIN-355,2015-10-26,True
+EQ0018,Celda de flotación Sintético 0018,Celda de flotación,Crítica,A009,Kuntur Industrial,MIN-119,2021-09-27,True
+EQ0019,Camión aljibe Sintético 0019,Camión aljibe,Alta,A004,Andes Mining Systems,MIN-426,2022-08-12,True
+EQ0020,Medidor de energía Sintético 0020,Medidor de energía,Crítica,A013,Sierra Motion,MIN-842,2023-01-07,True
+EQ0021,Alimentador Sintético 0021,Alimentador,Alta,A005,Andes Mining Systems,MIN-108,2017-01-04,True
+EQ0022,Sistema dispatch Sintético 0022,Sistema dispatch,Media,A004,Kuntur Industrial,MIN-905,2023-01-16,True
+EQ0023,Filtro Sintético 0023,Filtro,Alta,A010,Kuntur Industrial,MIN-588,2016-01-17,False
+EQ0024,Servidor Historiador Sintético 0024,Servidor Historiador,Crítica,A017,Andes Mining Systems,MIN-226,2019-09-03,True
+EQ0025,Bulldozer Sintético 0025,Bulldozer,Alta,A004,Kuntur Industrial,MIN-371,2019-03-24,True
+EQ0026,Pala eléctrica Sintético 0026,Pala eléctrica,Alta,A004,Sierra Motion,MIN-598,2017-11-04,True
+EQ0027,Sistema de control distribuido Sintético 0027,Sistema de control distribuido,Media,A017,Kuntur Industrial,MIN-383,2015-03-14,True
+EQ0028,Harnero Sintético 0028,Harnero,Alta,A005,Andes Mining Systems,MIN-197,2021-12-13,True
+EQ0029,Pala hidráulica Sintético 0029,Pala hidráulica,Media,A004,Andes Mining Systems,MIN-698,2018-01-08,True
+EQ0030,Correa transportadora Sintético 0030,Correa transportadora,Media,A006,Sierra Motion,MIN-704,2020-12-15,True
+EQ0031,Sensor de vibración Sintético 0031,Sensor de vibración,Alta,A017,Andes Mining Systems,MIN-206,2018-09-10,True
+EQ0032,Molino SAG Sintético 0032,Molino SAG,Media,A008,Pampa Controls,MIN-352,2018-05-13,False
+EQ0033,Sistema de relaves Sintético 0033,Sistema de relaves,Crítica,A010,Kuntur Industrial,MIN-319,2022-12-24,True
+EQ0034,Filtro Sintético 0034,Filtro,Crítica,A010,Andes Mining Systems,MIN-692,2015-11-07,True
+EQ0035,Perforadora Sintético 0035,Perforadora,Crítica,A004,Kuntur Industrial,MIN-756,2021-08-18,True
+EQ0036,Sistema dispatch Sintético 0036,Sistema dispatch,Media,A004,Andes Mining Systems,MIN-753,2021-09-21,True
+EQ0037,Servidor SCADA Sintético 0037,Servidor SCADA,Alta,A017,Andes Mining Systems,MIN-943,2018-06-03,True
+EQ0038,Camión aljibe Sintético 0038,Camión aljibe,Crítica,A004,Sierra Motion,MIN-791,2017-05-12,True
+EQ0039,Molino SAG Sintético 0039,Molino SAG,Alta,A008,Kuntur Industrial,MIN-388,2015-01-18,True
+EQ0040,Molino de bolas Sintético 0040,Molino de bolas,Crítica,A008,Andes Mining Systems,MIN-196,2023-06-08,True
+EQ0041,Chancador primario Sintético 0041,Chancador primario,Media,A005,Pampa Controls,MIN-652,2023-07-14,True
+EQ0042,Pala hidráulica Sintético 0042,Pala hidráulica,Alta,A004,NovaMine,MIN-923,2017-03-03,True
+EQ0043,Bomba de pulpa Sintético 0043,Bomba de pulpa,Alta,A012,NovaMine,MIN-976,2015-04-15,True
+EQ0044,Bomba de pulpa Sintético 0044,Bomba de pulpa,Alta,A012,Sierra Motion,MIN-306,2016-02-08,True
+EQ0045,RTU Sintético 0045,RTU,Media,A017,Sierra Motion,MIN-312,2015-08-11,True
+EQ0046,Perforadora Sintético 0046,Perforadora,Alta,A004,Pampa Controls,MIN-133,2022-06-25,True
+EQ0047,Bulldozer Sintético 0047,Bulldozer,Crítica,A004,Kuntur Industrial,MIN-226,2023-01-11,True
+EQ0048,Pala eléctrica Sintético 0048,Pala eléctrica,Crítica,A004,Sierra Motion,MIN-598,2016-05-18,True
+EQ0049,Chancador secundario Sintético 0049,Chancador secundario,Baja,A005,Pampa Controls,MIN-591,2021-09-21,True
+EQ0050,Motoniveladora Sintético 0050,Motoniveladora,Baja,A004,Andes Mining Systems,MIN-433,2016-08-12,True
+EQ0051,Correa transportadora Sintético 0051,Correa transportadora,Media,A006,Andes Mining Systems,MIN-378,2018-04-22,True
+EQ0052,Sistema de relaves Sintético 0052,Sistema de relaves,Alta,A010,NovaMine,MIN-845,2020-05-24,True
+EQ0053,Motoniveladora Sintético 0053,Motoniveladora,Baja,A004,Sierra Motion,MIN-513,2021-06-25,True
+EQ0054,Chancador primario Sintético 0054,Chancador primario,Media,A005,Sierra Motion,MIN-826,2022-11-15,True
+EQ0055,Espesador Sintético 0055,Espesador,Media,A010,Sierra Motion,MIN-965,2015-05-28,True
+EQ0056,Harnero Sintético 0056,Harnero,Alta,A005,Kuntur Industrial,MIN-385,2016-10-07,True
+EQ0057,Sistema de control distribuido Sintético 0057,Sistema de control distribuido,Alta,A017,Andes Mining Systems,MIN-282,2017-07-11,True
+EQ0058,Alimentador Sintético 0058,Alimentador,Crítica,A005,Andes Mining Systems,MIN-956,2017-10-17,True
+EQ0059,Celda de flotación Sintético 0059,Celda de flotación,Baja,A009,Pampa Controls,MIN-670,2023-12-26,True
+EQ0060,RTU Sintético 0060,RTU,Alta,A017,Sierra Motion,MIN-361,2021-12-31,True

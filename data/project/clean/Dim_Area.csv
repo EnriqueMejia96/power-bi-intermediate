@@ -1,7 +1,18 @@
 AreaID,AreaName,BusinessUnit,AreaType,ManagerName,LocationID
-A001,Operaciones Mina,Servicios,Soporte,Manager Sintético 01,L003
-A002,Mantenimiento Planta,Servicios,Operativa,Manager Sintético 02,L002
-A003,Ingeniería de Proyectos,Servicios,Operativa,Manager Sintético 03,L006
-A004,Servicios TI/OT,Ingeniería,Operativa,Manager Sintético 04,L007
-A005,Seguridad HSE,Soporte,Proyecto,Manager Sintético 05,L006
-A006,Energía y Utilities,Soporte,Proyecto,Manager Sintético 06,L007
+A001,Mina Rajo Abierto,Operaciones Mina,Mina,Gerente Sintético Mina 01,L011
+A002,Despacho Mina,Operaciones Mina,Soporte Operacional,Gerente Sintético Mina 02,L012
+A003,Perforación y Tronadura,Operaciones Mina,Mina,Gerente Sintético Mina 03,L013
+A004,Carguío y Transporte,Operaciones Mina,Mina,Gerente Sintético Mina 04,L009
+A005,Chancado Primario,Planta Concentradora,Planta,Gerente Sintético Mina 05,L016
+A006,Transporte por Correas,Planta Concentradora,Planta,Gerente Sintético Mina 06,L016
+A007,Planta Concentradora,Planta Concentradora,Planta,Gerente Sintético Mina 07,L010
+A008,Molienda,Planta Concentradora,Planta,Gerente Sintético Mina 08,L006
+A009,Flotación,Planta Concentradora,Planta,Gerente Sintético Mina 09,L006
+A010,Espesamiento y Relaves,Relaves,Planta,Gerente Sintético Mina 10,L005
+A011,Taller Mina,Mantenimiento,Mantenimiento,Gerente Sintético Mina 11,L017
+A012,Taller Planta,Mantenimiento,Mantenimiento,Gerente Sintético Mina 12,L015
+A013,Energía y Servicios,Servicios Mina,Servicios,Gerente Sintético Mina 13,L007
+A014,Seguridad HSE,Seguridad,Seguridad,Gerente Sintético Mina 14,L005
+A015,Planificación Mina,Ingeniería,Ingeniería,Gerente Sintético Mina 15,L015
+A016,Control de Procesos,Automatización,Soporte Operacional,Gerente Sintético Mina 16,L016
+A017,Automatización OT,Automatización,Soporte Operacional,Gerente Sintético Mina 17,L013

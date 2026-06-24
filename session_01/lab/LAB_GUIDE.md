@@ -99,3 +99,6 @@ Completar `BI_SOLUTION_BLUEPRINT_TEMPLATE.md` con una propuesta defendible, aunq
 
 ## Criterio de éxito
 El laboratorio es exitoso si el estudiante puede explicar por qué cada tabla, KPI y visual existe en función de una decisión.
+
+## Caso minero base
+Diseña el blueprint para una operación minera con señales de bajo rendimiento en Chancado Primario, backlog en Taller Mina, consumo energético anormal en Molienda y acciones HSE pendientes. No busques la causa raíz definitiva todavía: en Módulo 1 basta con estructurar preguntas, KPIs, datos, audiencia, páginas y validaciones.

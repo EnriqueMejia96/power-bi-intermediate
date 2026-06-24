@@ -33,3 +33,77 @@
 
 ## Herramientas sugeridas
 Microsoft Copilot for Power BI, Microsoft Copilot for Microsoft 365, Power BI Q&A, ChatGPT, Gemini, Claude, Perplexity, Excel Copilot o IA en hojas de cálculo.
+
+## Prompts mineros recomendados
+
+### 1. Convertir problema minero en preguntas medibles
+- Cuándo usarlo: al inicio del blueprint.
+- Prompt: "Convierte este problema minero en 5 preguntas medibles para Power BI: bajo rendimiento en chancado, backlog de mantenimiento, consumo energético anormal y acciones HSE pendientes. Para cada pregunta indica audiencia, decisión, KPI principal, tabla probable y riesgo de interpretación."
+- Inputs requeridos: problema, audiencia tentativa, tablas disponibles.
+- Output esperado: preguntas medibles y priorizadas.
+- Checklist humano: validar si la audiencia puede actuar y si el KPI existe en el schema.
+- Privacidad: usar solo datos sintéticos.
+
+### 2. Diseñar KPIs mineros
+- Cuándo usarlo: después de definir pregunta de negocio.
+- Prompt: "Diseña KPIs para producción, mantenimiento, SLA, energía y HSE usando el dataset Tech&Eng minero. Incluye definición, fórmula conceptual, tablas, columnas, audiencia, decisión y riesgo."
+- Inputs requeridos: pregunta, área minera, objetivo.
+- Output esperado: árbol de KPIs.
+- Checklist humano: validar denominador, unidad y granularidad.
+- Privacidad: no incluir nombres reales.
+
+### 3. Clasificar KPIs por audiencia minera
+- Prompt: "Clasifica estos KPIs por audiencia minera: gerencia, operaciones, mantenimiento, energía, HSE y analista BI. Indica frecuencia, nivel de detalle, acción esperada y visual recomendado."
+- Inputs requeridos: lista de KPIs.
+- Output esperado: matriz audiencia-KPI.
+- Checklist humano: confirmar dueño de decisión.
+- Privacidad: datos sintéticos o anonimizados.
+
+### 4. Definir datos requeridos
+- Prompt: "Para analizar mantenimiento, producción, seguridad y energía en una operación minera sintética, mapea tablas y columnas necesarias del schema. Separa dimensiones, hechos, fechas, métricas y riesgos raw vs clean."
+- Inputs requeridos: pregunta y tablas.
+- Output esperado: matriz de requerimientos.
+- Checklist humano: validar relaciones y llaves.
+- Privacidad: no usar datos reales.
+
+### 5. Proponer estructura de dashboard minero
+- Prompt: "Propón una estructura de dashboard Power BI para priorizar decisiones ante bajo output, backlog, consumo energético anormal y acciones HSE pendientes. Incluye páginas, KPIs, visuales, filtros, drill-through y tooltips."
+- Inputs requeridos: audiencia y KPIs.
+- Output esperado: wireframe textual.
+- Checklist humano: cada visual debe responder una pregunta.
+- Privacidad: no cargar CSV reales en herramientas externas.
+
+### 6. Wireframe de operaciones mina
+- Prompt: "Diseña un wireframe de operaciones mina/planta con plan vs real, productividad por turno, brecha por área, tabla de detalle y filtros. Justifica cada visual."
+- Inputs requeridos: audiencia, periodo, áreas.
+- Output esperado: layout de página.
+- Checklist humano: revisar unidad de ActualOutput.
+- Privacidad: solo contexto sintético.
+
+### 7. Wireframe de planta concentradora
+- Prompt: "Diseña un wireframe para planta concentradora enfocado en chancado, correas, molienda, energía y mantenimiento. Incluye KPIs, visuales, filtros y riesgos de interpretación."
+- Inputs requeridos: procesos y KPIs.
+- Output esperado: layout y lógica de navegación.
+- Checklist humano: validar si compara áreas compatibles.
+- Privacidad: no usar nombres reales de faenas.
+
+### 8. Revisar blueprint BI minero
+- Prompt: "Revisa este blueprint BI minero. Evalúa claridad del problema, pregunta medible, KPIs, datos, audiencia, páginas, uso de IA, validación humana y riesgos. Devuelve mejoras accionables."
+- Inputs requeridos: blueprint.
+- Output esperado: revisión crítica.
+- Checklist humano: aceptar solo observaciones justificadas.
+- Privacidad: remover datos sensibles antes de pegar.
+
+### 9. Resumen ejecutivo
+- Prompt: "Genera un resumen ejecutivo de 150 palabras para gerencia de operaciones mineras. Debe mencionar riesgo operacional, KPI principal, áreas afectadas, decisión esperada y validaciones pendientes."
+- Inputs requeridos: hallazgos y KPIs.
+- Output esperado: resumen ejecutivo.
+- Checklist humano: no agregar hechos no observados.
+- Privacidad: mantener todo sintético.
+
+### 10. Detectar riesgos de interpretación
+- Prompt: "Lista riesgos de interpretación para estos KPIs mineros: producción %, downtime, SLA %, kWh/output y acciones HSE vencidas. Incluye cómo mitigarlos en Power BI."
+- Inputs requeridos: KPIs y audiencia.
+- Output esperado: matriz riesgo-mitigación.
+- Checklist humano: validar supuestos de negocio.
+- Privacidad: no usar información confidencial.

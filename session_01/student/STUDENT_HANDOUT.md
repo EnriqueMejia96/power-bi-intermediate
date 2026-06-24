@@ -29,3 +29,8 @@ Un buen KPI tiene fórmula, periodo, audiencia, umbral y decisión.
 
 ## IA responsable
 Puedes usar IA para idear preguntas o revisar un plano de solución, pero no debes compartir datos reales ni aceptar una recomendación sin validarla.
+
+## Caso de trabajo
+Trabajarás con una operación minera sintética. El reto es diseñar un blueprint Power BI para priorizar decisiones cuando aparecen señales de bajo rendimiento en chancado, backlog de mantenimiento, consumo energético anormal y acciones HSE pendientes.
+
+No necesitas resolver toda la causa raíz en esta sesión. Debes demostrar que sabes convertir el problema en preguntas, KPIs, datos, audiencia y validaciones.

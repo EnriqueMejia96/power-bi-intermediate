@@ -1,7 +1,13 @@
 WorkTypeID,WorkTypeName,WorkCategory,PlannedFlag,_SourceFile,_ExportedAt,_LegacyRowNumber
-WT1,Preventivo,Mantenimiento,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,1
-WT2,Correctivo,Mantenimiento,False,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,2
-WT3,Inspección,Control,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,3
-WT4,Mejora,Proyecto,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,4
-WT5,Instalación,Proyecto,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,5
-WT6,Soporte,Servicio,False,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,6
+WT1,Preventivo,Preventivo,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,1
+WT2,Correctivo no planificado,Correctivo,False,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,2
+WT3,Predictivo,Predictivo,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,3
+WT4,Inspección operacional,Inspección,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,4
+WT5,Inspección HSE,Inspección,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,5
+WT6,Overhaul,Proyecto,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,6
+WT7,Cambio de componentes,Correctivo,False,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,7
+WT8,Lubricación,Preventivo,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,8
+WT9,Calibración de instrumentación,Preventivo,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,9
+WT10,Parada planta,Proyecto,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,10
+WT11,Emergencia operacional,Emergencia,False,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,11
+WT12,Soporte OT,Emergencia,False,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,12

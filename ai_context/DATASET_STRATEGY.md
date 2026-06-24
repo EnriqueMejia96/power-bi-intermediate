@@ -24,3 +24,8 @@ Da al estudiante una visión de continuidad desde recap hasta tablero final.
 
 ## Conexión con los módulos 2-6
 Los módulos posteriores deben reutilizar el dataset integrado, profundizar de manera incremental y evitar rediseñar la arquitectura base salvo que exista una razón pedagógica documentada.
+
+## Actualización minera
+La estrategia se mantiene: Dataset A para entrenamiento y Dataset B para proyecto final, ambos con el mismo schema. La mejora actual no crea datasets por sesión; reemplaza valores genéricos por vocabulario y patrones Tech&Eng mineros.
+
+Dataset A concentra señales de entrenamiento en chancado, correas, taller mina, molienda, energía y backlog. Dataset B conserva el mismo modelo, pero mueve problemas hacia dispatch, relaves, molienda, flota mina y OT para evaluar transferencia sin revelar causa raíz.

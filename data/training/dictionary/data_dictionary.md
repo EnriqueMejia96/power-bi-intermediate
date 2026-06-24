@@ -1,279 +1,348 @@
-# Diccionario de datos - entrenamiento
+# Diccionario de datos - Dataset A - entrenamiento
 
-Datos 100% sintéticos. Schema común para Dataset A y Dataset B.
+Datos 100% sintéticos para un caso Tech&Eng minero. El esquema es común para Dataset A y Dataset B.
+
+## Cómo leer este diccionario
+- **PK** identifica una fila única dentro de una tabla.
+- **FK** conecta una tabla de hechos con una dimensión o con otra tabla transaccional.
+- **Granularidad** indica qué representa una fila.
+- **Clean** está listo para modelo estrella; **raw** conserva errores controlados para prácticas de Power Query.
+- Dataset A y Dataset B comparten columnas, pero no comparten exactamente los mismos patrones operacionales.
+
+## Diferencia Dataset A vs Dataset B
+- Dataset A concentra patrones de entrenamiento en chancado, correas, taller mina, molienda y energía.
+- Dataset B usa el mismo esquema, pero concentra problemas distintos en dispatch, relaves, molienda, flota mina y OT.
+- Las causas raíz del Dataset B no deben entregarse al estudiante; sirven para evaluar transferencia.
 
 ## Dim_Fecha
-Calendario para inteligencia de tiempo.
+Calendario para inteligencia de tiempo en operaciones mineras, mantenimiento, energia, seguridad y proyectos.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| DateKey | PK | DateKey de Dim_Fecha. Calendario para inteligencia de tiempo. |
-| Date | Métrica/atributo | Date de Dim_Fecha. Calendario para inteligencia de tiempo. |
-| Year | Métrica/atributo | Year de Dim_Fecha. Calendario para inteligencia de tiempo. |
-| Quarter | Métrica/atributo | Quarter de Dim_Fecha. Calendario para inteligencia de tiempo. |
-| MonthNumber | Métrica/atributo | MonthNumber de Dim_Fecha. Calendario para inteligencia de tiempo. |
-| MonthName | Métrica/atributo | MonthName de Dim_Fecha. Calendario para inteligencia de tiempo. |
-| WeekNumber | Métrica/atributo | WeekNumber de Dim_Fecha. Calendario para inteligencia de tiempo. |
-| DayOfWeek | Métrica/atributo | DayOfWeek de Dim_Fecha. Calendario para inteligencia de tiempo. |
-| IsWeekend | Métrica/atributo | IsWeekend de Dim_Fecha. Calendario para inteligencia de tiempo. |
+- Granularidad: Una fila por día calendario.
+- Relaciones: Fact_Proyectos.DateKey -> DateKey; Fact_OrdenesTrabajo.CreatedDateKey -> DateKey; Fact_Costos.DateKey -> DateKey; Fact_SLA.CreatedDateKey -> DateKey; Fact_Mantenimiento.DateKey -> DateKey; Fact_Incidentes.DateKey -> DateKey; Fact_Energia.DateKey -> DateKey; Fact_Productividad.DateKey -> DateKey
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| DateKey | PK | Clave de fecha en formato yyyymmdd. Permite relacionar hechos con Dim_Fecha sin depender de formatos regionales. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| Date | Atributo | Fecha calendario legible. Se usa para filtros, ejes temporales y validación de rangos. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| Year | Atributo | Año calendario. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| Quarter | Atributo | Trimestre calendario. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| MonthNumber | Atributo | Número de mes entre 1 y 12. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| MonthName | Atributo | Nombre del mes en español. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| WeekNumber | Atributo | Número de semana ISO aproximado para análisis semanal. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| DayOfWeek | Atributo | Día de la semana en español. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| IsWeekend | Atributo | Indica si la fecha cae en fin de semana. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
 
 ## Dim_Area
-Áreas operativas y unidades de negocio.
+Areas sinteticas de una operacion minera Tech&Eng: mina, planta concentradora, relaves, mantenimiento, energia, HSE y OT.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| AreaID | PK | AreaID de Dim_Area. Áreas operativas y unidades de negocio. |
-| AreaName | Métrica/atributo | AreaName de Dim_Area. Áreas operativas y unidades de negocio. |
-| BusinessUnit | Métrica/atributo | BusinessUnit de Dim_Area. Áreas operativas y unidades de negocio. |
-| AreaType | Métrica/atributo | AreaType de Dim_Area. Áreas operativas y unidades de negocio. |
-| ManagerName | Métrica/atributo | ManagerName de Dim_Area. Áreas operativas y unidades de negocio. |
-| LocationID | FK/atributo | LocationID de Dim_Area. Áreas operativas y unidades de negocio. |
+- Granularidad: Una fila por área o proceso minero sintético.
+- Relaciones: Dim_Equipo.AreaID -> AreaID; LocationID -> Dim_Ubicacion.LocationID; Dim_Proyecto.AreaID -> AreaID; Fact_Proyectos.AreaID -> AreaID; Fact_OrdenesTrabajo.AreaID -> AreaID; Fact_SLA.AreaID -> AreaID; Fact_Mantenimiento.AreaID -> AreaID; Fact_Incidentes.AreaID -> AreaID; Fact_Energia.AreaID -> AreaID; Fact_Productividad.AreaID -> AreaID
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| AreaID | PK | Clave del área minera. En dimensiones es identificador; en hechos es llave foránea hacia Dim_Area. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| AreaName | Atributo | Nombre del proceso o área minera sintética, por ejemplo Chancado Primario, Molienda o Taller Mina. | Chancado Primario; Molienda; Espesamiento y Relaves | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| BusinessUnit | Atributo | Unidad de negocio o superintendencia sintética a la que pertenece el área. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| AreaType | Atributo | Tipo analítico del área: Mina, Planta, Mantenimiento, Servicios, Seguridad, Ingeniería o Soporte Operacional. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| ManagerName | Atributo | Nombre sintético del responsable de gestión del área. No representa personas reales. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| LocationID | FK | Clave de ubicación. En dimensiones es identificador; en hechos permite analizar por lugar físico de faena. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
 
 ## Dim_Equipo
-Activos técnicos y criticidad.
+Activos mineros e industriales sinteticos, con criticidad y pertenencia a areas operacionales.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| EquipmentID | PK | EquipmentID de Dim_Equipo. Activos técnicos y criticidad. |
-| EquipmentName | Métrica/atributo | EquipmentName de Dim_Equipo. Activos técnicos y criticidad. |
-| EquipmentType | Métrica/atributo | EquipmentType de Dim_Equipo. Activos técnicos y criticidad. |
-| Criticality | Métrica/atributo | Criticality de Dim_Equipo. Activos técnicos y criticidad. |
-| AreaID | FK/atributo | AreaID de Dim_Equipo. Activos técnicos y criticidad. |
-| Manufacturer | Métrica/atributo | Manufacturer de Dim_Equipo. Activos técnicos y criticidad. |
-| Model | Métrica/atributo | Model de Dim_Equipo. Activos técnicos y criticidad. |
-| CommissioningDate | Métrica/atributo | CommissioningDate de Dim_Equipo. Activos técnicos y criticidad. |
-| ActiveFlag | Métrica/atributo | ActiveFlag de Dim_Equipo. Activos técnicos y criticidad. |
+- Granularidad: Una fila por activo físico, equipo minero, equipo de planta o sistema OT.
+- Relaciones: AreaID -> Dim_Area.AreaID; Fact_OrdenesTrabajo.EquipmentID -> EquipmentID; Fact_Costos.EquipmentID -> EquipmentID; Fact_Mantenimiento.EquipmentID -> EquipmentID; Fact_Incidentes.EquipmentID -> EquipmentID; Fact_Energia.EquipmentID -> EquipmentID
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| EquipmentID | PK | Clave del equipo o activo. En hechos permite conectar costos, mantenimiento, energía e incidentes con Dim_Equipo. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| EquipmentName | Atributo | Nombre sintético del equipo, activo o sistema OT. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| EquipmentType | Atributo | Tipo de equipo minero o industrial: Camión CAEX, Pala, Correa transportadora, Molino SAG, PLC, SCADA, etc. | Camión CAEX; Correa transportadora; Molino SAG; Servidor SCADA | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| Criticality | Atributo | Criticidad operacional del equipo. Debe leerse como impacto potencial en producción, seguridad, costo o continuidad. | Crítica; Alta; Media; Baja | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| AreaID | FK | Clave del área minera. En dimensiones es identificador; en hechos es llave foránea hacia Dim_Area. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| Manufacturer | Atributo | Fabricante ficticio del equipo. Sirve para segmentar sin usar marcas reales. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| Model | Atributo | Modelo ficticio del equipo. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| CommissioningDate | Atributo | Fecha de puesta en servicio del equipo. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| ActiveFlag | Indicador | Indica si el equipo está activo en el periodo del dataset. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
 
 ## Dim_Cliente
-Clientes sintéticos y segmentos.
+Clientes internos o contratos sinteticos relacionados con mineria, servicios mineros y mantenimiento industrial.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| ClientID | PK | ClientID de Dim_Cliente. Clientes sintéticos y segmentos. |
-| ClientName | Métrica/atributo | ClientName de Dim_Cliente. Clientes sintéticos y segmentos. |
-| Segment | Métrica/atributo | Segment de Dim_Cliente. Clientes sintéticos y segmentos. |
-| Region | Métrica/atributo | Region de Dim_Cliente. Clientes sintéticos y segmentos. |
-| ContractType | Métrica/atributo | ContractType de Dim_Cliente. Clientes sintéticos y segmentos. |
+- Granularidad: Una fila por cliente interno, gerencia, superintendencia o contrato sintético.
+- Relaciones: Dim_Proyecto.ClientID -> ClientID; Fact_SLA.ClientID -> ClientID
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| ClientID | PK | Clave del cliente interno, gerencia o contrato sintético. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| ClientName | Atributo | Cliente interno o contrato ficticio relacionado con minería. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| Segment | Atributo | Segmento del cliente: Minería, Servicios Mineros, Operaciones Industriales, Energía Industrial o Mantenimiento Industrial. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| Region | Atributo | Región ficticia de gestión. No corresponde a una localización real exacta. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| ContractType | Atributo | Tipo de relación: SLA operacional, proyecto mina, contrato marco o servicio especializado. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
 
 ## Dim_Proyecto
-Proyectos técnicos planificados.
+Proyectos mineros sinteticos de confiabilidad, produccion, energia, seguridad, automatizacion e infraestructura.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| ProjectID | PK | ProjectID de Dim_Proyecto. Proyectos técnicos planificados. |
-| ProjectName | Métrica/atributo | ProjectName de Dim_Proyecto. Proyectos técnicos planificados. |
-| ProjectType | Métrica/atributo | ProjectType de Dim_Proyecto. Proyectos técnicos planificados. |
-| ClientID | FK/atributo | ClientID de Dim_Proyecto. Proyectos técnicos planificados. |
-| AreaID | FK/atributo | AreaID de Dim_Proyecto. Proyectos técnicos planificados. |
-| ResponsibleID | FK/atributo | ResponsibleID de Dim_Proyecto. Proyectos técnicos planificados. |
-| PriorityID | FK/atributo | PriorityID de Dim_Proyecto. Proyectos técnicos planificados. |
-| PlannedStartDate | Métrica/atributo | PlannedStartDate de Dim_Proyecto. Proyectos técnicos planificados. |
-| PlannedEndDate | Métrica/atributo | PlannedEndDate de Dim_Proyecto. Proyectos técnicos planificados. |
+- Granularidad: Una fila por proyecto minero o iniciativa Tech&Eng.
+- Relaciones: ClientID -> Dim_Cliente.ClientID; AreaID -> Dim_Area.AreaID; ResponsibleID -> Dim_Responsable.ResponsibleID; PriorityID -> Dim_Prioridad.PriorityID; Fact_Proyectos.ProjectID -> ProjectID; Fact_Costos.ProjectID -> ProjectID
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| ProjectID | PK | Clave del proyecto minero sintético. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| ProjectName | Atributo | Nombre de iniciativa minera, por ejemplo reemplazo de correa, upgrade SCADA o reducción de consumo energético. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| ProjectType | Atributo | Tipo de proyecto: confiabilidad, energía, seguridad, producción, mantenimiento, automatización, infraestructura, planta, mina o transformación digital. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| ClientID | FK | Clave del cliente interno, gerencia o contrato sintético. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| AreaID | FK | Clave del área minera. En dimensiones es identificador; en hechos es llave foránea hacia Dim_Area. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| ResponsibleID | FK | Clave del responsable o rol asignado. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| PriorityID | FK | Clave de prioridad operacional. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| PlannedStartDate | Atributo | Campo PlannedStartDate de Dim_Proyecto. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| PlannedEndDate | Atributo | Campo PlannedEndDate de Dim_Proyecto. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
 
 ## Dim_Responsable
-Responsables sintéticos de operación y proyectos.
+Roles sinteticos de operacion minera, mantenimiento, confiabilidad, energia, HSE, costos y OT.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| ResponsibleID | PK | ResponsibleID de Dim_Responsable. Responsables sintéticos de operación y proyectos. |
-| ResponsibleName | Métrica/atributo | ResponsibleName de Dim_Responsable. Responsables sintéticos de operación y proyectos. |
-| Role | Métrica/atributo | Role de Dim_Responsable. Responsables sintéticos de operación y proyectos. |
-| Team | Métrica/atributo | Team de Dim_Responsable. Responsables sintéticos de operación y proyectos. |
-| AreaID | FK/atributo | AreaID de Dim_Responsable. Responsables sintéticos de operación y proyectos. |
+- Granularidad: Una fila por responsable o rol sintético.
+- Relaciones: Dim_Proyecto.ResponsibleID -> ResponsibleID; Fact_OrdenesTrabajo.ResponsibleID -> ResponsibleID; Fact_Productividad.ResponsibleID -> ResponsibleID
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| ResponsibleID | PK | Clave del responsable o rol asignado. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| ResponsibleName | Atributo | Nombre sintético del responsable. No representa personas reales. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| Role | Atributo | Rol operacional o analítico del responsable. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| Team | Atributo | Equipo, turno o grupo de trabajo sintético. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| AreaID | FK | Clave del área minera. En dimensiones es identificador; en hechos es llave foránea hacia Dim_Area. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
 
 ## Dim_TipoTrabajo
-Tipos de trabajo planificado y correctivo.
+Tipos de trabajo usados en mantenimiento y operacion minera: correctivo, preventivo, predictivo, inspeccion, paradas y emergencias.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| WorkTypeID | PK | WorkTypeID de Dim_TipoTrabajo. Tipos de trabajo planificado y correctivo. |
-| WorkTypeName | Métrica/atributo | WorkTypeName de Dim_TipoTrabajo. Tipos de trabajo planificado y correctivo. |
-| WorkCategory | Métrica/atributo | WorkCategory de Dim_TipoTrabajo. Tipos de trabajo planificado y correctivo. |
-| PlannedFlag | Métrica/atributo | PlannedFlag de Dim_TipoTrabajo. Tipos de trabajo planificado y correctivo. |
+- Granularidad: Una fila por tipo de trabajo operacional o de mantenimiento.
+- Relaciones: Fact_OrdenesTrabajo.WorkTypeID -> WorkTypeID; Fact_Mantenimiento.WorkTypeID -> WorkTypeID
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| WorkTypeID | PK | Clave del tipo de trabajo. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| WorkTypeName | Atributo | Tipo de trabajo operacional o de mantenimiento. | Correctivo no planificado; Predictivo; Parada planta; Soporte OT | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| WorkCategory | Atributo | Categoría analítica del trabajo: Correctivo, Preventivo, Predictivo, Inspección, Proyecto, Emergencia o Mejora. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| PlannedFlag | Indicador | Indica si el registro corresponde a trabajo planificado. En mantenimiento ayuda a separar preventivo/planificado de correctivo no planificado. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
 
 ## Dim_Prioridad
-Prioridades y objetivos de respuesta/resolución.
+Prioridades operacionales y objetivos de respuesta/resolucion para servicios mineros.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| PriorityID | PK | PriorityID de Dim_Prioridad. Prioridades y objetivos de respuesta/resolución. |
-| PriorityName | Métrica/atributo | PriorityName de Dim_Prioridad. Prioridades y objetivos de respuesta/resolución. |
-| PriorityRank | Métrica/atributo | PriorityRank de Dim_Prioridad. Prioridades y objetivos de respuesta/resolución. |
-| TargetResponseHours | Métrica/atributo | TargetResponseHours de Dim_Prioridad. Prioridades y objetivos de respuesta/resolución. |
-| TargetResolutionHours | Métrica/atributo | TargetResolutionHours de Dim_Prioridad. Prioridades y objetivos de respuesta/resolución. |
+- Granularidad: Una fila por nivel de prioridad operacional.
+- Relaciones: Dim_Proyecto.PriorityID -> PriorityID; Fact_OrdenesTrabajo.PriorityID -> PriorityID; Fact_SLA.PriorityID -> PriorityID; Fact_Mantenimiento.PriorityID -> PriorityID
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| PriorityID | PK | Clave de prioridad operacional. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| PriorityName | Atributo | Nivel de prioridad estandarizado: Crítica, Alta, Media o Baja. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| PriorityRank | Atributo | Orden numérico de prioridad. Menor valor significa mayor prioridad. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| TargetResponseHours | Métrica | Horas objetivo para responder a una solicitud según prioridad. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| TargetResolutionHours | Métrica | Horas objetivo para resolver una solicitud según prioridad. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
 
 ## Dim_Estado
-Estados operativos y grupos de cierre.
+Estados estandarizados para ordenes, proyectos y acciones operacionales.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| StatusID | PK | StatusID de Dim_Estado. Estados operativos y grupos de cierre. |
-| StatusName | Métrica/atributo | StatusName de Dim_Estado. Estados operativos y grupos de cierre. |
-| StatusGroup | Métrica/atributo | StatusGroup de Dim_Estado. Estados operativos y grupos de cierre. |
-| SortOrder | Métrica/atributo | SortOrder de Dim_Estado. Estados operativos y grupos de cierre. |
-| IsClosed | Métrica/atributo | IsClosed de Dim_Estado. Estados operativos y grupos de cierre. |
+- Granularidad: Una fila por estado estandarizado.
+- Relaciones: Fact_OrdenesTrabajo.StatusID -> StatusID
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| StatusID | PK | Clave de estado estandarizado. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| StatusName | Atributo | Estado operacional estandarizado: Abierta, En Proceso, Vencida, Cerrada o Cancelada. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| StatusGroup | Atributo | Grupo de análisis del estado: abierto, cerrado, vencido u otro. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| SortOrder | Atributo | Orden recomendado para mostrar estados en reportes. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| IsClosed | Atributo | Indica si el estado se considera cerrado para KPIs de backlog o cumplimiento. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
 
 ## Dim_Servicio
-Servicios gestionados y SLA por defecto.
+Servicios mineros gestionados con SLA: mantenimiento mina/planta, dispatch, correas, SCADA, energia, HSE y relaves.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| ServiceID | PK | ServiceID de Dim_Servicio. Servicios gestionados y SLA por defecto. |
-| ServiceName | Métrica/atributo | ServiceName de Dim_Servicio. Servicios gestionados y SLA por defecto. |
-| ServiceCategory | Métrica/atributo | ServiceCategory de Dim_Servicio. Servicios gestionados y SLA por defecto. |
-| DefaultSLAHours | Métrica/atributo | DefaultSLAHours de Dim_Servicio. Servicios gestionados y SLA por defecto. |
+- Granularidad: Una fila por servicio operacional sujeto a SLA.
+- Relaciones: Fact_OrdenesTrabajo.ServiceID -> ServiceID; Fact_SLA.ServiceID -> ServiceID
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| ServiceID | PK | Clave del servicio operacional. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| ServiceName | Atributo | Servicio minero sujeto a gestión o SLA, por ejemplo Mantenimiento Planta, Soporte Dispatch o Gestión de Relaves. | Soporte Dispatch; Inspección de Correas; Gestión de Relaves | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| ServiceCategory | Atributo | Categoría del servicio: Mina, Planta, Mantenimiento, Energía, Seguridad, Automatización, Operaciones o Ingeniería. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| DefaultSLAHours | Métrica | Horas SLA por defecto del servicio antes de ajustar por prioridad o contexto. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
 
 ## Dim_Ubicacion
-Ubicaciones sintéticas.
+Ubicaciones sinteticas de faena: pit, frentes, chancado, correas, molinos, relaves, salas electricas y talleres.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| LocationID | PK | LocationID de Dim_Ubicacion. Ubicaciones sintéticas. |
-| LocationName | Métrica/atributo | LocationName de Dim_Ubicacion. Ubicaciones sintéticas. |
-| Site | Métrica/atributo | Site de Dim_Ubicacion. Ubicaciones sintéticas. |
-| Zone | Métrica/atributo | Zone de Dim_Ubicacion. Ubicaciones sintéticas. |
-| Country | Métrica/atributo | Country de Dim_Ubicacion. Ubicaciones sintéticas. |
+- Granularidad: Una fila por ubicación física sintética de faena.
+- Relaciones: Dim_Area.LocationID -> LocationID; Fact_Incidentes.LocationID -> LocationID; Fact_Energia.LocationID -> LocationID; Fact_Productividad.LocationID -> LocationID
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| LocationID | PK | Clave de ubicación. En dimensiones es identificador; en hechos permite analizar por lugar físico de faena. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | Debe ser único si es PK y consistente si se usa como FK. |
+| LocationName | Atributo | Nombre de ubicación física sintética: Pit Norte, Faja CV-101, Molino SAG, Relavera Principal, etc. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| Site | Atributo | Nombre ficticio del sitio minero. No corresponde a una faena real. | Sitio Andina Norte; Sitio Pampa Central; Sitio Sierra Azul | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| Zone | Atributo | Zona operacional de la ubicación: Mina, Planta, Relaves, Energía, Mantenimiento, Control u Operaciones. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
+| Country | Atributo | País ficticio/operacional usado para el caso. No implica uso de datos reales. | Depende del registro. | Segmentación, filtros, relaciones o validación del modelo. | En clean está estandarizado; en raw puede tener variaciones controladas para práctica de Power Query. |
 
 ## Fact_Proyectos
-Avance, costo y riesgo de proyectos.
+Avance, costo, riesgo y retraso de proyectos mineros sinteticos.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| ProjectFactID | PK | ProjectFactID de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
-| ProjectID | FK/atributo | ProjectID de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
-| DateKey | FK/atributo | DateKey de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
-| AreaID | FK/atributo | AreaID de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
-| ClientID | FK/atributo | ClientID de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
-| ResponsibleID | FK/atributo | ResponsibleID de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
-| StatusID | FK/atributo | StatusID de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
-| PriorityID | FK/atributo | PriorityID de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
-| PlannedProgressPct | Métrica/atributo | PlannedProgressPct de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
-| ActualProgressPct | Métrica/atributo | ActualProgressPct de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
-| PlannedCost | Métrica/atributo | PlannedCost de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
-| ActualCost | Métrica/atributo | ActualCost de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
-| RiskScore | Métrica/atributo | RiskScore de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
-| DelayDays | Métrica/atributo | DelayDays de Fact_Proyectos. Avance, costo y riesgo de proyectos. |
+- Granularidad: Una fila por corte de seguimiento de proyecto.
+- Relaciones: ProjectID -> Dim_Proyecto.ProjectID; DateKey -> Dim_Fecha.DateKey; AreaID -> Dim_Area.AreaID
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| ProjectFactID | PK | Clave del registro de seguimiento del proyecto. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ProjectID | FK | Clave del proyecto minero sintético. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| DateKey | FK | Clave de fecha en formato yyyymmdd. Permite relacionar hechos con Dim_Fecha sin depender de formatos regionales. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| AreaID | FK | Clave del área minera. En dimensiones es identificador; en hechos es llave foránea hacia Dim_Area. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ClientID | FK | Clave del cliente interno, gerencia o contrato sintético. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ResponsibleID | FK | Clave del responsable o rol asignado. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| StatusID | FK | Clave de estado estandarizado. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| PriorityID | FK | Clave de prioridad operacional. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| PlannedProgressPct | Métrica | Avance planificado del proyecto a la fecha del registro. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ActualProgressPct | Métrica | Avance real del proyecto a la fecha del registro. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| PlannedCost | Métrica | Costo planificado o presupuesto del proyecto. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ActualCost | Métrica | Costo real acumulado o registrado del proyecto. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| RiskScore | Métrica | Puntaje sintético de riesgo del proyecto. Valores más altos sugieren mayor probabilidad de atraso, sobrecosto o impacto operacional. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| DelayDays | Métrica | Días de retraso del proyecto frente al plan. Cero indica sin retraso registrado. | Depende del registro. | Avance real vs plan, delay days, cost variance, risk score y cumplimiento de presupuesto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
 
 ## Fact_OrdenesTrabajo
-Órdenes de trabajo técnicas.
+Ordenes de trabajo de mantenimiento, operaciones y soporte OT con backlog, criticidad y fuente de sistema.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| WorkOrderID | PK | WorkOrderID de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| CreatedDateKey | FK/atributo | CreatedDateKey de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| ClosedDateKey | FK/atributo | ClosedDateKey de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| AreaID | FK/atributo | AreaID de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| EquipmentID | FK/atributo | EquipmentID de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| ServiceID | FK/atributo | ServiceID de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| ResponsibleID | FK/atributo | ResponsibleID de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| WorkTypeID | FK/atributo | WorkTypeID de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| PriorityID | FK/atributo | PriorityID de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| StatusID | FK/atributo | StatusID de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| EstimatedHours | Métrica/atributo | EstimatedHours de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| ActualHours | Métrica/atributo | ActualHours de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| IsCritical | Métrica/atributo | IsCritical de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| ReworkFlag | Métrica/atributo | ReworkFlag de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
-| SourceSystem | Métrica/atributo | SourceSystem de Fact_OrdenesTrabajo. Órdenes de trabajo técnicas. |
+- Granularidad: Una fila por orden de trabajo.
+- Relaciones: EquipmentID -> Dim_Equipo.EquipmentID; CreatedDateKey -> Dim_Fecha.DateKey; AreaID -> Dim_Area.AreaID; ServiceID -> Dim_Servicio.ServiceID; ResponsibleID -> Dim_Responsable.ResponsibleID; WorkTypeID -> Dim_TipoTrabajo.WorkTypeID; PriorityID -> Dim_Prioridad.PriorityID; StatusID -> Dim_Estado.StatusID; Fact_SLA.WorkOrderID -> WorkOrderID
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| WorkOrderID | PK | Clave de la orden de trabajo. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| CreatedDateKey | FK | Fecha de creación de la orden o del compromiso SLA. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ClosedDateKey | FK | Fecha de cierre de la orden. En raw puede venir nula para prácticas de limpieza. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | En raw puede aparecer nulo o con formato inconsistente; en clean debe permitir análisis de cierre/resolución. |
+| AreaID | FK | Clave del área minera. En dimensiones es identificador; en hechos es llave foránea hacia Dim_Area. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| EquipmentID | FK | Clave del equipo o activo. En hechos permite conectar costos, mantenimiento, energía e incidentes con Dim_Equipo. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ServiceID | FK | Clave del servicio operacional. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ResponsibleID | FK | Clave del responsable o rol asignado. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| WorkTypeID | FK | Clave del tipo de trabajo. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| PriorityID | FK | Clave de prioridad operacional. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| StatusID | FK | Clave de estado estandarizado. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| EstimatedHours | Métrica | Horas estimadas antes de ejecutar la orden. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ActualHours | Métrica | Horas reales consumidas por la orden o el SLA. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| IsCritical | Atributo | Marca órdenes críticas por impacto operacional, seguridad, continuidad o SLA. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ReworkFlag | Indicador | Indica retrabajo. Es útil para detectar problemas repetitivos de calidad, planificación o mantenimiento. | Depende del registro. | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| SourceSystem | Atributo | Sistema fuente sintético: SAP PM, Maximo, SCADA, Dispatch o Excel Manual. | SAP PM; Maximo; SCADA; Dispatch; Excel Manual | Backlog, órdenes críticas abiertas, retrabajo, horas reales vs estimadas y carga por sistema fuente. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
 
 ## Fact_Costos
-Presupuesto, comprometido y costo real.
+Presupuesto, comprometido y costo real de operacion, mantenimiento, energia, repuestos, contratistas y proyectos mineros.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| CostID | PK | CostID de Fact_Costos. Presupuesto, comprometido y costo real. |
-| DateKey | FK/atributo | DateKey de Fact_Costos. Presupuesto, comprometido y costo real. |
-| ProjectID | FK/atributo | ProjectID de Fact_Costos. Presupuesto, comprometido y costo real. |
-| AreaID | FK/atributo | AreaID de Fact_Costos. Presupuesto, comprometido y costo real. |
-| EquipmentID | FK/atributo | EquipmentID de Fact_Costos. Presupuesto, comprometido y costo real. |
-| CostCategory | Métrica/atributo | CostCategory de Fact_Costos. Presupuesto, comprometido y costo real. |
-| BudgetAmount | Métrica/atributo | BudgetAmount de Fact_Costos. Presupuesto, comprometido y costo real. |
-| ActualAmount | Métrica/atributo | ActualAmount de Fact_Costos. Presupuesto, comprometido y costo real. |
-| CommittedAmount | Métrica/atributo | CommittedAmount de Fact_Costos. Presupuesto, comprometido y costo real. |
-| VendorType | Métrica/atributo | VendorType de Fact_Costos. Presupuesto, comprometido y costo real. |
+- Granularidad: Una fila por registro de costo presupuestado, comprometido y real.
+- Relaciones: ProjectID -> Dim_Proyecto.ProjectID; EquipmentID -> Dim_Equipo.EquipmentID; DateKey -> Dim_Fecha.DateKey
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| CostID | PK | Clave del registro de costo. | Depende del registro. | Costo real vs presupuesto, variación de costo, costo por área/equipo/proyecto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| DateKey | FK | Clave de fecha en formato yyyymmdd. Permite relacionar hechos con Dim_Fecha sin depender de formatos regionales. | Depende del registro. | Costo real vs presupuesto, variación de costo, costo por área/equipo/proyecto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ProjectID | FK | Clave del proyecto minero sintético. | Depende del registro. | Costo real vs presupuesto, variación de costo, costo por área/equipo/proyecto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| AreaID | FK | Clave del área minera. En dimensiones es identificador; en hechos es llave foránea hacia Dim_Area. | Depende del registro. | Costo real vs presupuesto, variación de costo, costo por área/equipo/proyecto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| EquipmentID | FK | Clave del equipo o activo. En hechos permite conectar costos, mantenimiento, energía e incidentes con Dim_Equipo. | Depende del registro. | Costo real vs presupuesto, variación de costo, costo por área/equipo/proyecto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| CostCategory | Atributo | Categoría de costo minero: repuestos, mano de obra, contratistas, energía, neumáticos, componentes mayores, instrumentación, seguridad, automatización, etc. | Neumáticos; Energía; Componentes mayores; Parada planta | Costo real vs presupuesto, variación de costo, costo por área/equipo/proyecto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| BudgetAmount | Métrica | Monto presupuestado. | Depende del registro. | Costo real vs presupuesto, variación de costo, costo por área/equipo/proyecto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ActualAmount | Métrica | Monto real registrado. | Depende del registro. | Costo real vs presupuesto, variación de costo, costo por área/equipo/proyecto. | Revisar outliers antes de concluir causas; algunos patrones son intencionales para el laboratorio. |
+| CommittedAmount | Métrica | Monto comprometido, por ejemplo orden de compra o contrato aún no devengado. | Depende del registro. | Costo real vs presupuesto, variación de costo, costo por área/equipo/proyecto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| VendorType | Atributo | Tipo de proveedor o fuente de gasto: interno, contratista, OEM sintético o servicio especializado. | Depende del registro. | Costo real vs presupuesto, variación de costo, costo por área/equipo/proyecto. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
 
 ## Fact_SLA
-Cumplimiento de acuerdos de servicio.
+Cumplimiento de acuerdos de servicio para servicios operacionales mineros.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| SLAID | PK | SLAID de Fact_SLA. Cumplimiento de acuerdos de servicio. |
-| WorkOrderID | FK/atributo | WorkOrderID de Fact_SLA. Cumplimiento de acuerdos de servicio. |
-| ClientID | FK/atributo | ClientID de Fact_SLA. Cumplimiento de acuerdos de servicio. |
-| ServiceID | FK/atributo | ServiceID de Fact_SLA. Cumplimiento de acuerdos de servicio. |
-| AreaID | FK/atributo | AreaID de Fact_SLA. Cumplimiento de acuerdos de servicio. |
-| PriorityID | FK/atributo | PriorityID de Fact_SLA. Cumplimiento de acuerdos de servicio. |
-| CreatedDateKey | FK/atributo | CreatedDateKey de Fact_SLA. Cumplimiento de acuerdos de servicio. |
-| CommittedDateKey | FK/atributo | CommittedDateKey de Fact_SLA. Cumplimiento de acuerdos de servicio. |
-| ResolvedDateKey | FK/atributo | ResolvedDateKey de Fact_SLA. Cumplimiento de acuerdos de servicio. |
-| TargetHours | Métrica/atributo | TargetHours de Fact_SLA. Cumplimiento de acuerdos de servicio. |
-| ActualHours | Métrica/atributo | ActualHours de Fact_SLA. Cumplimiento de acuerdos de servicio. |
-| SLAMetFlag | Métrica/atributo | SLAMetFlag de Fact_SLA. Cumplimiento de acuerdos de servicio. |
-| BreachHours | Métrica/atributo | BreachHours de Fact_SLA. Cumplimiento de acuerdos de servicio. |
+- Granularidad: Una fila por compromiso SLA asociado a una orden de trabajo.
+- Relaciones: WorkOrderID -> Fact_OrdenesTrabajo.WorkOrderID; ClientID -> Dim_Cliente.ClientID; ServiceID -> Dim_Servicio.ServiceID; AreaID -> Dim_Area.AreaID; PriorityID -> Dim_Prioridad.PriorityID; CreatedDateKey -> Dim_Fecha.DateKey
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| SLAID | PK | Clave del compromiso SLA. | Depende del registro. | % cumplimiento SLA, breach hours, resolución promedio, SLA por prioridad, servicio y área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| WorkOrderID | FK | Clave de la orden de trabajo. | Depende del registro. | % cumplimiento SLA, breach hours, resolución promedio, SLA por prioridad, servicio y área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ClientID | FK | Clave del cliente interno, gerencia o contrato sintético. | Depende del registro. | % cumplimiento SLA, breach hours, resolución promedio, SLA por prioridad, servicio y área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ServiceID | FK | Clave del servicio operacional. | Depende del registro. | % cumplimiento SLA, breach hours, resolución promedio, SLA por prioridad, servicio y área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| AreaID | FK | Clave del área minera. En dimensiones es identificador; en hechos es llave foránea hacia Dim_Area. | Depende del registro. | % cumplimiento SLA, breach hours, resolución promedio, SLA por prioridad, servicio y área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| PriorityID | FK | Clave de prioridad operacional. | Depende del registro. | % cumplimiento SLA, breach hours, resolución promedio, SLA por prioridad, servicio y área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| CreatedDateKey | FK | Fecha de creación de la orden o del compromiso SLA. | Depende del registro. | % cumplimiento SLA, breach hours, resolución promedio, SLA por prioridad, servicio y área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| CommittedDateKey | FK | Fecha comprometida para resolver o cumplir el servicio. | Depende del registro. | % cumplimiento SLA, breach hours, resolución promedio, SLA por prioridad, servicio y área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ResolvedDateKey | FK | Fecha real de resolución del servicio. | Depende del registro. | % cumplimiento SLA, breach hours, resolución promedio, SLA por prioridad, servicio y área. | En raw puede aparecer nulo o con formato inconsistente; en clean debe permitir análisis de cierre/resolución. |
+| TargetHours | Métrica | Horas objetivo del SLA. | Depende del registro. | % cumplimiento SLA, breach hours, resolución promedio, SLA por prioridad, servicio y área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ActualHours | Métrica | Horas reales consumidas por la orden o el SLA. | Depende del registro. | % cumplimiento SLA, breach hours, resolución promedio, SLA por prioridad, servicio y área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| SLAMetFlag | Indicador | Indica si el SLA fue cumplido. | Depende del registro. | % cumplimiento SLA, breach hours, resolución promedio, SLA por prioridad, servicio y área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| BreachHours | Métrica | Horas de incumplimiento. Cero significa SLA cumplido o sin brecha. | Depende del registro. | % cumplimiento SLA, breach hours, resolución promedio, SLA por prioridad, servicio y área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
 
 ## Fact_Mantenimiento
-Eventos de mantenimiento y downtime.
+Eventos de mantenimiento y confiabilidad minera con downtime, repair hours, modos de falla y costos.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| MaintenanceID | PK | MaintenanceID de Fact_Mantenimiento. Eventos de mantenimiento y downtime. |
-| DateKey | FK/atributo | DateKey de Fact_Mantenimiento. Eventos de mantenimiento y downtime. |
-| EquipmentID | FK/atributo | EquipmentID de Fact_Mantenimiento. Eventos de mantenimiento y downtime. |
-| AreaID | FK/atributo | AreaID de Fact_Mantenimiento. Eventos de mantenimiento y downtime. |
-| WorkTypeID | FK/atributo | WorkTypeID de Fact_Mantenimiento. Eventos de mantenimiento y downtime. |
-| PriorityID | FK/atributo | PriorityID de Fact_Mantenimiento. Eventos de mantenimiento y downtime. |
-| FailureMode | Métrica/atributo | FailureMode de Fact_Mantenimiento. Eventos de mantenimiento y downtime. |
-| SystemCategory | Métrica/atributo | SystemCategory de Fact_Mantenimiento. Eventos de mantenimiento y downtime. |
-| DowntimeHours | Métrica/atributo | DowntimeHours de Fact_Mantenimiento. Eventos de mantenimiento y downtime. |
-| RepairHours | Métrica/atributo | RepairHours de Fact_Mantenimiento. Eventos de mantenimiento y downtime. |
-| MaintenanceCost | Métrica/atributo | MaintenanceCost de Fact_Mantenimiento. Eventos de mantenimiento y downtime. |
-| PlannedFlag | Métrica/atributo | PlannedFlag de Fact_Mantenimiento. Eventos de mantenimiento y downtime. |
+- Granularidad: Una fila por evento de mantenimiento o falla.
+- Relaciones: EquipmentID -> Dim_Equipo.EquipmentID; AreaID -> Dim_Area.AreaID; WorkTypeID -> Dim_TipoTrabajo.WorkTypeID; PriorityID -> Dim_Prioridad.PriorityID; DateKey -> Dim_Fecha.DateKey
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| MaintenanceID | PK | Clave del evento de mantenimiento. | Depende del registro. | Downtime, MTTR aproximado, costo de mantenimiento, correctivo vs preventivo y fallas repetitivas. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| DateKey | FK | Clave de fecha en formato yyyymmdd. Permite relacionar hechos con Dim_Fecha sin depender de formatos regionales. | Depende del registro. | Downtime, MTTR aproximado, costo de mantenimiento, correctivo vs preventivo y fallas repetitivas. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| EquipmentID | FK | Clave del equipo o activo. En hechos permite conectar costos, mantenimiento, energía e incidentes con Dim_Equipo. | Depende del registro. | Downtime, MTTR aproximado, costo de mantenimiento, correctivo vs preventivo y fallas repetitivas. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| AreaID | FK | Clave del área minera. En dimensiones es identificador; en hechos es llave foránea hacia Dim_Area. | Depende del registro. | Downtime, MTTR aproximado, costo de mantenimiento, correctivo vs preventivo y fallas repetitivas. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| WorkTypeID | FK | Clave del tipo de trabajo. | Depende del registro. | Downtime, MTTR aproximado, costo de mantenimiento, correctivo vs preventivo y fallas repetitivas. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| PriorityID | FK | Clave de prioridad operacional. | Depende del registro. | Downtime, MTTR aproximado, costo de mantenimiento, correctivo vs preventivo y fallas repetitivas. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| FailureMode | Atributo | Modo de falla minero, por ejemplo bloqueo de chancador, corte de correa, fuga hidráulica, falla de bomba o pérdida de comunicación PLC. | Bloqueo de chancador; Corte de correa; Falla de bomba de pulpa | Downtime, MTTR aproximado, costo de mantenimiento, correctivo vs preventivo y fallas repetitivas. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| SystemCategory | Atributo | Sistema afectado: Hidráulico, Eléctrico, Mecánico, Neumáticos, Correas, Chancado, Molienda, Bombas, Instrumentación, Control, Energía o Seguridad. | Chancado; Correas; Molienda; Control | Downtime, MTTR aproximado, costo de mantenimiento, correctivo vs preventivo y fallas repetitivas. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| DowntimeHours | Métrica | Horas de indisponibilidad operacional atribuidas al evento. | Depende del registro. | Downtime, MTTR aproximado, costo de mantenimiento, correctivo vs preventivo y fallas repetitivas. | Revisar outliers antes de concluir causas; algunos patrones son intencionales para el laboratorio. |
+| RepairHours | Métrica | Horas invertidas en reparación. No siempre equivalen al downtime porque puede haber espera, permisos o pruebas. | Depende del registro. | Downtime, MTTR aproximado, costo de mantenimiento, correctivo vs preventivo y fallas repetitivas. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| MaintenanceCost | Métrica | Costo del evento de mantenimiento. | Depende del registro. | Downtime, MTTR aproximado, costo de mantenimiento, correctivo vs preventivo y fallas repetitivas. | Revisar outliers antes de concluir causas; algunos patrones son intencionales para el laboratorio. |
+| PlannedFlag | Indicador | Indica si el registro corresponde a trabajo planificado. En mantenimiento ayuda a separar preventivo/planificado de correctivo no planificado. | Depende del registro. | Downtime, MTTR aproximado, costo de mantenimiento, correctivo vs preventivo y fallas repetitivas. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
 
 ## Fact_Incidentes
-Incidentes de seguridad y acciones correctivas.
+Incidentes HSE y acciones correctivas en contexto minero sintetico.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| IncidentID | PK | IncidentID de Fact_Incidentes. Incidentes de seguridad y acciones correctivas. |
-| DateKey | FK/atributo | DateKey de Fact_Incidentes. Incidentes de seguridad y acciones correctivas. |
-| AreaID | FK/atributo | AreaID de Fact_Incidentes. Incidentes de seguridad y acciones correctivas. |
-| EquipmentID | FK/atributo | EquipmentID de Fact_Incidentes. Incidentes de seguridad y acciones correctivas. |
-| LocationID | FK/atributo | LocationID de Fact_Incidentes. Incidentes de seguridad y acciones correctivas. |
-| Severity | Métrica/atributo | Severity de Fact_Incidentes. Incidentes de seguridad y acciones correctivas. |
-| IncidentType | Métrica/atributo | IncidentType de Fact_Incidentes. Incidentes de seguridad y acciones correctivas. |
-| CorrectiveActionStatus | Métrica/atributo | CorrectiveActionStatus de Fact_Incidentes. Incidentes de seguridad y acciones correctivas. |
-| DaysOpen | Métrica/atributo | DaysOpen de Fact_Incidentes. Incidentes de seguridad y acciones correctivas. |
-| LostTimeFlag | Métrica/atributo | LostTimeFlag de Fact_Incidentes. Incidentes de seguridad y acciones correctivas. |
-| RiskCategory | Métrica/atributo | RiskCategory de Fact_Incidentes. Incidentes de seguridad y acciones correctivas. |
+- Granularidad: Una fila por incidente HSE o acción correctiva.
+- Relaciones: AreaID -> Dim_Area.AreaID; EquipmentID -> Dim_Equipo.EquipmentID; LocationID -> Dim_Ubicacion.LocationID; DateKey -> Dim_Fecha.DateKey
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| IncidentID | PK | Clave del incidente o acción HSE. | Depende del registro. | Incidentes por severidad, acciones abiertas/vencidas, días abiertos y foco HSE por área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| DateKey | FK | Clave de fecha en formato yyyymmdd. Permite relacionar hechos con Dim_Fecha sin depender de formatos regionales. | Depende del registro. | Incidentes por severidad, acciones abiertas/vencidas, días abiertos y foco HSE por área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| AreaID | FK | Clave del área minera. En dimensiones es identificador; en hechos es llave foránea hacia Dim_Area. | Depende del registro. | Incidentes por severidad, acciones abiertas/vencidas, días abiertos y foco HSE por área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| EquipmentID | FK | Clave del equipo o activo. En hechos permite conectar costos, mantenimiento, energía e incidentes con Dim_Equipo. | Depende del registro. | Incidentes por severidad, acciones abiertas/vencidas, días abiertos y foco HSE por área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| LocationID | FK | Clave de ubicación. En dimensiones es identificador; en hechos permite analizar por lugar físico de faena. | Depende del registro. | Incidentes por severidad, acciones abiertas/vencidas, días abiertos y foco HSE por área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| Severity | Atributo | Severidad del incidente: Baja, Media, Alta o Crítica. | Depende del registro. | Incidentes por severidad, acciones abiertas/vencidas, días abiertos y foco HSE por área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| IncidentType | Atributo | Tipo de incidente HSE u operacional. | Casi accidente; Evento HSE; Riesgo geotécnico; Falla de control crítico | Incidentes por severidad, acciones abiertas/vencidas, días abiertos y foco HSE por área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| CorrectiveActionStatus | Atributo | Estado de la acción correctiva asociada al incidente. | Depende del registro. | Incidentes por severidad, acciones abiertas/vencidas, días abiertos y foco HSE por área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| DaysOpen | Atributo | Días que la acción correctiva lleva abierta. Cero cuando ya está cerrada. | Depende del registro. | Incidentes por severidad, acciones abiertas/vencidas, días abiertos y foco HSE por área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| LostTimeFlag | Indicador | Indica si el incidente generó tiempo perdido. | Depende del registro. | Incidentes por severidad, acciones abiertas/vencidas, días abiertos y foco HSE por área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| RiskCategory | Atributo | Categoría de riesgo: Seguridad, Operación, Ambiente, Calidad o Geotecnia. | Depende del registro. | Incidentes por severidad, acciones abiertas/vencidas, días abiertos y foco HSE por área. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
 
 ## Fact_Energia
-Consumo energético, costo y producción asociada.
+Consumo energetico, costo y output operacional asociado a equipos y areas mineras.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| EnergyID | PK | EnergyID de Fact_Energia. Consumo energético, costo y producción asociada. |
-| DateKey | FK/atributo | DateKey de Fact_Energia. Consumo energético, costo y producción asociada. |
-| AreaID | FK/atributo | AreaID de Fact_Energia. Consumo energético, costo y producción asociada. |
-| EquipmentID | FK/atributo | EquipmentID de Fact_Energia. Consumo energético, costo y producción asociada. |
-| LocationID | FK/atributo | LocationID de Fact_Energia. Consumo energético, costo y producción asociada. |
-| kWh | Métrica/atributo | kWh de Fact_Energia. Consumo energético, costo y producción asociada. |
-| EnergyCost | Métrica/atributo | EnergyCost de Fact_Energia. Consumo energético, costo y producción asociada. |
-| OperatingHours | Métrica/atributo | OperatingHours de Fact_Energia. Consumo energético, costo y producción asociada. |
-| OutputUnits | Métrica/atributo | OutputUnits de Fact_Energia. Consumo energético, costo y producción asociada. |
-| Shift | Métrica/atributo | Shift de Fact_Energia. Consumo energético, costo y producción asociada. |
+- Granularidad: Una fila por medición de consumo energético por equipo, área, ubicación y turno.
+- Relaciones: AreaID -> Dim_Area.AreaID; EquipmentID -> Dim_Equipo.EquipmentID; LocationID -> Dim_Ubicacion.LocationID; DateKey -> Dim_Fecha.DateKey
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| EnergyID | PK | Clave del registro energético. | Depende del registro. | kWh total, costo energía, kWh por tonelada, consumo anormal por área/equipo/turno. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| DateKey | FK | Clave de fecha en formato yyyymmdd. Permite relacionar hechos con Dim_Fecha sin depender de formatos regionales. | Depende del registro. | kWh total, costo energía, kWh por tonelada, consumo anormal por área/equipo/turno. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| AreaID | FK | Clave del área minera. En dimensiones es identificador; en hechos es llave foránea hacia Dim_Area. | Depende del registro. | kWh total, costo energía, kWh por tonelada, consumo anormal por área/equipo/turno. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| EquipmentID | FK | Clave del equipo o activo. En hechos permite conectar costos, mantenimiento, energía e incidentes con Dim_Equipo. | Depende del registro. | kWh total, costo energía, kWh por tonelada, consumo anormal por área/equipo/turno. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| LocationID | FK | Clave de ubicación. En dimensiones es identificador; en hechos permite analizar por lugar físico de faena. | Depende del registro. | kWh total, costo energía, kWh por tonelada, consumo anormal por área/equipo/turno. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| kWh | Atributo | Consumo energético registrado en kilowatt-hora. | Depende del registro. | kWh total, costo energía, kWh por tonelada, consumo anormal por área/equipo/turno. | Revisar outliers antes de concluir causas; algunos patrones son intencionales para el laboratorio. |
+| EnergyCost | Métrica | Costo energético asociado al consumo. | Depende del registro. | kWh total, costo energía, kWh por tonelada, consumo anormal por área/equipo/turno. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| OperatingHours | Métrica | Horas de operación del equipo o sistema en el registro. | Depende del registro. | kWh total, costo energía, kWh por tonelada, consumo anormal por área/equipo/turno. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| OutputUnits | Atributo | Output operacional asociado al consumo. En mina/planta se interpreta como toneladas aproximadas u otra unidad operativa sintética. | Depende del registro. | kWh total, costo energía, kWh por tonelada, consumo anormal por área/equipo/turno. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| Shift | Atributo | Turno operacional: Día, Tarde o Noche. | Día; Tarde; Noche | kWh total, costo energía, kWh por tonelada, consumo anormal por área/equipo/turno. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
 
 ## Fact_Productividad
-Producción, horas laborales y productividad.
+Produccion u output operacional por turno, area, responsable y ubicacion.
 
-| Columna | Rol | Descripción |
-|---|---|---|
-| ProductivityID | PK | ProductivityID de Fact_Productividad. Producción, horas laborales y productividad. |
-| DateKey | FK/atributo | DateKey de Fact_Productividad. Producción, horas laborales y productividad. |
-| AreaID | FK/atributo | AreaID de Fact_Productividad. Producción, horas laborales y productividad. |
-| ResponsibleID | FK/atributo | ResponsibleID de Fact_Productividad. Producción, horas laborales y productividad. |
-| LocationID | FK/atributo | LocationID de Fact_Productividad. Producción, horas laborales y productividad. |
-| Shift | Métrica/atributo | Shift de Fact_Productividad. Producción, horas laborales y productividad. |
-| PlannedOutput | Métrica/atributo | PlannedOutput de Fact_Productividad. Producción, horas laborales y productividad. |
-| ActualOutput | Métrica/atributo | ActualOutput de Fact_Productividad. Producción, horas laborales y productividad. |
-| LaborHours | Métrica/atributo | LaborHours de Fact_Productividad. Producción, horas laborales y productividad. |
-| ProductiveHours | Métrica/atributo | ProductiveHours de Fact_Productividad. Producción, horas laborales y productividad. |
-| NonProductiveHours | Métrica/atributo | NonProductiveHours de Fact_Productividad. Producción, horas laborales y productividad. |
+- Granularidad: Una fila por medición de output operacional por turno.
+- Relaciones: AreaID -> Dim_Area.AreaID; ResponsibleID -> Dim_Responsable.ResponsibleID; LocationID -> Dim_Ubicacion.LocationID; DateKey -> Dim_Fecha.DateKey
+
+| Columna | Rol | Definición | Ejemplos | Uso analítico/KPI | Calidad de datos |
+|---|---|---|---|---|---|
+| ProductivityID | PK | Clave del registro de productividad. | Depende del registro. | Cumplimiento de producción, productividad por turno, toneladas por hora productiva y brecha plan vs real. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| DateKey | FK | Clave de fecha en formato yyyymmdd. Permite relacionar hechos con Dim_Fecha sin depender de formatos regionales. | Depende del registro. | Cumplimiento de producción, productividad por turno, toneladas por hora productiva y brecha plan vs real. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| AreaID | FK | Clave del área minera. En dimensiones es identificador; en hechos es llave foránea hacia Dim_Area. | Depende del registro. | Cumplimiento de producción, productividad por turno, toneladas por hora productiva y brecha plan vs real. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ResponsibleID | FK | Clave del responsable o rol asignado. | Depende del registro. | Cumplimiento de producción, productividad por turno, toneladas por hora productiva y brecha plan vs real. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| LocationID | FK | Clave de ubicación. En dimensiones es identificador; en hechos permite analizar por lugar físico de faena. | Depende del registro. | Cumplimiento de producción, productividad por turno, toneladas por hora productiva y brecha plan vs real. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| Shift | Atributo | Turno operacional: Día, Tarde o Noche. | Día; Tarde; Noche | Cumplimiento de producción, productividad por turno, toneladas por hora productiva y brecha plan vs real. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| PlannedOutput | Atributo | Output planificado por turno o área. En mina puede representar toneladas movidas; en planta, toneladas chancadas o procesadas. | Depende del registro. | Cumplimiento de producción, productividad por turno, toneladas por hora productiva y brecha plan vs real. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ActualOutput | Atributo | Output real observado. Se compara con PlannedOutput para medir cumplimiento operacional. | Depende del registro. | Cumplimiento de producción, productividad por turno, toneladas por hora productiva y brecha plan vs real. | Revisar outliers antes de concluir causas; algunos patrones son intencionales para el laboratorio. |
+| LaborHours | Métrica | Horas laborales disponibles. | Depende del registro. | Cumplimiento de producción, productividad por turno, toneladas por hora productiva y brecha plan vs real. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| ProductiveHours | Métrica | Horas efectivamente productivas. | Depende del registro. | Cumplimiento de producción, productividad por turno, toneladas por hora productiva y brecha plan vs real. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |
+| NonProductiveHours | Métrica | Horas no productivas por espera, fallas, coordinación, permisos, detenciones u otras causas sintéticas. | Depende del registro. | Cumplimiento de producción, productividad por turno, toneladas por hora productiva y brecha plan vs real. | Validar contra dimensiones, fechas y reglas de negocio antes de usar en decisiones. |

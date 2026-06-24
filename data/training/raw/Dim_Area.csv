@@ -1,7 +1,18 @@
 AreaID,AreaName,BusinessUnit,AreaType,ManagerName,LocationID,_SourceFile,_ExportedAt,_LegacyRowNumber
-A001,OPERACIONES MINA,Operaciones,Operativa,Manager Sintético 01,L006,training_dim_area_export.csv,2026-06-23T00:00:00,1
-A002,Mantenimiento Planta ,Soporte,Proyecto,Manager Sintético 02,L006,training_dim_area_export.csv,2026-06-23T00:00:00,2
-A003,Ingeniería de Proyectos,Servicios,Operativa,Manager Sintético 03,L006,training_dim_area_export.csv,2026-06-23T00:00:00,3
-A004,Servicios TI/OT,Ingeniería,Operativa,Manager Sintético 04,L006,training_dim_area_export.csv,2026-06-23T00:00:00,4
-A005,Seguridad HSE,Ingeniería,Soporte,Manager Sintético 05,L004,training_dim_area_export.csv,2026-06-23T00:00:00,5
-A006,Energía y Utilities,Soporte,Proyecto,Manager Sintético 06,L001,training_dim_area_export.csv,2026-06-23T00:00:00,6
+A001,MINA RAJO ABIERTO,Operaciones Mina,Mina,Gerente Sintético Mina 01,L002,training_dim_area_export.csv,2026-06-23T00:00:00,1
+A002,Despacho Mina ,Operaciones Mina,Soporte Operacional,Gerente Sintético Mina 02,L014,training_dim_area_export.csv,2026-06-23T00:00:00,2
+A003,Perforación y Tronadura,Operaciones Mina,Mina,Gerente Sintético Mina 03,L012,training_dim_area_export.csv,2026-06-23T00:00:00,3
+A004,Carguío y Transporte,Operaciones Mina,Mina,Gerente Sintético Mina 04,L008,training_dim_area_export.csv,2026-06-23T00:00:00,4
+A005,Chancado Primario,Planta Concentradora,Planta,Gerente Sintético Mina 05,L008,training_dim_area_export.csv,2026-06-23T00:00:00,5
+A006,Transporte por Correas,Planta Concentradora,Planta,Gerente Sintético Mina 06,L015,training_dim_area_export.csv,2026-06-23T00:00:00,6
+A007,Planta Concentradora,Planta Concentradora,Planta,Gerente Sintético Mina 07,L002,training_dim_area_export.csv,2026-06-23T00:00:00,7
+A008,Molienda,Planta Concentradora,Planta,Gerente Sintético Mina 08,L012,training_dim_area_export.csv,2026-06-23T00:00:00,8
+A009,Flotación,Planta Concentradora,Planta,Gerente Sintético Mina 09,L004,training_dim_area_export.csv,2026-06-23T00:00:00,9
+A010,Espesamiento y Relaves,Relaves,Planta,Gerente Sintético Mina 10,L002,training_dim_area_export.csv,2026-06-23T00:00:00,10
+A011,Taller Mina,Mantenimiento,Mantenimiento,Gerente Sintético Mina 11,L009,training_dim_area_export.csv,2026-06-23T00:00:00,11
+A012,Taller Planta,Mantenimiento,Mantenimiento,Gerente Sintético Mina 12,L017,training_dim_area_export.csv,2026-06-23T00:00:00,12
+A013,Energía y Servicios,Servicios Mina,Servicios,Gerente Sintético Mina 13,L013,training_dim_area_export.csv,2026-06-23T00:00:00,13
+A014,Seguridad HSE,Seguridad,Seguridad,Gerente Sintético Mina 14,L013,training_dim_area_export.csv,2026-06-23T00:00:00,14
+A015,Planificación Mina,Ingeniería,Ingeniería,Gerente Sintético Mina 15,L013,training_dim_area_export.csv,2026-06-23T00:00:00,15
+A016,Control de Procesos,Automatización,Soporte Operacional,Gerente Sintético Mina 16,L014,training_dim_area_export.csv,2026-06-23T00:00:00,16
+A017,Automatización OT,Automatización,Soporte Operacional,Gerente Sintético Mina 17,L009,training_dim_area_export.csv,2026-06-23T00:00:00,17

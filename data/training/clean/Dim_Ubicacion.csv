@@ -1,8 +1,18 @@
 LocationID,LocationName,Site,Zone,Country
-L001,Planta Norte,Industrial,Norte,Perú
-L002,Planta Sur,Industrial,Sur,Perú
-L003,Campus Técnico,Corporativo,Centro,Perú
-L004,Centro de Servicios,Servicios,Centro,Perú
-L005,Subestación Este,Energía,Este,Perú
-L006,Patio Logístico,Logística,Oeste,Perú
-L007,Nodo Remoto,Remoto,Norte,Perú
+L001,Pit Norte,Sitio Andina Norte,Mina,Chile
+L002,Pit Sur,Sitio Andina Norte,Mina,Chile
+L003,Frente 4100,Sitio Andina Norte,Mina,Chile
+L004,Stockpile ROM,Sitio Andina Norte,Mina,Chile
+L005,Chancador Primario,Sitio Pampa Central,Planta,Chile
+L006,Faja CV-101,Sitio Pampa Central,Planta,Chile
+L007,Transferencia CV-203,Sitio Pampa Central,Planta,Chile
+L008,Molino SAG,Sitio Pampa Central,Planta,Chile
+L009,Molino de Bolas,Sitio Pampa Central,Planta,Chile
+L010,Celdas de Flotación,Sitio Pampa Central,Planta,Chile
+L011,Relavera Principal,Sitio Sierra Azul,Relaves,Chile
+L012,Sala Eléctrica Planta,Sitio Pampa Central,Energía,Chile
+L013,Subestación Mina,Sitio Andina Norte,Energía,Chile
+L014,Taller Camiones,Sitio Andina Norte,Mantenimiento,Chile
+L015,Taller Palas,Sitio Andina Norte,Mantenimiento,Chile
+L016,Centro Integrado de Operaciones,Sitio Andina Norte,Operaciones,Chile
+L017,Sala de Control Planta,Sitio Pampa Central,Control,Chile

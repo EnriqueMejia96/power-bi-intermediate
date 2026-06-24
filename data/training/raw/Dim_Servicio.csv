@@ -1,9 +1,13 @@
 ServiceID,ServiceName,ServiceCategory,DefaultSLAHours,_SourceFile,_ExportedAt,_LegacyRowNumber
-SV1,Soporte OT,TI/OT,24,training_dim_servicio_export.csv,2026-06-23T00:00:00,1
-SV2,Mantenimiento eléctrico,Mantenimiento,48,training_dim_servicio_export.csv,2026-06-23T00:00:00,2
-SV3,Mantenimiento mecánico,Mantenimiento,48,training_dim_servicio_export.csv,2026-06-23T00:00:00,3
-SV4,Gestión de proyectos,Proyecto,120,training_dim_servicio_export.csv,2026-06-23T00:00:00,4
-SV5,Seguridad HSE,Seguridad,24,training_dim_servicio_export.csv,2026-06-23T00:00:00,5
-SV6,Energía,Energía,72,training_dim_servicio_export.csv,2026-06-23T00:00:00,6
-SV7,Automatización,Automatización,36,training_dim_servicio_export.csv,2026-06-23T00:00:00,7
-SV8,Mesa técnica,Servicio,24,training_dim_servicio_export.csv,2026-06-23T00:00:00,8
+SV1,Mant. Mec Mina,Mina,24,training_dim_servicio_export.csv,2026-06-23T00:00:00,1
+SV2,Mant. Elec Mina,Mina,24,training_dim_servicio_export.csv,2026-06-23T00:00:00,2
+SV3,Mant. Planta,Planta,36,training_dim_servicio_export.csv,2026-06-23T00:00:00,3
+SV4,Insp. Correas,Mantenimiento,18,training_dim_servicio_export.csv,2026-06-23T00:00:00,4
+SV5,Soporte Disp.,Operaciones,12,training_dim_servicio_export.csv,2026-06-23T00:00:00,5
+SV6,Automatización y Control,Automatización,24,training_dim_servicio_export.csv,2026-06-23T00:00:00,6
+SV7,Energía y Subestaciones,Energía,36,training_dim_servicio_export.csv,2026-06-23T00:00:00,7
+SV8,Seguridad HSE,Seguridad,24,training_dim_servicio_export.csv,2026-06-23T00:00:00,8
+SV9,Gestión de Relaves,Planta,48,training_dim_servicio_export.csv,2026-06-23T00:00:00,9
+SV10,Monitoreo Geotécnico,Ingeniería,24,training_dim_servicio_export.csv,2026-06-23T00:00:00,10
+SV11,Soporte SCADA,Automatización,18,training_dim_servicio_export.csv,2026-06-23T00:00:00,11
+SV12,Gestión de Paradas Planta,Mantenimiento,72,training_dim_servicio_export.csv,2026-06-23T00:00:00,12

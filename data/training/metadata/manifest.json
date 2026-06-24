@@ -1,18 +1,20 @@
 {
   "dataset_kind": "training",
-  "scenario": "Dataset A de entrenamiento",
+  "scenario": "Dataset A de entrenamiento minero",
+  "mining_context": true,
+  "mining_pattern": "Chancado, correas, molienda, taller mina y energía en molienda",
   "row_counts": {
     "Dim_Fecha": 366,
-    "Dim_Area": 6,
-    "Dim_Equipo": 40,
+    "Dim_Area": 17,
+    "Dim_Equipo": 60,
     "Dim_Cliente": 20,
     "Dim_Proyecto": 80,
     "Dim_Responsable": 30,
-    "Dim_TipoTrabajo": 6,
+    "Dim_TipoTrabajo": 12,
     "Dim_Prioridad": 4,
     "Dim_Estado": 5,
-    "Dim_Servicio": 8,
-    "Dim_Ubicacion": 7,
+    "Dim_Servicio": 12,
+    "Dim_Ubicacion": 17,
     "Fact_Proyectos": 80,
     "Fact_OrdenesTrabajo": 5000,
     "Fact_Costos": 2500,
@@ -44,15 +46,16 @@
     "Fact_Productividad"
   ],
   "raw_issues": [
-    "Nombres de área inconsistentes en Dim_Area.",
-    "Prioridades mezclan español, inglés y mayúsculas.",
-    "Estados inconsistentes: Closed, Done y Cerrado.",
-    "Fechas de proyecto exportadas como texto en formatos mixtos.",
-    "Duplicados controlados en órdenes de trabajo.",
-    "Fechas de cierre nulas en órdenes abiertas.",
-    "Costos outliers y columna innecesaria exportada desde ERP.",
-    "Algunos mantenimientos referencian equipo por nombre y no por ID.",
-    "Archivo adicional de energía en formato ancho por turno."
+    "Nombres de area minera inconsistentes en Dim_Area.",
+    "Prioridades mezclan espanol, ingles, mayusculas y criticidad minera.",
+    "Estados inconsistentes: Open, In Progress, Closed, Cerrado y Done.",
+    "Servicios mineros abreviados en raw: Mant. Mina, Mant. Planta, Insp. Correas y Soporte Disp.",
+    "Fechas de proyecto minero exportadas como texto en formatos mixtos.",
+    "Duplicados controlados en ordenes de trabajo de mantenimiento minero.",
+    "Fechas de cierre nulas en ordenes abiertas.",
+    "Costos outliers y columna innecesaria exportada desde ERP minero.",
+    "Algunos mantenimientos referencian equipo minero por nombre y no por ID.",
+    "Archivo adicional de energia en formato ancho por turno."
   ],
-  "notes": "Datos 100% sintéticos, sin credenciales ni dependencias cloud."
+  "notes": "Datos 100% sintéticos, sin credenciales, sin dependencias cloud y sin nombres reales de faenas."
 }

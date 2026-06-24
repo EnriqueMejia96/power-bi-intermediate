@@ -57,3 +57,15 @@ Describe la página:
 
 ## 9. Decisiones pendientes
 Lista lo que debe resolverse en módulos posteriores: limpieza, modelo estrella, DAX, narrativa de datos, publicación o performance.
+
+## 10. Checklist del caso minero
+| Elemento | Respuesta |
+|---|---|
+| Proceso minero priorizado | |
+| Señal principal: producción, mantenimiento, SLA, energía o HSE | |
+| KPI principal | |
+| Tablas necesarias | |
+| Audiencia que decide | |
+| Página de dashboard propuesta | |
+| Validación humana requerida | |
+| Riesgo de interpretación | |

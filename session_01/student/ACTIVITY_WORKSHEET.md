@@ -45,3 +45,11 @@ Dibuja o describe la página:
 - Recomendación útil:
 - Supuesto detectado:
 - Validación humana aplicada:
+
+## 8. Caso minero
+- Área minera priorizada:
+- Señal principal observada:
+- KPI que usarías primero:
+- Tabla o columna que soporta la señal:
+- Riesgo de interpretación:
+- Pregunta que harías al dueño del proceso:

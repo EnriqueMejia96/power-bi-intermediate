@@ -24,3 +24,8 @@ Permite explicar por qué la arquitectura precede al DAX y a los visuales.
 
 ## Conexión con los módulos 2-6
 Los módulos posteriores deben reutilizar el dataset integrado, profundizar de manera incremental y evitar rediseñar la arquitectura base salvo que exista una razón pedagógica documentada.
+
+## Lectura minera del modelo
+Las dimensiones describen procesos mineros, activos, ubicaciones, servicios, prioridades, estados, responsables y proyectos. Las tablas de hechos registran proyectos, órdenes, costos, SLA, mantenimiento, incidentes HSE, energía y productividad por turno.
+
+Para Power BI, el modelo debe seguir una lógica estrella: dimensiones filtrando hechos, fechas controladas por `Dim_Fecha`, y análisis por área, equipo, servicio, prioridad, turno y ubicación. No comparar output entre áreas sin explicar la unidad operacional.

@@ -12,3 +12,9 @@
 - ¿La audiencia puede actuar sobre el KPI?
 - ¿Necesita detalle operativo o resumen ejecutivo?
 - ¿Cuál es el costo de una interpretación incorrecta?
+
+## Audiencias mineras adicionales
+- Gerencia de operaciones: prioriza recursos entre mina, planta, mantenimiento, energía y HSE.
+- Superintendencia de planta: necesita ver chancado, molienda, correas y relaves.
+- Confiabilidad: necesita equipos críticos, failure mode, downtime y costo.
+- Energía: necesita kWh, costo y output asociado.

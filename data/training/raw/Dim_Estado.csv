@@ -1,6 +1,6 @@
 StatusID,StatusName,StatusGroup,SortOrder,IsClosed,_SourceFile,_ExportedAt,_LegacyRowNumber
-S1,Nuevo,Abierto,1,False,training_dim_estado_export.csv,2026-06-23T00:00:00,1
-S2,En Proceso,Abierto,2,False,training_dim_estado_export.csv,2026-06-23T00:00:00,2
-S3,En Espera,Abierto,3,False,training_dim_estado_export.csv,2026-06-23T00:00:00,3
-S4,Closed,Cerrado,4,True,training_dim_estado_export.csv,2026-06-23T00:00:00,4
+S1,Open,Abierto,1,False,training_dim_estado_export.csv,2026-06-23T00:00:00,1
+S2,In Progress,Abierto,2,False,training_dim_estado_export.csv,2026-06-23T00:00:00,2
+S3,Closed,Abierto,3,False,training_dim_estado_export.csv,2026-06-23T00:00:00,3
+S4,Cerrado,Cerrado,4,True,training_dim_estado_export.csv,2026-06-23T00:00:00,4
 S5,Done,Cerrado,5,True,training_dim_estado_export.csv,2026-06-23T00:00:00,5

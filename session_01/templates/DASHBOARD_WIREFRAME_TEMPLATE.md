@@ -22,3 +22,10 @@ Decisión:
 - ¿El usuario puede pasar de alerta a detalle?
 - ¿Los filtros son necesarios o decorativos?
 - ¿El visual elegido facilita comparación?
+
+## Página minera sugerida
+- Resumen ejecutivo: KPIs de producción, SLA, downtime, energía y HSE.
+- Operaciones: plan vs real por área y turno.
+- Mantenimiento/SLA: backlog, órdenes críticas y breach hours.
+- Energía: kWh por output y anomalías por turno.
+- Seguridad: incidentes, acciones abiertas y vencidas.

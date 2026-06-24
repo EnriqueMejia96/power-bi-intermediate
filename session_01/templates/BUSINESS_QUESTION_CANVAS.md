@@ -24,3 +24,4 @@ Plantilla:
 - ¿Qué áreas tienen mayor incumplimiento SLA en el último trimestre y qué servicios explican la desviación?
 - ¿Qué equipos críticos concentran más downtime correctivo y qué prioridad deben tener en el plan semanal?
 - ¿Qué proyectos superan presupuesto y qué categoría de costo explica la variación?
+- ¿Qué combinación de bajo output en chancado, backlog, energía y HSE pone en riesgo el cumplimiento operacional minero?

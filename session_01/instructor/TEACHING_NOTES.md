@@ -28,3 +28,8 @@ Este módulo debe sentirse como una transición de usuario de Power BI a arquite
 
 ## Puente hacia Módulo 2
 Cuando aparezcan errores en datos crudos (`raw`), no resolverlos completos. Decir: "Excelente, ese es exactamente el material del siguiente módulo: Power Query y calidad de datos."
+
+## Caso minero para facilitar
+Usar como hilo conductor: bajo rendimiento en Chancado Primario, backlog en Taller Mina, consumo energético anormal en Molienda y acciones HSE pendientes. Guiar con preguntas, no con respuestas. Si un estudiante salta directo a causa raíz, pedir evidencia cruzada en productividad, mantenimiento, SLA, energía, costos y seguridad.
+
+Mantener `MINING_ROOT_CAUSE_PATTERNS_INSTRUCTOR.md` como instructor-only; no compartirlo con estudiantes.

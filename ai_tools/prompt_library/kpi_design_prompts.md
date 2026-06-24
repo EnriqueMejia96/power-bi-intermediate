@@ -23,3 +23,18 @@ Microsoft Copilot for Power BI, Microsoft Copilot for Microsoft 365, Power BI Q&
 
 ## Advertencia de privacidad
 Usar solo datos sintéticos o descripciones anonimizadas. No incluir clientes, contratos, personas, ubicaciones reales ni credenciales.
+
+## Prompt minero adicional
+**Título:** Diseñar KPIs mineros por dominio.
+
+**Cuándo usarlo:** al construir el árbol de KPIs del blueprint.
+
+**Prompt:** "Diseña KPIs para una operación minera sintética en producción, mantenimiento, costos, SLA, energía y HSE. Para cada KPI entrega definición, fórmula conceptual, tablas, columnas, audiencia, decisión, riesgo y posible nombre de medida DAX futura."
+
+**Inputs requeridos:** dominio, audiencia, pregunta de negocio y columnas disponibles.
+
+**Output esperado:** backlog de KPIs listo para revisión humana.
+
+**Checklist de validación humana:** revisar unidad, denominador, granularidad y acción asociada.
+
+**Advertencia de privacidad:** no cargar CSV ni nombres reales en herramientas externas.

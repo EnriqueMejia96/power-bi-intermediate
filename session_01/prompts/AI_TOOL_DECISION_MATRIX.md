@@ -10,3 +10,12 @@
 
 ## Regla de oro
 La herramienta puede acelerar ideación, pero la responsabilidad de negocio, privacidad y precisión sigue siendo humana.
+
+## Uso sugerido en el caso minero
+| Necesidad minera | Herramientas posibles | Uso recomendado | Control humano |
+|---|---|---|---|
+| Convertir problema en preguntas | ChatGPT, Claude, Gemini | Blueprint inicial | Validar audiencia y decisión |
+| Revisar KPIs | ChatGPT, Copilot M365 | Fórmula conceptual y riesgos | Confirmar tablas y columnas |
+| Explorar modelo existente | Copilot for Power BI, Q&A | Preguntas sobre relaciones y medidas | Verificar filtros y DAX |
+| Preparar resumen ejecutivo | Copilot M365, ChatGPT | Narrativa para gerencia | No inventar hechos |
+| Revisar fuentes públicas | Perplexity | Contexto conceptual, no datos del dataset | Verificar fecha, fuente y pertinencia |

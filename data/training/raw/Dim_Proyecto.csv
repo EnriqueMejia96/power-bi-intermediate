@@ -1,81 +1,81 @@
 ProjectID,ProjectName,ProjectType,ClientID,AreaID,ResponsibleID,PriorityID,PlannedStartDate,PlannedEndDate,_SourceFile,_ExportedAt,_LegacyRowNumber
-PR0001,Proyecto TechEng 0001,Implementación,C017,A006,R013,P3,2024-12-19,2025-03-25,training_dim_proyecto_export.csv,2026-06-23T00:00:00,1
-PR0002,Proyecto TechEng 0002,Optimización,C013,A006,R018,P3,2024-11-09,2025-04-05,training_dim_proyecto_export.csv,2026-06-23T00:00:00,2
-PR0003,Proyecto TechEng 0003,Digitalización,C020,A004,R017,P2,2024-11-01,2025-04-29,training_dim_proyecto_export.csv,2026-06-23T00:00:00,3
-PR0004,Proyecto TechEng 0004,Expansión,C017,A001,R021,P4,2024-06-18,2024-11-14,training_dim_proyecto_export.csv,2026-06-23T00:00:00,4
-PR0005,Proyecto TechEng 0005,Implementación,C020,A001,R008,P3,2024-10-13,2025-03-31,training_dim_proyecto_export.csv,2026-06-23T00:00:00,5
-PR0006,Proyecto TechEng 0006,Digitalización,C005,A002,R020,P1,2024-05-20,2024-11-07,training_dim_proyecto_export.csv,2026-06-23T00:00:00,6
-PR0007,Proyecto TechEng 0007,Expansión,C006,A004,R014,P1,2024-09-08,2024-10-21,training_dim_proyecto_export.csv,2026-06-23T00:00:00,7
-PR0008,Proyecto TechEng 0008,Expansión,C017,A001,R029,P4,2024-08-22,2024-10-29,training_dim_proyecto_export.csv,2026-06-23T00:00:00,8
-PR0009,Proyecto TechEng 0009,Mantenimiento mayor,C005,A003,R005,P1,2024-04-01,2024-08-17,training_dim_proyecto_export.csv,2026-06-23T00:00:00,9
-PR0010,Proyecto TechEng 0010,Implementación,C002,A001,R005,P2,07/04/2024,2024-08-03,training_dim_proyecto_export.csv,2026-06-23T00:00:00,10
-PR0011,Proyecto TechEng 0011,Optimización,C014,A004,R014,P2,2024-01-23,2024-02-29,training_dim_proyecto_export.csv,2026-06-23T00:00:00,11
-PR0012,Proyecto TechEng 0012,Expansión,C017,A001,R016,P2,2024-02-21,2024-04-05,training_dim_proyecto_export.csv,2026-06-23T00:00:00,12
-PR0013,Proyecto TechEng 0013,Expansión,C020,A005,R021,P2,2024-06-07,2024-09-23,training_dim_proyecto_export.csv,2026-06-23T00:00:00,13
-PR0014,Proyecto TechEng 0014,Digitalización,C019,A001,R013,P3,2024-06-23,2024-10-23,training_dim_proyecto_export.csv,2026-06-23T00:00:00,14
-PR0015,Proyecto TechEng 0015,Implementación,C003,A002,R028,P1,2024-03-01,2024-04-25,training_dim_proyecto_export.csv,2026-06-23T00:00:00,15
-PR0016,Proyecto TechEng 0016,Implementación,C016,A002,R015,P4,2024-06-01,2024-07-26,training_dim_proyecto_export.csv,2026-06-23T00:00:00,16
-PR0017,Proyecto TechEng 0017,Mantenimiento mayor,C017,A005,R004,P4,2024-08-09,2024-09-27,training_dim_proyecto_export.csv,2026-06-23T00:00:00,17
-PR0018,Proyecto TechEng 0018,Mantenimiento mayor,C014,A001,R004,P2,2024-03-26,2024-07-18,training_dim_proyecto_export.csv,2026-06-23T00:00:00,18
-PR0019,Proyecto TechEng 0019,Implementación,C017,A003,R030,P2,2024-05-03,2024-06-03,training_dim_proyecto_export.csv,2026-06-23T00:00:00,19
-PR0020,Proyecto TechEng 0020,Digitalización,C017,A004,R005,P3,2024-05-14,2024-09-06,training_dim_proyecto_export.csv,2026-06-23T00:00:00,20
-PR0021,Proyecto TechEng 0021,Mantenimiento mayor,C009,A004,R029,P1,2024-07-03,2024-10-12,training_dim_proyecto_export.csv,2026-06-23T00:00:00,21
-PR0022,Proyecto TechEng 0022,Implementación,C001,A005,R009,P2,2024-05-14,2024-08-21,training_dim_proyecto_export.csv,2026-06-23T00:00:00,22
-PR0023,Proyecto TechEng 0023,Implementación,C010,A005,R003,P4,2024-09-26,2025-02-04,training_dim_proyecto_export.csv,2026-06-23T00:00:00,23
-PR0024,Proyecto TechEng 0024,Mantenimiento mayor,C005,A003,R010,P4,2024-04-29,2024-08-15,training_dim_proyecto_export.csv,2026-06-23T00:00:00,24
-PR0025,Proyecto TechEng 0025,Digitalización,C003,A005,R019,P3,2024-06-07,2024-10-24,training_dim_proyecto_export.csv,2026-06-23T00:00:00,25
-PR0026,Proyecto TechEng 0026,Expansión,C003,A002,R013,P2,2024-05-18,2024-10-09,training_dim_proyecto_export.csv,2026-06-23T00:00:00,26
-PR0027,Proyecto TechEng 0027,Mantenimiento mayor,C014,A006,R024,P3,2024-03-07,2024-08-22,training_dim_proyecto_export.csv,2026-06-23T00:00:00,27
-PR0028,Proyecto TechEng 0028,Optimización,C011,A004,R019,P3,2024-09-07,2025-02-03,training_dim_proyecto_export.csv,2026-06-23T00:00:00,28
-PR0029,Proyecto TechEng 0029,Expansión,C011,A005,R013,P2,2024-03-27,2024-07-12,training_dim_proyecto_export.csv,2026-06-23T00:00:00,29
-PR0030,Proyecto TechEng 0030,Mantenimiento mayor,C015,A006,R020,P3,2024-04-18,2024-07-30,training_dim_proyecto_export.csv,2026-06-23T00:00:00,30
-PR0031,Proyecto TechEng 0031,Optimización,C011,A005,R030,P1,2024-10-17,2024-12-21,training_dim_proyecto_export.csv,2026-06-23T00:00:00,31
-PR0032,Proyecto TechEng 0032,Mantenimiento mayor,C013,A006,R013,P2,2024-12-13,2025-04-11,training_dim_proyecto_export.csv,2026-06-23T00:00:00,32
-PR0033,Proyecto TechEng 0033,Implementación,C002,A004,R005,P3,2024-09-02,2024-10-22,training_dim_proyecto_export.csv,2026-06-23T00:00:00,33
-PR0034,Proyecto TechEng 0034,Optimización,C018,A001,R013,P2,2024-12-01,2025-05-19,training_dim_proyecto_export.csv,2026-06-23T00:00:00,34
-PR0035,Proyecto TechEng 0035,Mantenimiento mayor,C009,A003,R026,P2,2024-11-08,2025-04-13,training_dim_proyecto_export.csv,2026-06-23T00:00:00,35
-PR0036,Proyecto TechEng 0036,Expansión,C004,A002,R007,P4,2024-06-25,2024-08-11,training_dim_proyecto_export.csv,2026-06-23T00:00:00,36
-PR0037,Proyecto TechEng 0037,Digitalización,C017,A006,R029,P4,2024-10-08,2025-03-04,training_dim_proyecto_export.csv,2026-06-23T00:00:00,37
-PR0038,Proyecto TechEng 0038,Digitalización,C015,A002,R018,P3,2024-04-30,2024-06-16,training_dim_proyecto_export.csv,2026-06-23T00:00:00,38
-PR0039,Proyecto TechEng 0039,Mantenimiento mayor,C002,A002,R019,P4,17/06/2024,2024-11-02,training_dim_proyecto_export.csv,2026-06-23T00:00:00,39
-PR0040,Proyecto TechEng 0040,Implementación,C004,A002,R010,P4,2024-07-14,2024-08-26,training_dim_proyecto_export.csv,2026-06-23T00:00:00,40
-PR0041,Proyecto TechEng 0041,Optimización,C001,A004,R028,P2,2024-12-17,2025-03-30,training_dim_proyecto_export.csv,2026-06-23T00:00:00,41
-PR0042,Proyecto TechEng 0042,Expansión,C006,A004,R002,P2,2024-11-06,2025-03-14,training_dim_proyecto_export.csv,2026-06-23T00:00:00,42
-PR0043,Proyecto TechEng 0043,Implementación,C002,A006,R009,P2,2024-06-28,2024-11-14,training_dim_proyecto_export.csv,2026-06-23T00:00:00,43
-PR0044,Proyecto TechEng 0044,Expansión,C015,A003,R013,P1,2024-08-26,2024-11-26,training_dim_proyecto_export.csv,2026-06-23T00:00:00,44
-PR0045,Proyecto TechEng 0045,Digitalización,C011,A002,R015,P3,2024-03-15,2024-08-30,training_dim_proyecto_export.csv,2026-06-23T00:00:00,45
-PR0046,Proyecto TechEng 0046,Optimización,C020,A001,R015,P2,2024-10-21,2025-03-16,training_dim_proyecto_export.csv,2026-06-23T00:00:00,46
-PR0047,Proyecto TechEng 0047,Digitalización,C015,A001,R005,P2,2024-07-21,2024-09-20,training_dim_proyecto_export.csv,2026-06-23T00:00:00,47
-PR0048,Proyecto TechEng 0048,Expansión,C013,A003,R007,P2,2024-07-13,2024-11-20,training_dim_proyecto_export.csv,2026-06-23T00:00:00,48
-PR0049,Proyecto TechEng 0049,Implementación,C011,A006,R003,P2,2024-10-07,2025-02-23,training_dim_proyecto_export.csv,2026-06-23T00:00:00,49
-PR0050,Proyecto TechEng 0050,Implementación,C002,A004,R018,P4,2024-08-19,2024-11-07,training_dim_proyecto_export.csv,2026-06-23T00:00:00,50
-PR0051,Proyecto TechEng 0051,Digitalización,C002,A006,R011,P1,2024-01-27,2024-06-15,training_dim_proyecto_export.csv,2026-06-23T00:00:00,51
-PR0052,Proyecto TechEng 0052,Expansión,C013,A001,R017,P2,2024-04-15,2024-09-26,training_dim_proyecto_export.csv,2026-06-23T00:00:00,52
-PR0053,Proyecto TechEng 0053,Implementación,C001,A001,R018,P2,2024-03-05,2024-08-04,training_dim_proyecto_export.csv,2026-06-23T00:00:00,53
-PR0054,Proyecto TechEng 0054,Digitalización,C001,A006,R022,P3,2024-09-25,2025-02-16,training_dim_proyecto_export.csv,2026-06-23T00:00:00,54
-PR0055,Proyecto TechEng 0055,Implementación,C005,A001,R017,P3,13/01/2024,2024-05-17,training_dim_proyecto_export.csv,2026-06-23T00:00:00,55
-PR0056,Proyecto TechEng 0056,Digitalización,C018,A001,R020,P3,2024-03-15,2024-05-24,training_dim_proyecto_export.csv,2026-06-23T00:00:00,56
-PR0057,Proyecto TechEng 0057,Digitalización,C010,A003,R018,P1,2024-08-06,2025-01-02,training_dim_proyecto_export.csv,2026-06-23T00:00:00,57
-PR0058,Proyecto TechEng 0058,Implementación,C015,A006,R020,P2,11/09/2024,2024-12-04,training_dim_proyecto_export.csv,2026-06-23T00:00:00,58
-PR0059,Proyecto TechEng 0059,Digitalización,C009,A005,R019,P4,2024-07-03,2024-10-20,training_dim_proyecto_export.csv,2026-06-23T00:00:00,59
-PR0060,Proyecto TechEng 0060,Expansión,C004,A001,R010,P3,2024-11-11,2025-01-27,training_dim_proyecto_export.csv,2026-06-23T00:00:00,60
-PR0061,Proyecto TechEng 0061,Expansión,C008,A006,R008,P3,2024-12-02,2025-02-16,training_dim_proyecto_export.csv,2026-06-23T00:00:00,61
-PR0062,Proyecto TechEng 0062,Implementación,C002,A006,R024,P3,2024-02-18,2024-04-11,training_dim_proyecto_export.csv,2026-06-23T00:00:00,62
-PR0063,Proyecto TechEng 0063,Optimización,C016,A005,R011,P3,2024-12-14,2025-06-06,training_dim_proyecto_export.csv,2026-06-23T00:00:00,63
-PR0064,Proyecto TechEng 0064,Optimización,C004,A006,R017,P1,2024-08-12,2024-10-03,training_dim_proyecto_export.csv,2026-06-23T00:00:00,64
-PR0065,Proyecto TechEng 0065,Mantenimiento mayor,C008,A002,R006,P2,20/08/2024,2024-10-01,training_dim_proyecto_export.csv,2026-06-23T00:00:00,65
-PR0066,Proyecto TechEng 0066,Implementación,C020,A006,R013,P3,2024-02-04,2024-07-23,training_dim_proyecto_export.csv,2026-06-23T00:00:00,66
-PR0067,Proyecto TechEng 0067,Expansión,C012,A002,R016,P2,2024-08-15,2024-12-06,training_dim_proyecto_export.csv,2026-06-23T00:00:00,67
-PR0068,Proyecto TechEng 0068,Digitalización,C010,A005,R019,P4,2024-09-22,2024-12-26,training_dim_proyecto_export.csv,2026-06-23T00:00:00,68
-PR0069,Proyecto TechEng 0069,Expansión,C011,A004,R016,P3,2024-07-31,2024-12-18,training_dim_proyecto_export.csv,2026-06-23T00:00:00,69
-PR0070,Proyecto TechEng 0070,Implementación,C016,A005,R011,P3,2024-01-31,2024-04-27,training_dim_proyecto_export.csv,2026-06-23T00:00:00,70
-PR0071,Proyecto TechEng 0071,Implementación,C006,A004,R029,P4,2024-07-10,2024-08-28,training_dim_proyecto_export.csv,2026-06-23T00:00:00,71
-PR0072,Proyecto TechEng 0072,Expansión,C013,A004,R016,P3,2024-12-08,2025-04-26,training_dim_proyecto_export.csv,2026-06-23T00:00:00,72
-PR0073,Proyecto TechEng 0073,Optimización,C018,A004,R025,P4,2024-09-21,2024-11-16,training_dim_proyecto_export.csv,2026-06-23T00:00:00,73
-PR0074,Proyecto TechEng 0074,Digitalización,C012,A005,R023,P3,2024-02-20,2024-06-11,training_dim_proyecto_export.csv,2026-06-23T00:00:00,74
-PR0075,Proyecto TechEng 0075,Expansión,C009,A005,R017,P4,2024-12-17,2025-06-07,training_dim_proyecto_export.csv,2026-06-23T00:00:00,75
-PR0076,Proyecto TechEng 0076,Implementación,C003,A001,R027,P2,2024-12-16,2025-06-04,training_dim_proyecto_export.csv,2026-06-23T00:00:00,76
-PR0077,Proyecto TechEng 0077,Implementación,C005,A005,R004,P3,2024-03-02,2024-05-25,training_dim_proyecto_export.csv,2026-06-23T00:00:00,77
-PR0078,Proyecto TechEng 0078,Implementación,C019,A004,R028,P3,2024-10-20,2025-03-16,training_dim_proyecto_export.csv,2026-06-23T00:00:00,78
-PR0079,Proyecto TechEng 0079,Implementación,C011,A002,R026,P1,2024-05-28,2024-09-26,training_dim_proyecto_export.csv,2026-06-23T00:00:00,79
-PR0080,Proyecto TechEng 0080,Implementación,C007,A004,R016,P2,2024-08-05,2024-11-14,training_dim_proyecto_export.csv,2026-06-23T00:00:00,80
+PR0001,Optimización de Chancado Primario 001,Transformación Digital,C006,A005,R026,P1,2024-12-06,2025-01-05,training_dim_proyecto_export.csv,2026-06-23T00:00:00,1
+PR0002,Reemplazo de Correa CV-101 002,Seguridad,C013,A006,R012,P2,2024-12-12,2025-04-28,training_dim_proyecto_export.csv,2026-06-23T00:00:00,2
+PR0003,Mejora de Disponibilidad de Camiones CAEX 003,Seguridad,C009,A009,R010,P2,2024-02-02,2024-07-07,training_dim_proyecto_export.csv,2026-06-23T00:00:00,3
+PR0004,Modernización Sistema Dispatch 004,Mina,C019,A015,R003,P1,2024-04-02,2024-09-21,training_dim_proyecto_export.csv,2026-06-23T00:00:00,4
+PR0005,Upgrade SCADA Planta 005,Seguridad,C004,A007,R026,P4,2024-09-21,2024-12-23,training_dim_proyecto_export.csv,2026-06-23T00:00:00,5
+PR0006,Reducción de Consumo Energético en Molienda 006,Confiabilidad,C003,A009,R023,P2,2024-08-03,2024-09-19,training_dim_proyecto_export.csv,2026-06-23T00:00:00,6
+PR0007,Programa de Seguridad en Taller Mina 007,Infraestructura,C010,A001,R002,P2,2024-01-19,2024-03-29,training_dim_proyecto_export.csv,2026-06-23T00:00:00,7
+PR0008,Mejoramiento Sistema de Relaves 008,Mina,C011,A002,R014,P3,2024-02-04,2024-07-10,training_dim_proyecto_export.csv,2026-06-23T00:00:00,8
+PR0009,Cambio de Revestimientos Molino SAG 009,Transformación Digital,C014,A001,R015,P1,2024-07-09,2024-12-17,training_dim_proyecto_export.csv,2026-06-23T00:00:00,9
+PR0010,Automatización de Reporte de Producción 010,Transformación Digital,C009,A002,R015,P2,13/08/2024,2024-12-16,training_dim_proyecto_export.csv,2026-06-23T00:00:00,10
+PR0011,Proyecto de Monitoreo Geotécnico 011,Energía,C019,A015,R028,P3,2024-03-02,2024-04-19,training_dim_proyecto_export.csv,2026-06-23T00:00:00,11
+PR0012,Mejora de Confiabilidad de Bombas de Pulpa 012,Planta,C010,A015,R005,P3,2024-03-03,2024-04-20,training_dim_proyecto_export.csv,2026-06-23T00:00:00,12
+PR0013,Programa de Reducción de Backlog 013,Mina,C003,A014,R010,P4,2024-02-17,2024-05-28,training_dim_proyecto_export.csv,2026-06-23T00:00:00,13
+PR0014,Optimización de Flotación 014,Infraestructura,C003,A001,R006,P3,2024-07-25,2024-11-20,training_dim_proyecto_export.csv,2026-06-23T00:00:00,14
+PR0015,Reemplazo de Variadores en Correas 015,Mina,C020,A002,R008,P2,2024-01-03,2024-02-06,training_dim_proyecto_export.csv,2026-06-23T00:00:00,15
+PR0016,Implementación de Tablero Operacional 016,Mina,C003,A005,R028,P3,2024-07-28,2024-12-07,training_dim_proyecto_export.csv,2026-06-23T00:00:00,16
+PR0017,Optimización de Chancado Primario 017,Mantenimiento,C019,A010,R029,P4,2024-06-23,2024-10-12,training_dim_proyecto_export.csv,2026-06-23T00:00:00,17
+PR0018,Reemplazo de Correa CV-101 018,Confiabilidad,C006,A006,R002,P3,2024-06-19,2024-07-20,training_dim_proyecto_export.csv,2026-06-23T00:00:00,18
+PR0019,Mejora de Disponibilidad de Camiones CAEX 019,Mantenimiento,C002,A009,R019,P4,2024-09-05,2024-10-19,training_dim_proyecto_export.csv,2026-06-23T00:00:00,19
+PR0020,Modernización Sistema Dispatch 020,Seguridad,C007,A003,R007,P3,2024-07-10,2024-10-16,training_dim_proyecto_export.csv,2026-06-23T00:00:00,20
+PR0021,Upgrade SCADA Planta 021,Energía,C013,A013,R006,P4,2024-09-23,2025-02-08,training_dim_proyecto_export.csv,2026-06-23T00:00:00,21
+PR0022,Reducción de Consumo Energético en Molienda 022,Energía,C009,A006,R009,P1,2024-10-06,2025-03-08,training_dim_proyecto_export.csv,2026-06-23T00:00:00,22
+PR0023,Programa de Seguridad en Taller Mina 023,Infraestructura,C016,A002,R006,P3,2024-12-02,2025-03-06,training_dim_proyecto_export.csv,2026-06-23T00:00:00,23
+PR0024,Mejoramiento Sistema de Relaves 024,Automatización,C013,A013,R015,P2,2024-10-19,2025-01-01,training_dim_proyecto_export.csv,2026-06-23T00:00:00,24
+PR0025,Cambio de Revestimientos Molino SAG 025,Automatización,C009,A016,R030,P3,2024-07-08,2024-12-30,training_dim_proyecto_export.csv,2026-06-23T00:00:00,25
+PR0026,Automatización de Reporte de Producción 026,Planta,C013,A001,R018,P3,2024-06-29,2024-10-05,training_dim_proyecto_export.csv,2026-06-23T00:00:00,26
+PR0027,Proyecto de Monitoreo Geotécnico 027,Automatización,C020,A008,R022,P4,2024-03-27,2024-06-12,training_dim_proyecto_export.csv,2026-06-23T00:00:00,27
+PR0028,Mejora de Confiabilidad de Bombas de Pulpa 028,Infraestructura,C009,A015,R015,P4,2024-08-07,2024-11-11,training_dim_proyecto_export.csv,2026-06-23T00:00:00,28
+PR0029,Programa de Reducción de Backlog 029,Confiabilidad,C004,A013,R001,P2,2024-02-20,2024-03-22,training_dim_proyecto_export.csv,2026-06-23T00:00:00,29
+PR0030,Optimización de Flotación 030,Mina,C009,A015,R003,P3,2024-12-06,2025-02-19,training_dim_proyecto_export.csv,2026-06-23T00:00:00,30
+PR0031,Reemplazo de Variadores en Correas 031,Mantenimiento,C017,A008,R009,P3,2024-11-05,2025-02-20,training_dim_proyecto_export.csv,2026-06-23T00:00:00,31
+PR0032,Implementación de Tablero Operacional 032,Energía,C005,A007,R008,P2,2024-02-13,2024-07-29,training_dim_proyecto_export.csv,2026-06-23T00:00:00,32
+PR0033,Optimización de Chancado Primario 033,Mina,C019,A013,R026,P1,2024-10-14,2025-03-03,training_dim_proyecto_export.csv,2026-06-23T00:00:00,33
+PR0034,Reemplazo de Correa CV-101 034,Planta,C012,A003,R026,P1,2024-02-12,2024-07-08,training_dim_proyecto_export.csv,2026-06-23T00:00:00,34
+PR0035,Mejora de Disponibilidad de Camiones CAEX 035,Confiabilidad,C013,A005,R026,P3,2024-09-20,2025-01-09,training_dim_proyecto_export.csv,2026-06-23T00:00:00,35
+PR0036,Modernización Sistema Dispatch 036,Energía,C007,A011,R020,P2,2024-02-02,2024-03-19,training_dim_proyecto_export.csv,2026-06-23T00:00:00,36
+PR0037,Upgrade SCADA Planta 037,Confiabilidad,C019,A012,R017,P4,2024-06-27,2024-09-23,training_dim_proyecto_export.csv,2026-06-23T00:00:00,37
+PR0038,Reducción de Consumo Energético en Molienda 038,Seguridad,C001,A003,R020,P2,2024-08-28,2025-02-23,training_dim_proyecto_export.csv,2026-06-23T00:00:00,38
+PR0039,Programa de Seguridad en Taller Mina 039,Confiabilidad,C006,A009,R013,P4,23/09/2024,2024-10-29,training_dim_proyecto_export.csv,2026-06-23T00:00:00,39
+PR0040,Mejoramiento Sistema de Relaves 040,Planta,C009,A007,R021,P2,2024-06-02,2024-11-10,training_dim_proyecto_export.csv,2026-06-23T00:00:00,40
+PR0041,Cambio de Revestimientos Molino SAG 041,Automatización,C010,A009,R024,P3,2024-12-03,2025-04-14,training_dim_proyecto_export.csv,2026-06-23T00:00:00,41
+PR0042,Automatización de Reporte de Producción 042,Transformación Digital,C010,A017,R023,P1,2024-10-10,2024-12-21,training_dim_proyecto_export.csv,2026-06-23T00:00:00,42
+PR0043,Proyecto de Monitoreo Geotécnico 043,Planta,C003,A002,R019,P3,2024-03-17,2024-08-10,training_dim_proyecto_export.csv,2026-06-23T00:00:00,43
+PR0044,Mejora de Confiabilidad de Bombas de Pulpa 044,Infraestructura,C005,A017,R002,P3,2024-09-02,2025-02-04,training_dim_proyecto_export.csv,2026-06-23T00:00:00,44
+PR0045,Programa de Reducción de Backlog 045,Automatización,C002,A008,R022,P4,2024-09-24,2024-10-30,training_dim_proyecto_export.csv,2026-06-23T00:00:00,45
+PR0046,Optimización de Flotación 046,Confiabilidad,C012,A014,R011,P3,2024-05-02,2024-06-16,training_dim_proyecto_export.csv,2026-06-23T00:00:00,46
+PR0047,Reemplazo de Variadores en Correas 047,Confiabilidad,C008,A008,R023,P1,2024-09-27,2025-02-03,training_dim_proyecto_export.csv,2026-06-23T00:00:00,47
+PR0048,Implementación de Tablero Operacional 048,Infraestructura,C012,A006,R017,P2,2024-11-24,2025-05-22,training_dim_proyecto_export.csv,2026-06-23T00:00:00,48
+PR0049,Optimización de Chancado Primario 049,Confiabilidad,C012,A014,R027,P1,2024-10-26,2024-11-28,training_dim_proyecto_export.csv,2026-06-23T00:00:00,49
+PR0050,Reemplazo de Correa CV-101 050,Confiabilidad,C015,A012,R011,P1,2024-10-06,2025-02-12,training_dim_proyecto_export.csv,2026-06-23T00:00:00,50
+PR0051,Mejora de Disponibilidad de Camiones CAEX 051,Seguridad,C011,A003,R028,P3,2024-08-20,2024-10-09,training_dim_proyecto_export.csv,2026-06-23T00:00:00,51
+PR0052,Modernización Sistema Dispatch 052,Mina,C013,A012,R026,P3,2024-04-09,2024-08-14,training_dim_proyecto_export.csv,2026-06-23T00:00:00,52
+PR0053,Upgrade SCADA Planta 053,Mantenimiento,C012,A013,R010,P3,2024-10-18,2025-02-18,training_dim_proyecto_export.csv,2026-06-23T00:00:00,53
+PR0054,Reducción de Consumo Energético en Molienda 054,Planta,C014,A007,R015,P4,2024-05-13,2024-06-25,training_dim_proyecto_export.csv,2026-06-23T00:00:00,54
+PR0055,Programa de Seguridad en Taller Mina 055,Mantenimiento,C013,A016,R016,P3,13/07/2024,2024-11-22,training_dim_proyecto_export.csv,2026-06-23T00:00:00,55
+PR0056,Mejoramiento Sistema de Relaves 056,Energía,C007,A011,R024,P3,2024-04-25,2024-10-06,training_dim_proyecto_export.csv,2026-06-23T00:00:00,56
+PR0057,Cambio de Revestimientos Molino SAG 057,Producción,C005,A006,R021,P1,2024-04-24,2024-09-30,training_dim_proyecto_export.csv,2026-06-23T00:00:00,57
+PR0058,Automatización de Reporte de Producción 058,Confiabilidad,C016,A001,R026,P2,27/02/2024,2024-04-01,training_dim_proyecto_export.csv,2026-06-23T00:00:00,58
+PR0059,Proyecto de Monitoreo Geotécnico 059,Planta,C007,A012,R012,P3,2024-12-17,2025-02-21,training_dim_proyecto_export.csv,2026-06-23T00:00:00,59
+PR0060,Mejora de Confiabilidad de Bombas de Pulpa 060,Energía,C011,A004,R016,P3,2024-02-24,2024-04-30,training_dim_proyecto_export.csv,2026-06-23T00:00:00,60
+PR0061,Programa de Reducción de Backlog 061,Producción,C004,A013,R013,P1,2024-02-01,2024-05-08,training_dim_proyecto_export.csv,2026-06-23T00:00:00,61
+PR0062,Optimización de Flotación 062,Transformación Digital,C009,A009,R028,P2,2024-12-08,2025-01-28,training_dim_proyecto_export.csv,2026-06-23T00:00:00,62
+PR0063,Reemplazo de Variadores en Correas 063,Automatización,C011,A008,R010,P3,2024-07-22,2024-12-27,training_dim_proyecto_export.csv,2026-06-23T00:00:00,63
+PR0064,Implementación de Tablero Operacional 064,Mantenimiento,C013,A003,R018,P1,2024-06-09,2024-11-02,training_dim_proyecto_export.csv,2026-06-23T00:00:00,64
+PR0065,Optimización de Chancado Primario 065,Automatización,C011,A013,R004,P2,26/09/2024,2025-02-24,training_dim_proyecto_export.csv,2026-06-23T00:00:00,65
+PR0066,Reemplazo de Correa CV-101 066,Planta,C008,A003,R026,P4,2024-05-20,2024-07-18,training_dim_proyecto_export.csv,2026-06-23T00:00:00,66
+PR0067,Mejora de Disponibilidad de Camiones CAEX 067,Seguridad,C020,A008,R012,P3,2024-02-16,2024-03-19,training_dim_proyecto_export.csv,2026-06-23T00:00:00,67
+PR0068,Modernización Sistema Dispatch 068,Infraestructura,C011,A015,R011,P2,2024-09-24,2025-03-09,training_dim_proyecto_export.csv,2026-06-23T00:00:00,68
+PR0069,Upgrade SCADA Planta 069,Mina,C017,A016,R018,P3,2024-03-05,2024-05-17,training_dim_proyecto_export.csv,2026-06-23T00:00:00,69
+PR0070,Reducción de Consumo Energético en Molienda 070,Automatización,C015,A017,R015,P2,2024-07-21,2024-11-26,training_dim_proyecto_export.csv,2026-06-23T00:00:00,70
+PR0071,Programa de Seguridad en Taller Mina 071,Mantenimiento,C012,A017,R026,P3,2024-12-13,2025-05-28,training_dim_proyecto_export.csv,2026-06-23T00:00:00,71
+PR0072,Mejoramiento Sistema de Relaves 072,Energía,C018,A010,R016,P2,2024-12-08,2025-01-12,training_dim_proyecto_export.csv,2026-06-23T00:00:00,72
+PR0073,Cambio de Revestimientos Molino SAG 073,Seguridad,C003,A004,R016,P3,2024-05-12,2024-06-11,training_dim_proyecto_export.csv,2026-06-23T00:00:00,73
+PR0074,Automatización de Reporte de Producción 074,Transformación Digital,C019,A015,R004,P2,2024-10-12,2024-11-11,training_dim_proyecto_export.csv,2026-06-23T00:00:00,74
+PR0075,Proyecto de Monitoreo Geotécnico 075,Automatización,C018,A014,R001,P2,2024-08-12,2024-10-04,training_dim_proyecto_export.csv,2026-06-23T00:00:00,75
+PR0076,Mejora de Confiabilidad de Bombas de Pulpa 076,Producción,C011,A017,R012,P4,2024-06-24,2024-07-31,training_dim_proyecto_export.csv,2026-06-23T00:00:00,76
+PR0077,Programa de Reducción de Backlog 077,Mantenimiento,C015,A012,R030,P2,2024-02-21,2024-07-22,training_dim_proyecto_export.csv,2026-06-23T00:00:00,77
+PR0078,Optimización de Flotación 078,Automatización,C011,A003,R028,P1,2024-05-17,2024-09-14,training_dim_proyecto_export.csv,2026-06-23T00:00:00,78
+PR0079,Reemplazo de Variadores en Correas 079,Automatización,C006,A009,R019,P2,2024-08-26,2025-02-19,training_dim_proyecto_export.csv,2026-06-23T00:00:00,79
+PR0080,Implementación de Tablero Operacional 080,Infraestructura,C016,A008,R019,P3,2024-12-27,2025-05-26,training_dim_proyecto_export.csv,2026-06-23T00:00:00,80

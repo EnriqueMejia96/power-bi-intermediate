@@ -22,27 +22,34 @@ def inject_raw_issues(
             df.loc[df.index[0], "AreaName"] = str(df.loc[df.index[0], "AreaName"]).upper()
             df.loc[df.index[1], "AreaName"] = str(df.loc[df.index[1], "AreaName"]) + " "
             df.loc[df.index[2], "AreaName"] = str(df.loc[df.index[2], "AreaName"]).replace("á", "a")
-            issues.append("Nombres de área inconsistentes en Dim_Area.")
+            issues.append("Nombres de area minera inconsistentes en Dim_Area.")
 
     if "Dim_Prioridad" in raw:
         df = raw["Dim_Prioridad"]
-        replacements = ["HIGH", "High", "Alta", "medium"]
+        replacements = ["CRITICAL", "HIGH", "Alta", "Crítica"]
         for idx, value in zip(df.index[: len(replacements)], replacements):
             df.loc[idx, "PriorityName"] = value
-        issues.append("Prioridades mezclan español, inglés y mayúsculas.")
+        issues.append("Prioridades mezclan espanol, ingles, mayusculas y criticidad minera.")
 
     if "Dim_Estado" in raw:
         df = raw["Dim_Estado"]
-        if len(df) >= 4:
-            df.loc[df.index[-2], "StatusName"] = "Closed"
-            df.loc[df.index[-1], "StatusName"] = "Done"
-            issues.append("Estados inconsistentes: Closed, Done y Cerrado.")
+        replacements = ["Open", "In Progress", "Closed", "Cerrado", "Done"]
+        for idx, value in zip(df.index[: len(replacements)], replacements):
+            df.loc[idx, "StatusName"] = value
+        issues.append("Estados inconsistentes: Open, In Progress, Closed, Cerrado y Done.")
+
+    if "Dim_Servicio" in raw:
+        df = raw["Dim_Servicio"]
+        replacements = ["Mant. Mec Mina", "Mant. Elec Mina", "Mant. Planta", "Insp. Correas", "Soporte Disp."]
+        for idx, value in zip(df.index[: len(replacements)], replacements):
+            df.loc[idx, "ServiceName"] = value
+        issues.append("Servicios mineros abreviados en raw: Mant. Mina, Mant. Planta, Insp. Correas y Soporte Disp.")
 
     if "Dim_Proyecto" in raw:
         df = raw["Dim_Proyecto"]
         sample_idx = df.sample(min(5, len(df)), random_state=11).index
         df.loc[sample_idx, "PlannedStartDate"] = pd.to_datetime(df.loc[sample_idx, "PlannedStartDate"]).dt.strftime("%d/%m/%Y")
-        issues.append("Fechas de proyecto exportadas como texto en formatos mixtos.")
+        issues.append("Fechas de proyecto minero exportadas como texto en formatos mixtos.")
 
     if "Fact_OrdenesTrabajo" in raw:
         df = raw["Fact_OrdenesTrabajo"]
@@ -50,10 +57,10 @@ def inject_raw_issues(
         duplicates = df.head(duplicate_count).copy()
         duplicates["_SourceFile"] = f"{dataset_kind}_workorders_duplicate_export.csv"
         raw["Fact_OrdenesTrabajo"] = pd.concat([df, duplicates], ignore_index=True)
-        issues.append("Duplicados controlados en órdenes de trabajo.")
+        issues.append("Duplicados controlados en ordenes de trabajo de mantenimiento minero.")
         open_idx = raw["Fact_OrdenesTrabajo"].sample(min(20, len(raw["Fact_OrdenesTrabajo"])), random_state=12).index
         raw["Fact_OrdenesTrabajo"].loc[open_idx, "ClosedDateKey"] = pd.NA
-        issues.append("Fechas de cierre nulas en órdenes abiertas.")
+        issues.append("Fechas de cierre nulas en ordenes abiertas.")
 
     if "Fact_Costos" in raw:
         df = raw["Fact_Costos"]
@@ -61,7 +68,7 @@ def inject_raw_issues(
         idx = df.sample(outlier_count, random_state=13).index
         df.loc[idx, "ActualAmount"] = (pd.to_numeric(df.loc[idx, "ActualAmount"]) * rng.uniform(3.0, 5.5, len(idx))).round(2)
         df["UnusedERPColumn"] = "legacy-cost-center"
-        issues.append("Costos outliers y columna innecesaria exportada desde ERP.")
+        issues.append("Costos outliers y columna innecesaria exportada desde ERP minero.")
 
     if "Fact_Mantenimiento" in raw and "Dim_Equipo" in raw:
         maint = raw["Fact_Mantenimiento"]
@@ -71,7 +78,7 @@ def inject_raw_issues(
         sample_idx = maint.sample(min(15, len(maint)), random_state=14).index
         maint.loc[sample_idx, "EquipmentID"] = pd.NA
         raw["Fact_Mantenimiento"] = maint
-        issues.append("Algunos mantenimientos referencian equipo por nombre y no por ID.")
+        issues.append("Algunos mantenimientos referencian equipo minero por nombre y no por ID.")
 
     extras: dict[str, pd.DataFrame] = {}
     if "Fact_Energia" in raw:
@@ -85,6 +92,6 @@ def inject_raw_issues(
         ).reset_index()
         wide.columns = [str(col) for col in wide.columns]
         extras["Fact_Energia_Wide"] = wide
-        issues.append("Archivo adicional de energía en formato ancho por turno.")
+        issues.append("Archivo adicional de energia en formato ancho por turno.")
 
     return raw, extras, issues

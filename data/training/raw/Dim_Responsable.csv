@@ -1,31 +1,31 @@
 ResponsibleID,ResponsibleName,Role,Team,AreaID,_SourceFile,_ExportedAt,_LegacyRowNumber
-R001,Responsable Sintético 01,Supervisor,Backoffice,A001,training_dim_responsable_export.csv,2026-06-23T00:00:00,1
-R002,Responsable Sintético 02,Analista,Turno B,A003,training_dim_responsable_export.csv,2026-06-23T00:00:00,2
-R003,Responsable Sintético 03,Técnico Líder,Turno A,A006,training_dim_responsable_export.csv,2026-06-23T00:00:00,3
-R004,Responsable Sintético 04,Analista,Turno C,A002,training_dim_responsable_export.csv,2026-06-23T00:00:00,4
-R005,Responsable Sintético 05,Ingeniero,Backoffice,A001,training_dim_responsable_export.csv,2026-06-23T00:00:00,5
-R006,Responsable Sintético 06,Ingeniero,Backoffice,A003,training_dim_responsable_export.csv,2026-06-23T00:00:00,6
-R007,Responsable Sintético 07,Técnico Líder,Turno B,A004,training_dim_responsable_export.csv,2026-06-23T00:00:00,7
-R008,Responsable Sintético 08,Técnico Líder,Turno B,A004,training_dim_responsable_export.csv,2026-06-23T00:00:00,8
-R009,Responsable Sintético 09,Analista,Turno C,A002,training_dim_responsable_export.csv,2026-06-23T00:00:00,9
-R010,Responsable Sintético 10,Supervisor,Turno A,A006,training_dim_responsable_export.csv,2026-06-23T00:00:00,10
-R011,Responsable Sintético 11,Técnico Líder,Turno B,A004,training_dim_responsable_export.csv,2026-06-23T00:00:00,11
-R012,Responsable Sintético 12,Supervisor,Turno A,A002,training_dim_responsable_export.csv,2026-06-23T00:00:00,12
-R013,Responsable Sintético 13,Planner,Backoffice,A006,training_dim_responsable_export.csv,2026-06-23T00:00:00,13
-R014,Responsable Sintético 14,Analista,Turno C,A006,training_dim_responsable_export.csv,2026-06-23T00:00:00,14
-R015,Responsable Sintético 15,Planner,Backoffice,A003,training_dim_responsable_export.csv,2026-06-23T00:00:00,15
-R016,Responsable Sintético 16,Técnico Líder,Backoffice,A001,training_dim_responsable_export.csv,2026-06-23T00:00:00,16
-R017,Responsable Sintético 17,Ingeniero,Backoffice,A004,training_dim_responsable_export.csv,2026-06-23T00:00:00,17
-R018,Responsable Sintético 18,Planner,Turno A,A004,training_dim_responsable_export.csv,2026-06-23T00:00:00,18
-R019,Responsable Sintético 19,Planner,Backoffice,A001,training_dim_responsable_export.csv,2026-06-23T00:00:00,19
-R020,Responsable Sintético 20,Ingeniero,Turno A,A004,training_dim_responsable_export.csv,2026-06-23T00:00:00,20
-R021,Responsable Sintético 21,Técnico Líder,Turno B,A006,training_dim_responsable_export.csv,2026-06-23T00:00:00,21
-R022,Responsable Sintético 22,Técnico Líder,Turno C,A001,training_dim_responsable_export.csv,2026-06-23T00:00:00,22
-R023,Responsable Sintético 23,Analista,Turno B,A005,training_dim_responsable_export.csv,2026-06-23T00:00:00,23
-R024,Responsable Sintético 24,Analista,Turno A,A001,training_dim_responsable_export.csv,2026-06-23T00:00:00,24
-R025,Responsable Sintético 25,Técnico Líder,Turno A,A005,training_dim_responsable_export.csv,2026-06-23T00:00:00,25
-R026,Responsable Sintético 26,Técnico Líder,Backoffice,A003,training_dim_responsable_export.csv,2026-06-23T00:00:00,26
-R027,Responsable Sintético 27,Planner,Turno B,A001,training_dim_responsable_export.csv,2026-06-23T00:00:00,27
-R028,Responsable Sintético 28,Ingeniero,Turno B,A006,training_dim_responsable_export.csv,2026-06-23T00:00:00,28
-R029,Responsable Sintético 29,Supervisor,Backoffice,A001,training_dim_responsable_export.csv,2026-06-23T00:00:00,29
-R030,Responsable Sintético 30,Planner,Turno A,A004,training_dim_responsable_export.csv,2026-06-23T00:00:00,30
+R001,Responsable Minero Sintético 01,Coordinador de Parada Planta,Turno C,A001,training_dim_responsable_export.csv,2026-06-23T00:00:00,1
+R002,Responsable Minero Sintético 02,Ingeniero de Mantenimiento Planta,Turno B,A004,training_dim_responsable_export.csv,2026-06-23T00:00:00,2
+R003,Responsable Minero Sintético 03,Ingeniero de Producción,Turno A,A011,training_dim_responsable_export.csv,2026-06-23T00:00:00,3
+R004,Responsable Minero Sintético 04,Ingeniero de Automatización,Guardia Planta,A012,training_dim_responsable_export.csv,2026-06-23T00:00:00,4
+R005,Responsable Minero Sintético 05,Supervisor de Molienda,Turno B,A009,training_dim_responsable_export.csv,2026-06-23T00:00:00,5
+R006,Responsable Minero Sintético 06,Ingeniero de Automatización,Turno B,A015,training_dim_responsable_export.csv,2026-06-23T00:00:00,6
+R007,Responsable Minero Sintético 07,Analista de Costos Operacionales,Guardia Planta,A016,training_dim_responsable_export.csv,2026-06-23T00:00:00,7
+R008,Responsable Minero Sintético 08,Ingeniero de Producción,Backoffice Mina,A003,training_dim_responsable_export.csv,2026-06-23T00:00:00,8
+R009,Responsable Minero Sintético 09,Ingeniero de Producción,Guardia Planta,A017,training_dim_responsable_export.csv,2026-06-23T00:00:00,9
+R010,Responsable Minero Sintético 10,Especialista OT,Backoffice Mina,A011,training_dim_responsable_export.csv,2026-06-23T00:00:00,10
+R011,Responsable Minero Sintético 11,Analista de Energía,Backoffice Mina,A011,training_dim_responsable_export.csv,2026-06-23T00:00:00,11
+R012,Responsable Minero Sintético 12,Analista Dispatch,Turno C,A002,training_dim_responsable_export.csv,2026-06-23T00:00:00,12
+R013,Responsable Minero Sintético 13,Planificador de Mantenimiento,Guardia Planta,A011,training_dim_responsable_export.csv,2026-06-23T00:00:00,13
+R014,Responsable Minero Sintético 14,Planificador de Mantenimiento,Turno B,A013,training_dim_responsable_export.csv,2026-06-23T00:00:00,14
+R015,Responsable Minero Sintético 15,Supervisor de Operaciones Mina,Turno C,A010,training_dim_responsable_export.csv,2026-06-23T00:00:00,15
+R016,Responsable Minero Sintético 16,Supervisor de Chancado,Turno C,A002,training_dim_responsable_export.csv,2026-06-23T00:00:00,16
+R017,Responsable Minero Sintético 17,Ingeniero de Confiabilidad,Backoffice Mina,A009,training_dim_responsable_export.csv,2026-06-23T00:00:00,17
+R018,Responsable Minero Sintético 18,Ingeniero de Mantenimiento Planta,Backoffice Mina,A016,training_dim_responsable_export.csv,2026-06-23T00:00:00,18
+R019,Responsable Minero Sintético 19,Analista Dispatch,Turno C,A013,training_dim_responsable_export.csv,2026-06-23T00:00:00,19
+R020,Responsable Minero Sintético 20,Especialista OT,Guardia Planta,A003,training_dim_responsable_export.csv,2026-06-23T00:00:00,20
+R021,Responsable Minero Sintético 21,Ingeniero de Mantenimiento Planta,Turno B,A017,training_dim_responsable_export.csv,2026-06-23T00:00:00,21
+R022,Responsable Minero Sintético 22,Analista Dispatch,Backoffice Mina,A017,training_dim_responsable_export.csv,2026-06-23T00:00:00,22
+R023,Responsable Minero Sintético 23,Ingeniero HSE,Turno C,A003,training_dim_responsable_export.csv,2026-06-23T00:00:00,23
+R024,Responsable Minero Sintético 24,Supervisor de Operaciones Mina,Turno C,A014,training_dim_responsable_export.csv,2026-06-23T00:00:00,24
+R025,Responsable Minero Sintético 25,Supervisor de Molienda,Guardia Planta,A007,training_dim_responsable_export.csv,2026-06-23T00:00:00,25
+R026,Responsable Minero Sintético 26,Supervisor de Molienda,Guardia Planta,A011,training_dim_responsable_export.csv,2026-06-23T00:00:00,26
+R027,Responsable Minero Sintético 27,Ingeniero de Automatización,Turno A,A008,training_dim_responsable_export.csv,2026-06-23T00:00:00,27
+R028,Responsable Minero Sintético 28,Supervisor de Molienda,Turno B,A014,training_dim_responsable_export.csv,2026-06-23T00:00:00,28
+R029,Responsable Minero Sintético 29,Coordinador de Parada Planta,Turno A,A017,training_dim_responsable_export.csv,2026-06-23T00:00:00,29
+R030,Responsable Minero Sintético 30,Supervisor de Molienda,Guardia Planta,A014,training_dim_responsable_export.csv,2026-06-23T00:00:00,30

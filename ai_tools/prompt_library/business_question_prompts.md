@@ -23,3 +23,18 @@ Microsoft Copilot for Power BI, Microsoft Copilot for Microsoft 365, Power BI Q&
 
 ## Advertencia de privacidad
 Usar solo datos sintéticos o descripciones anonimizadas. No incluir clientes, contratos, personas, ubicaciones reales ni credenciales.
+
+## Prompt minero adicional
+**Título:** Convertir riesgo operacional minero en preguntas medibles.
+
+**Cuándo usarlo:** cuando el problema mencione bajo output, backlog, SLA, energía o HSE.
+
+**Prompt:** "A partir de este problema minero sintético: [problema], genera preguntas medibles para Power BI. Para cada pregunta incluye audiencia, decisión, KPI, tablas/columnas probables, visual recomendado, riesgo de interpretación y validación humana."
+
+**Inputs requeridos:** problema, audiencia, tablas disponibles y periodo.
+
+**Output esperado:** matriz de preguntas priorizadas.
+
+**Checklist de validación humana:** confirmar si la audiencia puede actuar, si el KPI existe en el schema y si la pregunta no revela causa raíz no demostrada.
+
+**Advertencia de privacidad:** no usar datos reales de faenas, personas, clientes o contratos.

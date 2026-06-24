@@ -1,501 +1,501 @@
 IncidentID,DateKey,AreaID,EquipmentID,LocationID,Severity,IncidentType,CorrectiveActionStatus,DaysOpen,LostTimeFlag,RiskCategory
-IN00001,20250520,A003,EQ0022,L006,Media,Lesión menor,En progreso,87,False,Calidad
-IN00002,20250409,A004,EQ0013,L007,Baja,Casi accidente,Cerrada,0,False,Operación
-IN00003,20250604,A005,EQ0016,L006,Media,Daño equipo,En progreso,48,False,Ambiente
-IN00004,20250324,A003,EQ0033,L006,Media,Ambiental,En progreso,11,False,Seguridad
-IN00005,20250331,A005,EQ0016,L006,Alta,Ambiental,Cerrada,0,False,Operación
-IN00006,20250203,A004,EQ0004,L007,Alta,Daño equipo,Cerrada,0,False,Ambiente
-IN00007,20250512,A005,EQ0037,L006,Media,Casi accidente,Cerrada,0,False,Ambiente
-IN00008,20250603,A001,EQ0007,L003,Baja,Lesión menor,En progreso,42,False,Calidad
-IN00009,20250514,A002,EQ0030,L002,Alta,Casi accidente,Cerrada,0,False,Ambiente
-IN00010,20250602,A001,EQ0007,L003,Baja,Casi accidente,Cerrada,0,False,Ambiente
-IN00011,20250531,A006,EQ0024,L007,Baja,Ambiental,En progreso,61,False,Operación
-IN00012,20250211,A005,EQ0037,L006,Alta,Daño equipo,Cerrada,0,False,Operación
-IN00013,20250224,A001,EQ0007,L003,Media,Lesión menor,Cerrada,0,False,Calidad
-IN00014,20250320,A003,EQ0001,L006,Baja,Ambiental,Cerrada,0,False,Calidad
-IN00015,20250211,A006,EQ0027,L007,Baja,Ambiental,En progreso,12,False,Operación
-IN00016,20250122,A006,EQ0019,L007,Media,Daño equipo,Cerrada,0,False,Ambiente
-IN00017,20250121,A001,EQ0028,L003,Media,Lesión menor,Abierta,35,False,Seguridad
-IN00018,20250109,A005,EQ0011,L006,Alta,Lesión menor,Cerrada,0,True,Ambiente
-IN00019,20250510,A003,EQ0035,L006,Media,Ambiental,Abierta,70,False,Seguridad
-IN00020,20250325,A005,EQ0017,L006,Alta,Ambiental,Abierta,44,False,Operación
-IN00021,20250111,A005,EQ0006,L006,Media,Lesión menor,Cerrada,0,False,Calidad
-IN00022,20250412,A005,EQ0017,L006,Alta,Casi accidente,En progreso,58,False,Calidad
-IN00023,20250507,A005,EQ0021,L006,Baja,Condición insegura,Cerrada,0,False,Ambiente
-IN00024,20250529,A006,EQ0038,L007,Media,Daño equipo,En progreso,30,False,Ambiente
-IN00025,20250505,A005,EQ0011,L006,Alta,Ambiental,Cerrada,0,False,Ambiente
-IN00026,20250620,A005,EQ0018,L006,Alta,Daño equipo,En progreso,52,False,Calidad
-IN00027,20250430,A004,EQ0004,L007,Alta,Lesión menor,Cerrada,0,False,Ambiente
-IN00028,20250516,A001,EQ0028,L003,Baja,Condición insegura,Cerrada,0,False,Ambiente
-IN00029,20250119,A005,EQ0032,L006,Baja,Ambiental,Cerrada,0,False,Seguridad
-IN00030,20250101,A003,EQ0022,L006,Baja,Daño equipo,Abierta,9,False,Operación
-IN00031,20250605,A005,EQ0006,L006,Alta,Condición insegura,En progreso,89,False,Seguridad
-IN00032,20250417,A006,EQ0014,L007,Alta,Lesión menor,En progreso,32,False,Ambiente
-IN00033,20250616,A004,EQ0004,L007,Baja,Casi accidente,Cerrada,0,False,Seguridad
-IN00034,20250211,A002,EQ0036,L002,Baja,Ambiental,Cerrada,0,True,Ambiente
-IN00035,20250308,A004,EQ0013,L007,Media,Casi accidente,En progreso,23,False,Ambiente
-IN00036,20250621,A006,EQ0019,L007,Media,Ambiental,En progreso,78,False,Ambiente
-IN00037,20250303,A001,EQ0028,L003,Baja,Daño equipo,En progreso,77,False,Operación
-IN00038,20250219,A005,EQ0021,L006,Media,Lesión menor,Cerrada,0,False,Calidad
-IN00039,20250629,A005,EQ0009,L006,Baja,Ambiental,En progreso,35,False,Seguridad
-IN00040,20250425,A001,EQ0007,L003,Media,Condición insegura,Cerrada,0,False,Seguridad
-IN00041,20250404,A004,EQ0003,L007,Media,Lesión menor,Cerrada,0,False,Ambiente
-IN00042,20250524,A005,EQ0037,L006,Baja,Ambiental,En progreso,63,False,Seguridad
-IN00043,20250415,A002,EQ0015,L002,Media,Daño equipo,Cerrada,0,False,Seguridad
-IN00044,20250523,A003,EQ0031,L006,Alta,Daño equipo,En progreso,26,False,Ambiente
-IN00045,20250426,A005,EQ0009,L006,Baja,Ambiental,Cerrada,0,False,Calidad
-IN00046,20250405,A005,EQ0016,L006,Media,Daño equipo,Cerrada,0,True,Operación
-IN00047,20250217,A003,EQ0025,L006,Baja,Ambiental,Abierta,85,False,Operación
-IN00048,20250129,A001,EQ0026,L003,Baja,Casi accidente,Cerrada,0,False,Operación
-IN00049,20250618,A003,EQ0033,L006,Baja,Daño equipo,Cerrada,0,False,Seguridad
-IN00050,20250330,A005,EQ0021,L006,Media,Ambiental,Abierta,45,False,Operación
-IN00051,20250124,A005,EQ0017,L006,Baja,Daño equipo,En progreso,25,False,Seguridad
-IN00052,20250207,A004,EQ0003,L007,Baja,Casi accidente,Cerrada,0,False,Operación
-IN00053,20250318,A003,EQ0040,L006,Baja,Condición insegura,Cerrada,0,False,Operación
-IN00054,20250401,A002,EQ0015,L002,Alta,Casi accidente,En progreso,7,False,Ambiente
-IN00055,20250206,A005,EQ0039,L006,Baja,Daño equipo,Cerrada,0,False,Seguridad
-IN00056,20250524,A001,EQ0010,L003,Alta,Lesión menor,Cerrada,0,False,Ambiente
-IN00057,20250611,A004,EQ0002,L007,Media,Casi accidente,Cerrada,0,False,Calidad
-IN00058,20250118,A004,EQ0012,L007,Baja,Casi accidente,Cerrada,0,False,Operación
-IN00059,20250415,A005,EQ0039,L006,Baja,Casi accidente,En progreso,8,False,Ambiente
-IN00060,20250613,A001,EQ0028,L003,Alta,Daño equipo,Cerrada,0,True,Seguridad
-IN00061,20250419,A003,EQ0035,L006,Baja,Ambiental,Cerrada,0,False,Calidad
-IN00062,20250104,A001,EQ0007,L003,Media,Condición insegura,Cerrada,0,False,Seguridad
-IN00063,20250320,A001,EQ0020,L003,Baja,Daño equipo,Cerrada,0,False,Seguridad
-IN00064,20250504,A006,EQ0024,L007,Media,Condición insegura,Cerrada,0,False,Ambiente
-IN00065,20250220,A004,EQ0029,L007,Baja,Daño equipo,Cerrada,0,False,Calidad
-IN00066,20250518,A005,EQ0039,L006,Media,Condición insegura,Cerrada,0,False,Seguridad
-IN00067,20250526,A005,EQ0018,L006,Baja,Daño equipo,Cerrada,0,False,Ambiente
-IN00068,20250111,A004,EQ0008,L007,Alta,Casi accidente,Cerrada,0,False,Seguridad
-IN00069,20250317,A003,EQ0031,L006,Baja,Condición insegura,Abierta,14,False,Operación
-IN00070,20250501,A001,EQ0010,L003,Media,Ambiental,Abierta,10,False,Calidad
-IN00071,20250427,A001,EQ0028,L003,Media,Daño equipo,Abierta,62,False,Ambiente
-IN00072,20250602,A001,EQ0028,L003,Alta,Casi accidente,Cerrada,0,False,Operación
-IN00073,20250311,A004,EQ0029,L007,Baja,Casi accidente,Cerrada,0,False,Calidad
-IN00074,20250405,A001,EQ0028,L003,Alta,Daño equipo,Cerrada,0,False,Seguridad
-IN00075,20250429,A005,EQ0021,L006,Baja,Casi accidente,En progreso,29,False,Calidad
-IN00076,20250206,A005,EQ0018,L006,Media,Condición insegura,Cerrada,0,False,Seguridad
-IN00077,20250618,A004,EQ0012,L007,Baja,Daño equipo,Abierta,28,False,Operación
-IN00078,20250623,A006,EQ0014,L007,Baja,Condición insegura,Cerrada,0,False,Seguridad
-IN00079,20250131,A006,EQ0027,L007,Media,Condición insegura,Cerrada,0,False,Seguridad
-IN00080,20250228,A004,EQ0002,L007,Media,Ambiental,En progreso,61,False,Ambiente
-IN00081,20250626,A006,EQ0038,L007,Media,Condición insegura,Cerrada,0,False,Operación
-IN00082,20250312,A002,EQ0015,L002,Baja,Condición insegura,Cerrada,0,False,Operación
-IN00083,20250101,A001,EQ0026,L003,Baja,Casi accidente,En progreso,87,False,Calidad
-IN00084,20250411,A003,EQ0035,L006,Baja,Casi accidente,Cerrada,0,False,Operación
-IN00085,20250620,A005,EQ0039,L006,Media,Daño equipo,Cerrada,0,False,Calidad
-IN00086,20250108,A004,EQ0008,L007,Baja,Ambiental,Cerrada,0,False,Seguridad
-IN00087,20250120,A005,EQ0032,L006,Baja,Ambiental,En progreso,52,False,Calidad
-IN00088,20250610,A005,EQ0039,L006,Media,Lesión menor,Cerrada,0,False,Calidad
-IN00089,20250124,A003,EQ0035,L006,Baja,Casi accidente,Cerrada,0,False,Calidad
-IN00090,20250219,A006,EQ0027,L007,Media,Daño equipo,Cerrada,0,False,Calidad
-IN00091,20250422,A003,EQ0035,L006,Baja,Condición insegura,Cerrada,0,False,Operación
-IN00092,20250130,A005,EQ0018,L006,Baja,Daño equipo,Cerrada,0,False,Ambiente
-IN00093,20250221,A002,EQ0015,L002,Media,Casi accidente,Cerrada,0,False,Operación
-IN00094,20250109,A003,EQ0033,L006,Baja,Condición insegura,Abierta,71,False,Operación
-IN00095,20250421,A003,EQ0033,L006,Baja,Casi accidente,En progreso,81,False,Ambiente
-IN00096,20250422,A004,EQ0029,L007,Alta,Lesión menor,Cerrada,0,False,Ambiente
-IN00097,20250604,A005,EQ0006,L006,Baja,Daño equipo,Cerrada,0,False,Seguridad
-IN00098,20250603,A003,EQ0022,L006,Alta,Casi accidente,Abierta,72,False,Operación
-IN00099,20250629,A004,EQ0005,L007,Media,Lesión menor,En progreso,18,True,Seguridad
-IN00100,20250528,A001,EQ0007,L003,Media,Ambiental,Cerrada,0,False,Ambiente
-IN00101,20250126,A006,EQ0019,L007,Baja,Ambiental,Cerrada,0,False,Calidad
-IN00102,20250402,A005,EQ0006,L006,Alta,Daño equipo,Cerrada,0,False,Ambiente
-IN00103,20250318,A002,EQ0036,L002,Baja,Casi accidente,En progreso,57,False,Ambiente
-IN00104,20250102,A004,EQ0008,L007,Alta,Ambiental,Cerrada,0,False,Calidad
-IN00105,20250314,A006,EQ0019,L007,Media,Casi accidente,Cerrada,0,False,Ambiente
-IN00106,20250324,A003,EQ0035,L006,Alta,Casi accidente,Abierta,19,False,Calidad
-IN00107,20250225,A004,EQ0003,L007,Baja,Condición insegura,Abierta,66,False,Ambiente
-IN00108,20250305,A005,EQ0023,L006,Baja,Ambiental,Cerrada,0,False,Seguridad
-IN00109,20250610,A003,EQ0025,L006,Media,Casi accidente,En progreso,37,False,Ambiente
-IN00110,20250213,A005,EQ0023,L006,Media,Casi accidente,Cerrada,0,False,Ambiente
-IN00111,20250206,A003,EQ0033,L006,Alta,Lesión menor,Cerrada,0,False,Operación
-IN00112,20250501,A004,EQ0029,L007,Media,Casi accidente,En progreso,89,False,Seguridad
-IN00113,20250530,A004,EQ0003,L007,Media,Casi accidente,En progreso,59,False,Operación
-IN00114,20250222,A004,EQ0029,L007,Baja,Daño equipo,Cerrada,0,True,Seguridad
-IN00115,20250517,A002,EQ0030,L002,Media,Condición insegura,Cerrada,0,False,Seguridad
-IN00116,20250505,A004,EQ0013,L007,Baja,Lesión menor,Cerrada,0,False,Calidad
-IN00117,20250626,A004,EQ0012,L007,Baja,Condición insegura,Abierta,8,False,Ambiente
-IN00118,20250312,A002,EQ0015,L002,Baja,Lesión menor,Abierta,65,True,Ambiente
-IN00119,20250331,A005,EQ0017,L006,Baja,Lesión menor,Cerrada,0,False,Calidad
-IN00120,20250222,A003,EQ0031,L006,Baja,Ambiental,Cerrada,0,False,Ambiente
-IN00121,20250111,A003,EQ0001,L006,Media,Condición insegura,Cerrada,0,False,Operación
-IN00122,20250305,A003,EQ0033,L006,Baja,Daño equipo,En progreso,68,False,Seguridad
-IN00123,20250605,A005,EQ0037,L006,Baja,Condición insegura,En progreso,19,False,Ambiente
-IN00124,20250613,A002,EQ0030,L002,Alta,Condición insegura,Abierta,87,False,Operación
-IN00125,20250324,A005,EQ0021,L006,Baja,Condición insegura,Cerrada,0,True,Operación
-IN00126,20250320,A004,EQ0005,L007,Alta,Condición insegura,Cerrada,0,False,Operación
-IN00127,20250415,A005,EQ0016,L006,Media,Lesión menor,Cerrada,0,False,Seguridad
-IN00128,20250319,A005,EQ0018,L006,Baja,Casi accidente,Cerrada,0,False,Operación
-IN00129,20250108,A005,EQ0006,L006,Baja,Casi accidente,Cerrada,0,False,Seguridad
-IN00130,20250301,A004,EQ0012,L007,Media,Daño equipo,Cerrada,0,False,Operación
-IN00131,20250612,A005,EQ0011,L006,Baja,Ambiental,Cerrada,0,False,Ambiente
-IN00132,20250613,A002,EQ0030,L002,Alta,Daño equipo,Cerrada,0,True,Operación
-IN00133,20250527,A005,EQ0021,L006,Baja,Daño equipo,Cerrada,0,False,Ambiente
-IN00134,20250208,A005,EQ0032,L006,Baja,Ambiental,En progreso,45,False,Calidad
-IN00135,20250414,A003,EQ0033,L006,Media,Casi accidente,En progreso,56,False,Operación
-IN00136,20250219,A002,EQ0036,L002,Alta,Casi accidente,Cerrada,0,False,Seguridad
-IN00137,20250517,A001,EQ0007,L003,Baja,Casi accidente,Abierta,31,False,Ambiente
-IN00138,20250608,A005,EQ0034,L006,Media,Ambiental,En progreso,85,False,Calidad
-IN00139,20250210,A002,EQ0036,L002,Media,Casi accidente,Cerrada,0,False,Calidad
-IN00140,20250521,A005,EQ0009,L006,Baja,Condición insegura,En progreso,4,False,Ambiente
-IN00141,20250408,A005,EQ0032,L006,Baja,Daño equipo,Cerrada,0,False,Seguridad
-IN00142,20250615,A005,EQ0006,L006,Media,Ambiental,En progreso,80,False,Seguridad
-IN00143,20250103,A003,EQ0040,L006,Media,Lesión menor,Cerrada,0,False,Ambiente
-IN00144,20250419,A004,EQ0029,L007,Baja,Condición insegura,En progreso,31,True,Seguridad
-IN00145,20250203,A004,EQ0002,L007,Media,Daño equipo,Cerrada,0,False,Ambiente
-IN00146,20250427,A004,EQ0003,L007,Baja,Daño equipo,Cerrada,0,False,Seguridad
-IN00147,20250602,A004,EQ0008,L007,Media,Casi accidente,Cerrada,0,False,Ambiente
-IN00148,20250529,A003,EQ0033,L006,Baja,Casi accidente,Cerrada,0,False,Seguridad
-IN00149,20250305,A005,EQ0037,L006,Media,Lesión menor,Cerrada,0,False,Seguridad
-IN00150,20250405,A001,EQ0028,L003,Baja,Ambiental,Cerrada,0,False,Calidad
-IN00151,20250609,A006,EQ0019,L007,Media,Casi accidente,En progreso,76,False,Operación
-IN00152,20250610,A004,EQ0029,L007,Media,Casi accidente,En progreso,30,False,Calidad
-IN00153,20250422,A003,EQ0001,L006,Baja,Daño equipo,Cerrada,0,False,Ambiente
-IN00154,20250618,A006,EQ0019,L007,Media,Lesión menor,Cerrada,0,False,Seguridad
-IN00155,20250629,A005,EQ0016,L006,Baja,Daño equipo,Abierta,9,False,Operación
-IN00156,20250114,A003,EQ0033,L006,Baja,Casi accidente,Abierta,75,False,Seguridad
-IN00157,20250319,A004,EQ0003,L007,Baja,Casi accidente,Cerrada,0,False,Seguridad
-IN00158,20250425,A004,EQ0005,L007,Baja,Ambiental,Cerrada,0,False,Seguridad
-IN00159,20250203,A004,EQ0013,L007,Media,Daño equipo,Cerrada,0,False,Operación
-IN00160,20250505,A004,EQ0003,L007,Baja,Condición insegura,Cerrada,0,False,Calidad
-IN00161,20250418,A001,EQ0026,L003,Alta,Lesión menor,Cerrada,0,False,Ambiente
-IN00162,20250605,A004,EQ0012,L007,Baja,Daño equipo,Cerrada,0,False,Calidad
-IN00163,20250427,A005,EQ0034,L006,Baja,Daño equipo,Cerrada,0,False,Calidad
-IN00164,20250615,A004,EQ0029,L007,Media,Ambiental,En progreso,46,True,Operación
-IN00165,20250116,A006,EQ0027,L007,Alta,Daño equipo,Cerrada,0,True,Calidad
-IN00166,20250530,A004,EQ0005,L007,Baja,Condición insegura,Abierta,37,False,Ambiente
-IN00167,20250103,A004,EQ0005,L007,Baja,Casi accidente,En progreso,51,False,Calidad
-IN00168,20250429,A002,EQ0015,L002,Baja,Lesión menor,Abierta,16,False,Seguridad
-IN00169,20250430,A005,EQ0017,L006,Baja,Condición insegura,Cerrada,0,False,Calidad
-IN00170,20250422,A004,EQ0012,L007,Baja,Lesión menor,Cerrada,0,False,Calidad
-IN00171,20250630,A005,EQ0018,L006,Baja,Condición insegura,Cerrada,0,False,Operación
-IN00172,20250423,A006,EQ0019,L007,Media,Ambiental,Cerrada,0,False,Operación
-IN00173,20250623,A002,EQ0030,L002,Baja,Ambiental,Cerrada,0,False,Operación
-IN00174,20250310,A004,EQ0012,L007,Baja,Ambiental,Cerrada,0,False,Seguridad
-IN00175,20250402,A005,EQ0017,L006,Baja,Lesión menor,En progreso,79,False,Operación
-IN00176,20250107,A001,EQ0028,L003,Baja,Casi accidente,Abierta,14,False,Calidad
-IN00177,20250222,A004,EQ0002,L007,Baja,Condición insegura,Cerrada,0,False,Operación
-IN00178,20250130,A004,EQ0008,L007,Baja,Casi accidente,Cerrada,0,False,Calidad
-IN00179,20250602,A005,EQ0039,L006,Baja,Ambiental,Cerrada,0,False,Calidad
-IN00180,20250521,A006,EQ0019,L007,Alta,Condición insegura,En progreso,72,False,Calidad
-IN00181,20250103,A004,EQ0029,L007,Media,Lesión menor,En progreso,32,False,Operación
-IN00182,20250121,A006,EQ0038,L007,Baja,Lesión menor,Cerrada,0,False,Ambiente
-IN00183,20250403,A003,EQ0035,L006,Media,Lesión menor,Abierta,34,True,Ambiente
-IN00184,20250624,A005,EQ0018,L006,Media,Condición insegura,Cerrada,0,False,Calidad
-IN00185,20250125,A005,EQ0018,L006,Baja,Daño equipo,Cerrada,0,False,Calidad
-IN00186,20250201,A006,EQ0038,L007,Baja,Daño equipo,Cerrada,0,False,Calidad
-IN00187,20250205,A004,EQ0029,L007,Baja,Daño equipo,Cerrada,0,False,Operación
-IN00188,20250515,A004,EQ0004,L007,Baja,Daño equipo,Cerrada,0,False,Seguridad
-IN00189,20250409,A005,EQ0011,L006,Baja,Daño equipo,Cerrada,0,False,Ambiente
-IN00190,20250315,A005,EQ0037,L006,Baja,Lesión menor,Abierta,81,False,Seguridad
-IN00191,20250125,A005,EQ0023,L006,Media,Condición insegura,En progreso,8,False,Seguridad
-IN00192,20250305,A003,EQ0031,L006,Alta,Ambiental,En progreso,83,False,Operación
-IN00193,20250305,A003,EQ0025,L006,Baja,Casi accidente,En progreso,60,False,Seguridad
-IN00194,20250618,A003,EQ0025,L006,Media,Casi accidente,Cerrada,0,False,Ambiente
-IN00195,20250624,A004,EQ0012,L007,Baja,Casi accidente,Cerrada,0,False,Ambiente
-IN00196,20250529,A002,EQ0030,L002,Media,Lesión menor,Cerrada,0,False,Operación
-IN00197,20250602,A005,EQ0011,L006,Baja,Ambiental,Abierta,38,False,Operación
-IN00198,20250623,A001,EQ0010,L003,Media,Lesión menor,Cerrada,0,False,Ambiente
-IN00199,20250318,A001,EQ0026,L003,Baja,Daño equipo,Cerrada,0,False,Calidad
-IN00200,20250119,A002,EQ0015,L002,Baja,Ambiental,Abierta,75,False,Ambiente
-IN00201,20250517,A005,EQ0018,L006,Baja,Daño equipo,Cerrada,0,False,Seguridad
-IN00202,20250501,A005,EQ0016,L006,Media,Lesión menor,Abierta,55,False,Calidad
-IN00203,20250324,A001,EQ0010,L003,Alta,Ambiental,Cerrada,0,False,Seguridad
-IN00204,20250603,A006,EQ0019,L007,Baja,Lesión menor,Cerrada,0,False,Ambiente
-IN00205,20250522,A003,EQ0022,L006,Baja,Ambiental,En progreso,40,False,Seguridad
-IN00206,20250326,A006,EQ0027,L007,Baja,Lesión menor,Abierta,23,False,Seguridad
-IN00207,20250123,A005,EQ0037,L006,Baja,Lesión menor,Cerrada,0,False,Operación
-IN00208,20250426,A005,EQ0009,L006,Baja,Casi accidente,Cerrada,0,False,Calidad
-IN00209,20250116,A002,EQ0036,L002,Media,Ambiental,En progreso,9,False,Ambiente
-IN00210,20250528,A005,EQ0011,L006,Baja,Condición insegura,Cerrada,0,False,Seguridad
-IN00211,20250208,A003,EQ0035,L006,Baja,Daño equipo,Abierta,24,True,Calidad
-IN00212,20250225,A005,EQ0016,L006,Baja,Ambiental,Abierta,63,False,Ambiente
-IN00213,20250225,A005,EQ0037,L006,Media,Casi accidente,Abierta,88,False,Ambiente
-IN00214,20250410,A005,EQ0021,L006,Baja,Daño equipo,Abierta,38,False,Ambiente
-IN00215,20250225,A006,EQ0019,L007,Baja,Condición insegura,Cerrada,0,False,Ambiente
-IN00216,20250626,A005,EQ0023,L006,Alta,Daño equipo,Cerrada,0,False,Operación
-IN00217,20250217,A002,EQ0036,L002,Baja,Ambiental,Cerrada,0,False,Seguridad
-IN00218,20250602,A001,EQ0026,L003,Baja,Casi accidente,Cerrada,0,False,Operación
-IN00219,20250610,A005,EQ0037,L006,Baja,Condición insegura,Cerrada,0,False,Seguridad
-IN00220,20250516,A002,EQ0036,L002,Alta,Condición insegura,Abierta,19,False,Calidad
-IN00221,20250614,A004,EQ0008,L007,Baja,Condición insegura,Cerrada,0,False,Ambiente
-IN00222,20250603,A003,EQ0035,L006,Media,Lesión menor,Abierta,75,False,Operación
-IN00223,20250601,A003,EQ0022,L006,Media,Lesión menor,Abierta,28,False,Calidad
-IN00224,20250401,A004,EQ0003,L007,Media,Condición insegura,Abierta,44,False,Ambiente
-IN00225,20250607,A001,EQ0007,L003,Baja,Ambiental,Cerrada,0,False,Operación
-IN00226,20250223,A004,EQ0029,L007,Media,Ambiental,Cerrada,0,False,Seguridad
-IN00227,20250428,A002,EQ0030,L002,Baja,Condición insegura,En progreso,82,False,Seguridad
-IN00228,20250301,A001,EQ0010,L003,Baja,Ambiental,Cerrada,0,True,Operación
-IN00229,20250607,A006,EQ0024,L007,Baja,Condición insegura,Cerrada,0,True,Ambiente
-IN00230,20250503,A005,EQ0009,L006,Media,Condición insegura,En progreso,8,False,Ambiente
-IN00231,20250124,A005,EQ0032,L006,Media,Daño equipo,Cerrada,0,False,Operación
-IN00232,20250626,A005,EQ0037,L006,Baja,Daño equipo,Abierta,89,False,Operación
-IN00233,20250116,A005,EQ0018,L006,Baja,Ambiental,Cerrada,0,False,Seguridad
-IN00234,20250118,A005,EQ0009,L006,Baja,Ambiental,Cerrada,0,True,Calidad
-IN00235,20250207,A005,EQ0039,L006,Media,Lesión menor,Cerrada,0,False,Seguridad
-IN00236,20250624,A005,EQ0011,L006,Baja,Ambiental,Cerrada,0,False,Ambiente
-IN00237,20250606,A005,EQ0006,L006,Baja,Casi accidente,Cerrada,0,False,Seguridad
-IN00238,20250401,A003,EQ0033,L006,Baja,Lesión menor,Cerrada,0,False,Operación
-IN00239,20250218,A003,EQ0033,L006,Alta,Casi accidente,En progreso,67,False,Ambiente
-IN00240,20250330,A001,EQ0020,L003,Baja,Ambiental,Cerrada,0,False,Operación
-IN00241,20250302,A005,EQ0023,L006,Media,Ambiental,En progreso,73,False,Ambiente
-IN00242,20250425,A002,EQ0030,L002,Baja,Ambiental,Cerrada,0,False,Operación
-IN00243,20250115,A004,EQ0012,L007,Baja,Ambiental,Cerrada,0,False,Calidad
-IN00244,20250115,A003,EQ0035,L006,Baja,Ambiental,Abierta,49,False,Ambiente
-IN00245,20250515,A001,EQ0010,L003,Baja,Condición insegura,Abierta,87,False,Operación
-IN00246,20250520,A004,EQ0029,L007,Baja,Daño equipo,Cerrada,0,False,Calidad
-IN00247,20250515,A004,EQ0029,L007,Media,Lesión menor,En progreso,70,False,Calidad
-IN00248,20250129,A005,EQ0037,L006,Media,Lesión menor,Cerrada,0,False,Operación
-IN00249,20250318,A004,EQ0029,L007,Media,Lesión menor,Cerrada,0,False,Calidad
-IN00250,20250227,A004,EQ0008,L007,Media,Lesión menor,En progreso,74,True,Calidad
-IN00251,20250107,A005,EQ0037,L006,Media,Ambiental,Cerrada,0,False,Calidad
-IN00252,20250428,A005,EQ0034,L006,Media,Condición insegura,Cerrada,0,False,Seguridad
-IN00253,20250510,A005,EQ0039,L006,Baja,Lesión menor,Cerrada,0,False,Ambiente
-IN00254,20250523,A005,EQ0011,L006,Baja,Daño equipo,Cerrada,0,False,Calidad
-IN00255,20250430,A002,EQ0036,L002,Media,Ambiental,Cerrada,0,False,Seguridad
-IN00256,20250419,A005,EQ0032,L006,Media,Lesión menor,Cerrada,0,False,Operación
-IN00257,20250406,A005,EQ0034,L006,Baja,Lesión menor,Cerrada,0,False,Seguridad
-IN00258,20250602,A005,EQ0037,L006,Media,Casi accidente,Cerrada,0,False,Ambiente
-IN00259,20250212,A005,EQ0021,L006,Media,Daño equipo,Cerrada,0,False,Operación
-IN00260,20250216,A005,EQ0017,L006,Baja,Casi accidente,Abierta,56,False,Operación
-IN00261,20250523,A006,EQ0038,L007,Media,Condición insegura,Abierta,20,False,Operación
-IN00262,20250207,A001,EQ0028,L003,Media,Lesión menor,Abierta,17,False,Seguridad
-IN00263,20250212,A006,EQ0038,L007,Baja,Lesión menor,Cerrada,0,False,Seguridad
-IN00264,20250208,A005,EQ0023,L006,Baja,Ambiental,Abierta,20,False,Ambiente
-IN00265,20250316,A006,EQ0038,L007,Baja,Daño equipo,Cerrada,0,False,Ambiente
-IN00266,20250211,A005,EQ0032,L006,Baja,Ambiental,Cerrada,0,False,Seguridad
-IN00267,20250408,A003,EQ0035,L006,Baja,Casi accidente,En progreso,31,False,Calidad
-IN00268,20250611,A004,EQ0029,L007,Baja,Daño equipo,Cerrada,0,False,Seguridad
-IN00269,20250305,A005,EQ0017,L006,Alta,Ambiental,Cerrada,0,False,Calidad
-IN00270,20250205,A002,EQ0030,L002,Alta,Ambiental,En progreso,27,False,Calidad
-IN00271,20250508,A004,EQ0013,L007,Media,Ambiental,Cerrada,0,False,Calidad
-IN00272,20250410,A005,EQ0009,L006,Baja,Daño equipo,Cerrada,0,False,Ambiente
-IN00273,20250329,A003,EQ0022,L006,Baja,Ambiental,Abierta,88,False,Seguridad
-IN00274,20250520,A003,EQ0040,L006,Alta,Condición insegura,Cerrada,0,False,Ambiente
-IN00275,20250414,A004,EQ0008,L007,Baja,Casi accidente,En progreso,36,False,Ambiente
-IN00276,20250314,A005,EQ0017,L006,Media,Condición insegura,En progreso,29,False,Operación
-IN00277,20250409,A005,EQ0017,L006,Baja,Daño equipo,Cerrada,0,False,Calidad
-IN00278,20250129,A003,EQ0035,L006,Baja,Condición insegura,Cerrada,0,False,Operación
-IN00279,20250329,A006,EQ0024,L007,Media,Daño equipo,Cerrada,0,False,Calidad
-IN00280,20250217,A006,EQ0038,L007,Alta,Daño equipo,Cerrada,0,False,Calidad
-IN00281,20250302,A003,EQ0033,L006,Baja,Casi accidente,Cerrada,0,False,Calidad
-IN00282,20250414,A001,EQ0026,L003,Media,Condición insegura,Cerrada,0,False,Ambiente
-IN00283,20250301,A001,EQ0026,L003,Baja,Daño equipo,En progreso,42,False,Seguridad
-IN00284,20250405,A002,EQ0015,L002,Media,Daño equipo,Cerrada,0,False,Ambiente
-IN00285,20250210,A004,EQ0003,L007,Media,Casi accidente,Abierta,71,False,Operación
-IN00286,20250307,A002,EQ0036,L002,Baja,Daño equipo,Cerrada,0,False,Ambiente
-IN00287,20250524,A004,EQ0013,L007,Baja,Lesión menor,Cerrada,0,False,Ambiente
-IN00288,20250618,A001,EQ0007,L003,Alta,Casi accidente,Abierta,28,False,Ambiente
-IN00289,20250607,A005,EQ0032,L006,Baja,Lesión menor,Cerrada,0,False,Seguridad
-IN00290,20250317,A004,EQ0029,L007,Baja,Lesión menor,Cerrada,0,False,Ambiente
-IN00291,20250417,A001,EQ0020,L003,Media,Ambiental,Cerrada,0,False,Seguridad
-IN00292,20250610,A002,EQ0036,L002,Baja,Lesión menor,Cerrada,0,False,Operación
-IN00293,20250519,A005,EQ0023,L006,Alta,Condición insegura,Cerrada,0,False,Seguridad
-IN00294,20250104,A005,EQ0016,L006,Baja,Lesión menor,En progreso,70,False,Ambiente
-IN00295,20250202,A003,EQ0025,L006,Baja,Condición insegura,En progreso,34,False,Ambiente
-IN00296,20250603,A006,EQ0027,L007,Media,Condición insegura,Cerrada,0,False,Calidad
-IN00297,20250409,A001,EQ0028,L003,Media,Casi accidente,Cerrada,0,False,Seguridad
-IN00298,20250619,A005,EQ0034,L006,Baja,Lesión menor,Cerrada,0,False,Seguridad
-IN00299,20250105,A006,EQ0038,L007,Media,Daño equipo,Cerrada,0,False,Operación
-IN00300,20250424,A004,EQ0005,L007,Baja,Ambiental,Abierta,86,False,Calidad
-IN00301,20250411,A002,EQ0036,L002,Media,Casi accidente,Abierta,44,False,Operación
-IN00302,20250615,A003,EQ0022,L006,Baja,Casi accidente,En progreso,73,True,Calidad
-IN00303,20250510,A004,EQ0013,L007,Alta,Condición insegura,Abierta,18,False,Calidad
-IN00304,20250201,A004,EQ0008,L007,Baja,Ambiental,En progreso,72,False,Ambiente
-IN00305,20250214,A003,EQ0031,L006,Media,Casi accidente,Abierta,21,False,Operación
-IN00306,20250520,A005,EQ0017,L006,Baja,Ambiental,Abierta,13,False,Calidad
-IN00307,20250417,A004,EQ0002,L007,Media,Lesión menor,Abierta,72,False,Seguridad
-IN00308,20250428,A005,EQ0039,L006,Baja,Condición insegura,Cerrada,0,False,Seguridad
-IN00309,20250601,A004,EQ0004,L007,Baja,Ambiental,En progreso,78,False,Seguridad
-IN00310,20250420,A005,EQ0023,L006,Baja,Ambiental,Cerrada,0,False,Seguridad
-IN00311,20250324,A006,EQ0027,L007,Media,Daño equipo,Abierta,50,False,Ambiente
-IN00312,20250508,A005,EQ0018,L006,Media,Ambiental,En progreso,22,False,Operación
-IN00313,20250316,A006,EQ0027,L007,Baja,Casi accidente,Cerrada,0,False,Seguridad
-IN00314,20250413,A001,EQ0020,L003,Media,Casi accidente,Cerrada,0,False,Operación
-IN00315,20250504,A005,EQ0037,L006,Alta,Daño equipo,En progreso,74,False,Seguridad
-IN00316,20250611,A005,EQ0018,L006,Alta,Casi accidente,En progreso,16,False,Ambiente
-IN00317,20250422,A005,EQ0018,L006,Media,Ambiental,Cerrada,0,False,Operación
-IN00318,20250513,A005,EQ0039,L006,Baja,Casi accidente,Cerrada,0,False,Ambiente
-IN00319,20250613,A001,EQ0026,L003,Baja,Daño equipo,Cerrada,0,False,Ambiente
-IN00320,20250408,A004,EQ0002,L007,Baja,Condición insegura,Cerrada,0,False,Operación
-IN00321,20250404,A002,EQ0036,L002,Baja,Condición insegura,Abierta,58,False,Seguridad
-IN00322,20250119,A004,EQ0002,L007,Alta,Lesión menor,Abierta,78,False,Seguridad
-IN00323,20250210,A005,EQ0034,L006,Media,Lesión menor,Cerrada,0,False,Calidad
-IN00324,20250428,A004,EQ0002,L007,Alta,Daño equipo,Cerrada,0,True,Operación
-IN00325,20250112,A003,EQ0035,L006,Baja,Daño equipo,Cerrada,0,False,Operación
-IN00326,20250205,A004,EQ0002,L007,Baja,Daño equipo,Cerrada,0,False,Ambiente
-IN00327,20250228,A004,EQ0013,L007,Baja,Lesión menor,En progreso,39,False,Seguridad
-IN00328,20250209,A006,EQ0027,L007,Baja,Casi accidente,Cerrada,0,False,Ambiente
-IN00329,20250421,A006,EQ0014,L007,Media,Ambiental,Abierta,77,False,Calidad
-IN00330,20250223,A004,EQ0005,L007,Media,Casi accidente,Abierta,36,False,Ambiente
-IN00331,20250303,A005,EQ0017,L006,Media,Ambiental,Cerrada,0,False,Ambiente
-IN00332,20250313,A006,EQ0038,L007,Baja,Ambiental,Cerrada,0,True,Operación
-IN00333,20250210,A006,EQ0014,L007,Baja,Daño equipo,Cerrada,0,False,Ambiente
-IN00334,20250108,A004,EQ0012,L007,Baja,Lesión menor,Cerrada,0,False,Seguridad
-IN00335,20250617,A004,EQ0002,L007,Alta,Casi accidente,En progreso,63,True,Operación
-IN00336,20250630,A005,EQ0039,L006,Media,Lesión menor,Cerrada,0,False,Calidad
-IN00337,20250506,A005,EQ0023,L006,Media,Ambiental,Abierta,6,False,Operación
-IN00338,20250621,A003,EQ0033,L006,Media,Lesión menor,Cerrada,0,False,Seguridad
-IN00339,20250518,A003,EQ0040,L006,Baja,Ambiental,Cerrada,0,False,Seguridad
-IN00340,20250417,A005,EQ0017,L006,Media,Ambiental,Cerrada,0,False,Ambiente
-IN00341,20250525,A003,EQ0040,L006,Baja,Ambiental,Abierta,59,False,Seguridad
-IN00342,20250505,A001,EQ0028,L003,Baja,Condición insegura,Cerrada,0,False,Operación
-IN00343,20250521,A004,EQ0013,L007,Media,Daño equipo,Cerrada,0,False,Seguridad
-IN00344,20250327,A005,EQ0011,L006,Media,Ambiental,Cerrada,0,False,Ambiente
-IN00345,20250322,A005,EQ0009,L006,Media,Lesión menor,Cerrada,0,False,Ambiente
-IN00346,20250524,A002,EQ0015,L002,Baja,Casi accidente,Cerrada,0,False,Calidad
-IN00347,20250106,A004,EQ0004,L007,Media,Casi accidente,Cerrada,0,False,Seguridad
-IN00348,20250323,A001,EQ0010,L003,Alta,Condición insegura,En progreso,79,False,Seguridad
-IN00349,20250109,A004,EQ0008,L007,Baja,Condición insegura,Cerrada,0,False,Calidad
-IN00350,20250119,A004,EQ0008,L007,Media,Lesión menor,En progreso,47,False,Calidad
-IN00351,20250129,A003,EQ0025,L006,Alta,Casi accidente,En progreso,74,False,Calidad
-IN00352,20250529,A006,EQ0014,L007,Alta,Daño equipo,En progreso,10,False,Seguridad
-IN00353,20250611,A001,EQ0010,L003,Baja,Lesión menor,Cerrada,0,False,Ambiente
-IN00354,20250210,A001,EQ0028,L003,Baja,Lesión menor,En progreso,7,False,Ambiente
-IN00355,20250614,A001,EQ0007,L003,Baja,Lesión menor,Cerrada,0,False,Operación
-IN00356,20250428,A005,EQ0034,L006,Media,Ambiental,En progreso,76,False,Ambiente
-IN00357,20250404,A006,EQ0014,L007,Media,Lesión menor,Abierta,89,False,Seguridad
-IN00358,20250122,A005,EQ0018,L006,Baja,Casi accidente,Cerrada,0,False,Seguridad
-IN00359,20250421,A004,EQ0002,L007,Baja,Ambiental,Cerrada,0,False,Calidad
-IN00360,20250126,A006,EQ0019,L007,Baja,Ambiental,Abierta,56,False,Seguridad
-IN00361,20250508,A005,EQ0023,L006,Baja,Casi accidente,Cerrada,0,False,Operación
-IN00362,20250128,A004,EQ0002,L007,Baja,Condición insegura,Cerrada,0,False,Ambiente
-IN00363,20250223,A002,EQ0015,L002,Baja,Casi accidente,En progreso,83,False,Seguridad
-IN00364,20250603,A003,EQ0033,L006,Baja,Lesión menor,En progreso,41,False,Operación
-IN00365,20250629,A004,EQ0002,L007,Baja,Daño equipo,Abierta,15,False,Operación
-IN00366,20250622,A002,EQ0036,L002,Baja,Condición insegura,En progreso,6,False,Calidad
-IN00367,20250225,A006,EQ0027,L007,Alta,Casi accidente,Abierta,28,False,Seguridad
-IN00368,20250210,A004,EQ0004,L007,Baja,Ambiental,En progreso,36,False,Ambiente
-IN00369,20250108,A004,EQ0005,L007,Baja,Daño equipo,En progreso,28,False,Calidad
-IN00370,20250119,A001,EQ0010,L003,Baja,Daño equipo,En progreso,25,False,Seguridad
-IN00371,20250307,A006,EQ0027,L007,Alta,Ambiental,Cerrada,0,True,Operación
-IN00372,20250503,A003,EQ0033,L006,Baja,Casi accidente,Abierta,27,True,Calidad
-IN00373,20250411,A004,EQ0012,L007,Baja,Lesión menor,Cerrada,0,False,Operación
-IN00374,20250511,A005,EQ0018,L006,Alta,Condición insegura,Cerrada,0,False,Calidad
-IN00375,20250320,A003,EQ0022,L006,Alta,Casi accidente,Cerrada,0,False,Ambiente
-IN00376,20250511,A006,EQ0024,L007,Media,Daño equipo,En progreso,8,False,Operación
-IN00377,20250620,A001,EQ0010,L003,Media,Condición insegura,Cerrada,0,False,Ambiente
-IN00378,20250302,A004,EQ0013,L007,Baja,Ambiental,Cerrada,0,False,Seguridad
-IN00379,20250110,A004,EQ0008,L007,Alta,Daño equipo,Cerrada,0,False,Calidad
-IN00380,20250529,A006,EQ0038,L007,Baja,Ambiental,Cerrada,0,False,Operación
-IN00381,20250618,A004,EQ0008,L007,Baja,Casi accidente,Cerrada,0,False,Seguridad
-IN00382,20250605,A002,EQ0030,L002,Media,Ambiental,Cerrada,0,False,Seguridad
-IN00383,20250507,A003,EQ0035,L006,Baja,Daño equipo,Abierta,75,False,Calidad
-IN00384,20250115,A005,EQ0009,L006,Baja,Lesión menor,En progreso,48,False,Operación
-IN00385,20250406,A006,EQ0024,L007,Media,Lesión menor,Cerrada,0,False,Operación
-IN00386,20250118,A005,EQ0018,L006,Media,Daño equipo,En progreso,51,True,Operación
-IN00387,20250131,A005,EQ0006,L006,Media,Lesión menor,En progreso,89,False,Calidad
-IN00388,20250606,A002,EQ0030,L002,Media,Condición insegura,Cerrada,0,False,Calidad
-IN00389,20250110,A004,EQ0004,L007,Baja,Casi accidente,En progreso,87,False,Operación
-IN00390,20250627,A004,EQ0004,L007,Baja,Condición insegura,Cerrada,0,False,Calidad
-IN00391,20250228,A005,EQ0039,L006,Baja,Ambiental,En progreso,3,False,Calidad
-IN00392,20250423,A005,EQ0017,L006,Alta,Casi accidente,Abierta,5,False,Operación
-IN00393,20250421,A004,EQ0005,L007,Media,Ambiental,En progreso,41,False,Seguridad
-IN00394,20250416,A005,EQ0018,L006,Baja,Condición insegura,En progreso,49,False,Operación
-IN00395,20250127,A005,EQ0018,L006,Baja,Lesión menor,Cerrada,0,False,Calidad
-IN00396,20250406,A003,EQ0001,L006,Baja,Lesión menor,Abierta,9,False,Operación
-IN00397,20250313,A003,EQ0001,L006,Baja,Casi accidente,En progreso,19,False,Ambiente
-IN00398,20250110,A006,EQ0024,L007,Media,Condición insegura,Cerrada,0,False,Calidad
-IN00399,20250311,A005,EQ0039,L006,Media,Daño equipo,Cerrada,0,False,Seguridad
-IN00400,20250305,A003,EQ0022,L006,Baja,Condición insegura,Abierta,63,False,Calidad
-IN00401,20250331,A003,EQ0035,L006,Baja,Lesión menor,En progreso,8,False,Seguridad
-IN00402,20250130,A004,EQ0003,L007,Baja,Condición insegura,En progreso,84,False,Ambiente
-IN00403,20250621,A005,EQ0011,L006,Baja,Ambiental,Cerrada,0,True,Operación
-IN00404,20250521,A005,EQ0032,L006,Baja,Lesión menor,Cerrada,0,False,Operación
-IN00405,20250322,A002,EQ0015,L002,Baja,Casi accidente,Cerrada,0,False,Calidad
-IN00406,20250430,A004,EQ0012,L007,Media,Lesión menor,En progreso,22,True,Operación
-IN00407,20250324,A003,EQ0033,L006,Alta,Ambiental,Cerrada,0,False,Operación
-IN00408,20250510,A003,EQ0031,L006,Baja,Condición insegura,Abierta,66,False,Operación
-IN00409,20250214,A004,EQ0012,L007,Baja,Ambiental,En progreso,39,False,Seguridad
-IN00410,20250222,A006,EQ0019,L007,Alta,Casi accidente,Cerrada,0,False,Ambiente
-IN00411,20250408,A006,EQ0038,L007,Media,Casi accidente,Cerrada,0,False,Operación
-IN00412,20250415,A006,EQ0014,L007,Media,Casi accidente,Cerrada,0,False,Seguridad
-IN00413,20250514,A005,EQ0039,L006,Media,Condición insegura,Cerrada,0,False,Operación
-IN00414,20250223,A003,EQ0040,L006,Baja,Daño equipo,En progreso,11,False,Seguridad
-IN00415,20250308,A001,EQ0026,L003,Media,Ambiental,Cerrada,0,False,Ambiente
-IN00416,20250323,A001,EQ0010,L003,Media,Casi accidente,Cerrada,0,False,Operación
-IN00417,20250101,A005,EQ0039,L006,Alta,Daño equipo,En progreso,15,False,Calidad
-IN00418,20250317,A003,EQ0025,L006,Media,Ambiental,En progreso,52,False,Ambiente
-IN00419,20250130,A005,EQ0016,L006,Baja,Condición insegura,Cerrada,0,False,Ambiente
-IN00420,20250609,A005,EQ0018,L006,Baja,Condición insegura,En progreso,32,False,Calidad
-IN00421,20250422,A006,EQ0024,L007,Media,Casi accidente,Cerrada,0,False,Ambiente
-IN00422,20250610,A006,EQ0024,L007,Baja,Condición insegura,Cerrada,0,False,Calidad
-IN00423,20250523,A002,EQ0036,L002,Baja,Ambiental,Cerrada,0,False,Seguridad
-IN00424,20250504,A004,EQ0002,L007,Media,Daño equipo,En progreso,37,False,Seguridad
-IN00425,20250528,A003,EQ0031,L006,Media,Daño equipo,Abierta,52,False,Seguridad
-IN00426,20250117,A003,EQ0035,L006,Baja,Casi accidente,Abierta,79,False,Ambiente
-IN00427,20250614,A003,EQ0035,L006,Media,Condición insegura,Cerrada,0,False,Seguridad
-IN00428,20250315,A005,EQ0037,L006,Media,Casi accidente,Abierta,66,False,Seguridad
-IN00429,20250406,A006,EQ0014,L007,Baja,Condición insegura,Cerrada,0,False,Operación
-IN00430,20250426,A002,EQ0015,L002,Media,Condición insegura,Cerrada,0,False,Calidad
-IN00431,20250410,A005,EQ0037,L006,Baja,Daño equipo,En progreso,3,False,Seguridad
-IN00432,20250630,A003,EQ0033,L006,Media,Daño equipo,Cerrada,0,False,Ambiente
-IN00433,20250619,A004,EQ0004,L007,Baja,Casi accidente,En progreso,21,False,Seguridad
-IN00434,20250217,A005,EQ0016,L006,Baja,Lesión menor,Cerrada,0,False,Ambiente
-IN00435,20250204,A004,EQ0013,L007,Alta,Casi accidente,Cerrada,0,False,Seguridad
-IN00436,20250622,A001,EQ0010,L003,Baja,Daño equipo,Cerrada,0,False,Calidad
-IN00437,20250420,A004,EQ0029,L007,Baja,Daño equipo,Cerrada,0,False,Calidad
-IN00438,20250114,A003,EQ0040,L006,Media,Lesión menor,Cerrada,0,False,Operación
-IN00439,20250511,A005,EQ0032,L006,Media,Casi accidente,Cerrada,0,True,Ambiente
-IN00440,20250409,A006,EQ0038,L007,Media,Casi accidente,Abierta,57,False,Ambiente
-IN00441,20250125,A002,EQ0015,L002,Alta,Lesión menor,Abierta,42,False,Operación
-IN00442,20250108,A003,EQ0035,L006,Media,Daño equipo,Cerrada,0,False,Calidad
-IN00443,20250127,A004,EQ0005,L007,Baja,Condición insegura,En progreso,69,False,Operación
-IN00444,20250610,A001,EQ0028,L003,Baja,Daño equipo,Cerrada,0,False,Calidad
-IN00445,20250526,A001,EQ0010,L003,Media,Daño equipo,Cerrada,0,False,Operación
-IN00446,20250129,A002,EQ0030,L002,Media,Condición insegura,Cerrada,0,False,Operación
-IN00447,20250323,A003,EQ0035,L006,Alta,Lesión menor,Abierta,78,False,Operación
-IN00448,20250330,A006,EQ0027,L007,Baja,Ambiental,Cerrada,0,True,Seguridad
-IN00449,20250427,A006,EQ0027,L007,Baja,Lesión menor,Abierta,53,False,Ambiente
-IN00450,20250116,A006,EQ0027,L007,Alta,Lesión menor,Cerrada,0,False,Calidad
-IN00451,20250131,A004,EQ0005,L007,Baja,Condición insegura,Abierta,77,False,Operación
-IN00452,20250320,A004,EQ0029,L007,Media,Ambiental,Abierta,76,False,Ambiente
-IN00453,20250122,A004,EQ0005,L007,Alta,Lesión menor,Abierta,22,False,Calidad
-IN00454,20250420,A003,EQ0035,L006,Baja,Casi accidente,Abierta,43,False,Ambiente
-IN00455,20250125,A004,EQ0029,L007,Alta,Casi accidente,En progreso,76,False,Ambiente
-IN00456,20250616,A001,EQ0028,L003,Media,Daño equipo,Cerrada,0,False,Calidad
-IN00457,20250205,A002,EQ0015,L002,Media,Daño equipo,Cerrada,0,False,Ambiente
-IN00458,20250209,A005,EQ0009,L006,Baja,Daño equipo,En progreso,30,True,Seguridad
-IN00459,20250425,A004,EQ0003,L007,Baja,Casi accidente,Abierta,40,True,Ambiente
-IN00460,20250102,A004,EQ0004,L007,Media,Condición insegura,Cerrada,0,False,Ambiente
-IN00461,20250524,A005,EQ0017,L006,Baja,Ambiental,En progreso,89,False,Ambiente
-IN00462,20250327,A003,EQ0025,L006,Baja,Ambiental,Abierta,84,False,Operación
-IN00463,20250301,A006,EQ0019,L007,Alta,Ambiental,Cerrada,0,False,Ambiente
-IN00464,20250413,A004,EQ0002,L007,Baja,Ambiental,En progreso,11,False,Operación
-IN00465,20250208,A004,EQ0005,L007,Baja,Ambiental,Cerrada,0,False,Operación
-IN00466,20250606,A004,EQ0012,L007,Baja,Daño equipo,Cerrada,0,False,Calidad
-IN00467,20250324,A002,EQ0015,L002,Media,Condición insegura,Cerrada,0,False,Operación
-IN00468,20250520,A002,EQ0036,L002,Baja,Condición insegura,Cerrada,0,False,Seguridad
-IN00469,20250111,A005,EQ0032,L006,Media,Daño equipo,Cerrada,0,False,Operación
-IN00470,20250407,A005,EQ0009,L006,Media,Ambiental,Cerrada,0,False,Ambiente
-IN00471,20250601,A005,EQ0017,L006,Baja,Lesión menor,En progreso,64,False,Operación
-IN00472,20250213,A006,EQ0027,L007,Baja,Lesión menor,En progreso,17,False,Ambiente
-IN00473,20250527,A006,EQ0014,L007,Media,Daño equipo,En progreso,37,False,Operación
-IN00474,20250408,A002,EQ0015,L002,Media,Lesión menor,Cerrada,0,False,Operación
-IN00475,20250509,A005,EQ0021,L006,Alta,Casi accidente,Cerrada,0,False,Operación
-IN00476,20250614,A005,EQ0006,L006,Media,Condición insegura,Cerrada,0,True,Operación
-IN00477,20250331,A003,EQ0040,L006,Baja,Condición insegura,Abierta,55,False,Operación
-IN00478,20250410,A006,EQ0027,L007,Baja,Daño equipo,En progreso,29,False,Seguridad
-IN00479,20250401,A003,EQ0033,L006,Media,Lesión menor,Abierta,35,False,Ambiente
-IN00480,20250614,A004,EQ0003,L007,Baja,Casi accidente,Cerrada,0,False,Seguridad
-IN00481,20250415,A001,EQ0026,L003,Media,Lesión menor,En progreso,45,False,Ambiente
-IN00482,20250401,A003,EQ0001,L006,Media,Ambiental,Abierta,54,False,Ambiente
-IN00483,20250225,A006,EQ0027,L007,Baja,Condición insegura,En progreso,35,False,Seguridad
-IN00484,20250103,A002,EQ0036,L002,Baja,Condición insegura,Cerrada,0,False,Seguridad
-IN00485,20250626,A005,EQ0006,L006,Media,Casi accidente,Cerrada,0,False,Operación
-IN00486,20250618,A005,EQ0037,L006,Media,Ambiental,Abierta,72,False,Operación
-IN00487,20250131,A002,EQ0030,L002,Baja,Ambiental,Cerrada,0,False,Calidad
-IN00488,20250506,A004,EQ0029,L007,Alta,Lesión menor,Cerrada,0,False,Calidad
-IN00489,20250620,A004,EQ0029,L007,Media,Daño equipo,Cerrada,0,False,Operación
-IN00490,20250625,A004,EQ0013,L007,Media,Lesión menor,En progreso,20,False,Calidad
-IN00491,20250103,A005,EQ0016,L006,Media,Daño equipo,Cerrada,0,False,Operación
-IN00492,20250412,A005,EQ0023,L006,Baja,Condición insegura,Cerrada,0,False,Ambiente
-IN00493,20250306,A004,EQ0008,L007,Baja,Condición insegura,Cerrada,0,False,Ambiente
-IN00494,20250221,A003,EQ0033,L006,Media,Lesión menor,Abierta,63,False,Seguridad
-IN00495,20250502,A001,EQ0026,L003,Baja,Lesión menor,Cerrada,0,False,Operación
-IN00496,20250320,A004,EQ0013,L007,Media,Lesión menor,Cerrada,0,False,Ambiente
-IN00497,20250218,A006,EQ0038,L007,Media,Condición insegura,Cerrada,0,False,Calidad
-IN00498,20250120,A001,EQ0007,L003,Baja,Lesión menor,Abierta,79,True,Operación
-IN00499,20250111,A005,EQ0009,L006,Alta,Ambiental,En progreso,4,False,Operación
-IN00500,20250215,A004,EQ0005,L007,Baja,Daño equipo,En progreso,11,False,Calidad
+IN00001,20250227,A017,EQ0041,L013,Baja,Bloqueo y etiquetado,Abierta,7,False,Operación
+IN00002,20250629,A004,EQ0018,L009,Baja,Riesgo geotécnico,Cerrada,0,False,Ambiente
+IN00003,20250625,A005,EQ0047,L016,Media,Incidente operacional,Cerrada,0,False,Ambiente
+IN00004,20250420,A004,EQ0006,L009,Media,Riesgo geotécnico,Cerrada,0,True,Calidad
+IN00005,20250503,A010,EQ0038,L005,Alta,Incidente operacional,Abierta,117,False,Geotecnia
+IN00006,20250103,A017,EQ0005,L013,Baja,Casi accidente,En Proceso,56,False,Ambiente
+IN00007,20250523,A008,EQ0058,L006,Media,Riesgo geotécnico,Abierta,60,False,Operación
+IN00008,20250316,A006,EQ0056,L016,Media,Incidente de tránsito mina,En Proceso,80,False,Geotecnia
+IN00009,20250624,A010,EQ0038,L005,Alta,Derrame menor,Abierta,66,False,Seguridad
+IN00010,20250627,A004,EQ0011,L009,Baja,Evento HSE,Vencida,60,False,Ambiente
+IN00011,20250128,A004,EQ0059,L009,Baja,Exposición a energía,Cerrada,0,False,Operación
+IN00012,20250521,A010,EQ0015,L005,Baja,Acto subestándar,En Proceso,27,False,Geotecnia
+IN00013,20250322,A017,EQ0017,L013,Media,Falla de control crítico,Cerrada,0,False,Operación
+IN00014,20250618,A017,EQ0014,L013,Alta,Acto subestándar,Cerrada,0,True,Operación
+IN00015,20250621,A004,EQ0052,L009,Baja,Condición subestándar,Cerrada,0,True,Geotecnia
+IN00016,20250617,A004,EQ0036,L009,Baja,Falla de control crítico,Cerrada,0,False,Operación
+IN00017,20250121,A017,EQ0024,L013,Media,Evento HSE,Abierta,11,False,Geotecnia
+IN00018,20250529,A005,EQ0029,L016,Baja,Evento en taller,Cerrada,0,False,Seguridad
+IN00019,20250608,A004,EQ0020,L009,Crítica,Falla de control crítico,Cerrada,0,True,Geotecnia
+IN00020,20250317,A004,EQ0006,L009,Baja,Riesgo geotécnico,Cerrada,0,False,Calidad
+IN00021,20250101,A004,EQ0060,L009,Media,Evento en taller,En Proceso,23,False,Operación
+IN00022,20250215,A005,EQ0016,L016,Baja,Casi accidente,Cerrada,0,False,Seguridad
+IN00023,20250317,A010,EQ0015,L005,Media,Casi accidente,Abierta,46,True,Geotecnia
+IN00024,20250227,A006,EQ0031,L016,Alta,Condición subestándar,Cerrada,0,False,Geotecnia
+IN00025,20250518,A005,EQ0029,L016,Media,Evento HSE,Cerrada,0,False,Ambiente
+IN00026,20250131,A017,EQ0005,L013,Baja,Casi accidente,Cerrada,0,False,Seguridad
+IN00027,20250429,A004,EQ0019,L009,Baja,Evento HSE,Abierta,83,False,Calidad
+IN00028,20250115,A004,EQ0046,L009,Media,Incidente operacional,Cerrada,0,False,Ambiente
+IN00029,20250318,A005,EQ0044,L016,Baja,Bloqueo y etiquetado,Cerrada,0,False,Seguridad
+IN00030,20250502,A004,EQ0046,L009,Media,Evento en taller,Cerrada,0,False,Ambiente
+IN00031,20250217,A017,EQ0014,L013,Media,Falla de control crítico,Cerrada,0,False,Seguridad
+IN00032,20250314,A004,EQ0053,L009,Media,Derrame menor,Cerrada,0,False,Calidad
+IN00033,20250610,A017,EQ0005,L013,Media,Exposición a energía,Cerrada,0,False,Calidad
+IN00034,20250305,A004,EQ0052,L009,Media,Falla de control crítico,Cerrada,0,False,Geotecnia
+IN00035,20250131,A017,EQ0030,L013,Baja,Derrame menor,Cerrada,0,True,Ambiente
+IN00036,20250630,A017,EQ0021,L013,Media,Falla de control crítico,Cerrada,0,False,Seguridad
+IN00037,20250524,A005,EQ0001,L016,Baja,Derrame menor,Cerrada,0,False,Ambiente
+IN00038,20250111,A017,EQ0021,L013,Crítica,Falla de control crítico,Cerrada,0,False,Seguridad
+IN00039,20250126,A004,EQ0060,L009,Media,Evento en taller,En Proceso,68,False,Seguridad
+IN00040,20250307,A010,EQ0032,L005,Media,Evento en taller,Cerrada,0,False,Geotecnia
+IN00041,20250116,A004,EQ0051,L009,Baja,Riesgo geotécnico,Abierta,64,True,Geotecnia
+IN00042,20250502,A006,EQ0031,L016,Baja,Incidente operacional,Cerrada,0,False,Geotecnia
+IN00043,20250321,A017,EQ0021,L013,Crítica,Acto subestándar,En Proceso,5,False,Ambiente
+IN00044,20250424,A017,EQ0055,L013,Media,Derrame menor,En Proceso,112,False,Geotecnia
+IN00045,20250122,A006,EQ0056,L016,Baja,Incidente operacional,Cerrada,0,False,Geotecnia
+IN00046,20250617,A004,EQ0048,L009,Baja,Condición subestándar,En Proceso,93,True,Operación
+IN00047,20250520,A004,EQ0059,L009,Media,Evento en taller,Abierta,70,True,Operación
+IN00048,20250613,A005,EQ0037,L016,Media,Incidente operacional,Cerrada,0,False,Ambiente
+IN00049,20250515,A017,EQ0041,L013,Baja,Riesgo geotécnico,Abierta,68,False,Geotecnia
+IN00050,20250626,A010,EQ0028,L005,Alta,Casi accidente,Cerrada,0,False,Ambiente
+IN00051,20250207,A017,EQ0041,L013,Baja,Acto subestándar,Cerrada,0,False,Geotecnia
+IN00052,20250209,A005,EQ0029,L016,Baja,Evento en correa,En Proceso,86,False,Geotecnia
+IN00053,20250306,A005,EQ0034,L016,Media,Bloqueo y etiquetado,Abierta,39,True,Ambiente
+IN00054,20250408,A017,EQ0041,L013,Media,Evento en correa,En Proceso,22,False,Operación
+IN00055,20250610,A017,EQ0041,L013,Crítica,Riesgo geotécnico,Abierta,89,True,Ambiente
+IN00056,20250519,A010,EQ0039,L005,Alta,Incidente de tránsito mina,En Proceso,60,False,Ambiente
+IN00057,20250318,A004,EQ0060,L009,Baja,Evento HSE,Cerrada,0,False,Geotecnia
+IN00058,20250615,A005,EQ0013,L016,Baja,Incidente de tránsito mina,En Proceso,19,False,Geotecnia
+IN00059,20250201,A008,EQ0042,L006,Baja,Acto subestándar,Cerrada,0,True,Geotecnia
+IN00060,20250322,A008,EQ0033,L006,Media,Derrame menor,En Proceso,111,False,Geotecnia
+IN00061,20250214,A004,EQ0049,L009,Baja,Derrame menor,Cerrada,0,True,Operación
+IN00062,20250527,A004,EQ0057,L009,Alta,Acto subestándar,Cerrada,0,False,Geotecnia
+IN00063,20250219,A004,EQ0057,L009,Media,Incidente operacional,Abierta,25,False,Geotecnia
+IN00064,20250110,A004,EQ0020,L009,Baja,Falla de control crítico,Cerrada,0,False,Ambiente
+IN00065,20250430,A004,EQ0007,L009,Baja,Exposición a energía,En Proceso,77,False,Ambiente
+IN00066,20250209,A004,EQ0002,L009,Baja,Evento en correa,Cerrada,0,False,Operación
+IN00067,20250417,A017,EQ0027,L013,Media,Falla de control crítico,En Proceso,102,False,Operación
+IN00068,20250320,A006,EQ0031,L016,Media,Falla de control crítico,En Proceso,96,False,Operación
+IN00069,20250228,A005,EQ0016,L016,Baja,Casi accidente,Cerrada,0,False,Ambiente
+IN00070,20250105,A012,EQ0035,L015,Media,Falla de control crítico,Cerrada,0,True,Operación
+IN00071,20250102,A010,EQ0028,L005,Media,Exposición a energía,Cerrada,0,False,Seguridad
+IN00072,20250417,A010,EQ0025,L005,Media,Evento en correa,Vencida,17,False,Ambiente
+IN00073,20250113,A017,EQ0017,L013,Baja,Incidente operacional,Cerrada,0,False,Geotecnia
+IN00074,20250326,A017,EQ0008,L013,Alta,Riesgo geotécnico,En Proceso,29,False,Calidad
+IN00075,20250220,A010,EQ0015,L005,Media,Derrame menor,En Proceso,32,False,Geotecnia
+IN00076,20250130,A017,EQ0017,L013,Media,Evento HSE,Cerrada,0,False,Geotecnia
+IN00077,20250312,A008,EQ0033,L006,Alta,Falla de control crítico,Abierta,10,False,Operación
+IN00078,20250630,A017,EQ0024,L013,Baja,Acto subestándar,Cerrada,0,False,Ambiente
+IN00079,20250120,A004,EQ0049,L009,Media,Bloqueo y etiquetado,Cerrada,0,False,Seguridad
+IN00080,20250124,A004,EQ0052,L009,Media,Casi accidente,Cerrada,0,False,Operación
+IN00081,20250116,A017,EQ0005,L013,Baja,Falla de control crítico,En Proceso,28,False,Geotecnia
+IN00082,20250408,A004,EQ0004,L009,Alta,Evento HSE,En Proceso,76,False,Seguridad
+IN00083,20250213,A008,EQ0042,L006,Media,Evento en taller,Cerrada,0,False,Calidad
+IN00084,20250404,A017,EQ0009,L013,Alta,Casi accidente,Cerrada,0,False,Calidad
+IN00085,20250323,A004,EQ0059,L009,Baja,Casi accidente,Cerrada,0,True,Geotecnia
+IN00086,20250511,A004,EQ0060,L009,Media,Riesgo geotécnico,Cerrada,0,False,Seguridad
+IN00087,20250624,A017,EQ0009,L013,Baja,Incidente operacional,Cerrada,0,True,Calidad
+IN00088,20250114,A012,EQ0045,L015,Alta,Exposición a energía,Cerrada,0,False,Geotecnia
+IN00089,20250315,A017,EQ0005,L013,Baja,Riesgo geotécnico,En Proceso,32,False,Geotecnia
+IN00090,20250217,A017,EQ0055,L013,Alta,Condición subestándar,Cerrada,0,False,Seguridad
+IN00091,20250212,A006,EQ0031,L016,Media,Incidente de tránsito mina,En Proceso,90,False,Ambiente
+IN00092,20250610,A004,EQ0048,L009,Alta,Incidente de tránsito mina,Cerrada,0,True,Operación
+IN00093,20250521,A004,EQ0019,L009,Media,Bloqueo y etiquetado,Cerrada,0,False,Ambiente
+IN00094,20250626,A004,EQ0060,L009,Baja,Incidente operacional,Cerrada,0,False,Geotecnia
+IN00095,20250602,A017,EQ0041,L013,Baja,Evento en correa,En Proceso,28,False,Seguridad
+IN00096,20250507,A004,EQ0036,L009,Baja,Bloqueo y etiquetado,En Proceso,18,False,Seguridad
+IN00097,20250609,A004,EQ0004,L009,Media,Acto subestándar,Cerrada,0,False,Operación
+IN00098,20250428,A013,EQ0026,L007,Alta,Acto subestándar,Cerrada,0,False,Calidad
+IN00099,20250125,A017,EQ0005,L013,Alta,Riesgo geotécnico,Cerrada,0,False,Ambiente
+IN00100,20250622,A004,EQ0018,L009,Baja,Riesgo geotécnico,Cerrada,0,False,Calidad
+IN00101,20250521,A017,EQ0003,L013,Baja,Bloqueo y etiquetado,En Proceso,79,False,Ambiente
+IN00102,20250325,A017,EQ0024,L013,Media,Evento en correa,Cerrada,0,True,Seguridad
+IN00103,20250429,A004,EQ0004,L009,Alta,Riesgo geotécnico,Cerrada,0,False,Ambiente
+IN00104,20250126,A004,EQ0057,L009,Baja,Incidente de tránsito mina,Abierta,22,False,Geotecnia
+IN00105,20250204,A005,EQ0037,L016,Alta,Acto subestándar,Cerrada,0,False,Geotecnia
+IN00106,20250317,A017,EQ0040,L013,Baja,Evento en correa,Cerrada,0,True,Seguridad
+IN00107,20250415,A004,EQ0011,L009,Baja,Evento en taller,Vencida,29,False,Seguridad
+IN00108,20250131,A009,EQ0022,L006,Baja,Bloqueo y etiquetado,En Proceso,107,False,Geotecnia
+IN00109,20250114,A004,EQ0051,L009,Media,Acto subestándar,Cerrada,0,False,Ambiente
+IN00110,20250427,A004,EQ0057,L009,Media,Derrame menor,Cerrada,0,False,Seguridad
+IN00111,20250309,A005,EQ0034,L016,Media,Evento en taller,Cerrada,0,False,Geotecnia
+IN00112,20250503,A017,EQ0055,L013,Baja,Falla de control crítico,Cerrada,0,False,Calidad
+IN00113,20250316,A004,EQ0051,L009,Media,Evento en taller,Cerrada,0,False,Seguridad
+IN00114,20250226,A006,EQ0031,L016,Baja,Acto subestándar,Cerrada,0,False,Calidad
+IN00115,20250426,A008,EQ0012,L006,Media,Casi accidente,Cerrada,0,False,Ambiente
+IN00116,20250629,A008,EQ0058,L006,Baja,Falla de control crítico,Abierta,31,False,Seguridad
+IN00117,20250323,A004,EQ0002,L009,Media,Evento HSE,Cerrada,0,False,Geotecnia
+IN00118,20250405,A010,EQ0039,L005,Alta,Incidente de tránsito mina,Abierta,35,False,Seguridad
+IN00119,20250105,A017,EQ0017,L013,Baja,Derrame menor,En Proceso,85,False,Seguridad
+IN00120,20250513,A005,EQ0013,L016,Alta,Riesgo geotécnico,Cerrada,0,False,Ambiente
+IN00121,20250408,A005,EQ0001,L016,Media,Riesgo geotécnico,Cerrada,0,False,Seguridad
+IN00122,20250322,A017,EQ0008,L013,Media,Falla de control crítico,Cerrada,0,False,Ambiente
+IN00123,20250520,A017,EQ0009,L013,Baja,Riesgo geotécnico,Abierta,75,False,Geotecnia
+IN00124,20250522,A010,EQ0032,L005,Media,Derrame menor,Abierta,33,False,Seguridad
+IN00125,20250104,A010,EQ0038,L005,Baja,Derrame menor,Cerrada,0,False,Geotecnia
+IN00126,20250303,A004,EQ0004,L009,Media,Casi accidente,Cerrada,0,False,Calidad
+IN00127,20250116,A017,EQ0041,L013,Media,Condición subestándar,Cerrada,0,True,Geotecnia
+IN00128,20250304,A010,EQ0025,L005,Alta,Casi accidente,En Proceso,103,False,Seguridad
+IN00129,20250422,A004,EQ0011,L009,Baja,Casi accidente,En Proceso,79,False,Seguridad
+IN00130,20250506,A017,EQ0014,L013,Media,Evento HSE,Cerrada,0,False,Seguridad
+IN00131,20250221,A017,EQ0017,L013,Media,Condición subestándar,Cerrada,0,False,Seguridad
+IN00132,20250202,A005,EQ0013,L016,Alta,Bloqueo y etiquetado,En Proceso,118,False,Operación
+IN00133,20250320,A004,EQ0048,L009,Baja,Condición subestándar,En Proceso,51,False,Operación
+IN00134,20250331,A005,EQ0037,L016,Media,Riesgo geotécnico,Cerrada,0,False,Ambiente
+IN00135,20250228,A017,EQ0017,L013,Alta,Evento HSE,Cerrada,0,False,Calidad
+IN00136,20250126,A017,EQ0040,L013,Media,Casi accidente,En Proceso,55,False,Operación
+IN00137,20250325,A004,EQ0052,L009,Alta,Acto subestándar,Cerrada,0,False,Geotecnia
+IN00138,20250416,A005,EQ0029,L016,Baja,Acto subestándar,En Proceso,12,False,Ambiente
+IN00139,20250308,A004,EQ0019,L009,Baja,Evento en taller,En Proceso,35,False,Geotecnia
+IN00140,20250623,A005,EQ0016,L016,Baja,Acto subestándar,En Proceso,34,False,Operación
+IN00141,20250316,A008,EQ0033,L006,Baja,Condición subestándar,Vencida,25,True,Geotecnia
+IN00142,20250614,A017,EQ0040,L013,Media,Incidente de tránsito mina,Cerrada,0,False,Calidad
+IN00143,20250419,A004,EQ0049,L009,Baja,Derrame menor,Cerrada,0,False,Calidad
+IN00144,20250509,A017,EQ0005,L013,Media,Derrame menor,Abierta,30,False,Geotecnia
+IN00145,20250207,A017,EQ0008,L013,Baja,Riesgo geotécnico,Cerrada,0,False,Seguridad
+IN00146,20250315,A004,EQ0036,L009,Baja,Incidente operacional,Vencida,16,True,Geotecnia
+IN00147,20250116,A005,EQ0044,L016,Baja,Evento HSE,Cerrada,0,False,Calidad
+IN00148,20250516,A004,EQ0059,L009,Baja,Derrame menor,Abierta,106,True,Operación
+IN00149,20250409,A006,EQ0056,L016,Media,Condición subestándar,Abierta,97,False,Ambiente
+IN00150,20250101,A004,EQ0004,L009,Baja,Falla de control crítico,En Proceso,57,False,Seguridad
+IN00151,20250113,A004,EQ0006,L009,Baja,Casi accidente,En Proceso,25,False,Geotecnia
+IN00152,20250210,A004,EQ0002,L009,Baja,Riesgo geotécnico,Abierta,19,False,Geotecnia
+IN00153,20250113,A010,EQ0032,L005,Media,Evento HSE,Cerrada,0,False,Seguridad
+IN00154,20250326,A006,EQ0031,L016,Baja,Incidente de tránsito mina,En Proceso,89,True,Seguridad
+IN00155,20250513,A004,EQ0051,L009,Alta,Falla de control crítico,Abierta,115,False,Operación
+IN00156,20250209,A006,EQ0031,L016,Baja,Evento en correa,En Proceso,64,False,Operación
+IN00157,20250220,A017,EQ0027,L013,Media,Incidente operacional,Cerrada,0,False,Ambiente
+IN00158,20250409,A017,EQ0009,L013,Media,Riesgo geotécnico,En Proceso,75,False,Seguridad
+IN00159,20250215,A008,EQ0042,L006,Baja,Bloqueo y etiquetado,Cerrada,0,False,Seguridad
+IN00160,20250604,A017,EQ0030,L013,Baja,Riesgo geotécnico,Cerrada,0,False,Geotecnia
+IN00161,20250404,A017,EQ0005,L013,Baja,Exposición a energía,Abierta,84,False,Geotecnia
+IN00162,20250410,A009,EQ0022,L006,Baja,Derrame menor,Cerrada,0,False,Ambiente
+IN00163,20250327,A005,EQ0016,L016,Baja,Falla de control crítico,Abierta,99,True,Ambiente
+IN00164,20250131,A017,EQ0023,L013,Media,Acto subestándar,Cerrada,0,False,Seguridad
+IN00165,20250216,A004,EQ0002,L009,Media,Evento en taller,Cerrada,0,True,Geotecnia
+IN00166,20250525,A017,EQ0009,L013,Baja,Evento en taller,En Proceso,75,False,Geotecnia
+IN00167,20250222,A005,EQ0016,L016,Media,Bloqueo y etiquetado,Abierta,45,False,Operación
+IN00168,20250117,A009,EQ0043,L006,Baja,Riesgo geotécnico,Cerrada,0,False,Geotecnia
+IN00169,20250210,A004,EQ0020,L009,Baja,Casi accidente,Cerrada,0,False,Ambiente
+IN00170,20250118,A004,EQ0004,L009,Baja,Evento en correa,Cerrada,0,False,Ambiente
+IN00171,20250411,A004,EQ0019,L009,Baja,Evento en correa,Cerrada,0,False,Seguridad
+IN00172,20250105,A017,EQ0023,L013,Baja,Bloqueo y etiquetado,Cerrada,0,False,Seguridad
+IN00173,20250628,A004,EQ0007,L009,Baja,Condición subestándar,Vencida,41,False,Ambiente
+IN00174,20250127,A010,EQ0032,L005,Crítica,Casi accidente,Vencida,13,False,Calidad
+IN00175,20250105,A010,EQ0025,L005,Crítica,Incidente de tránsito mina,En Proceso,107,False,Geotecnia
+IN00176,20250325,A012,EQ0035,L015,Baja,Riesgo geotécnico,Cerrada,0,False,Calidad
+IN00177,20250507,A004,EQ0053,L009,Media,Evento HSE,Cerrada,0,False,Seguridad
+IN00178,20250615,A006,EQ0056,L016,Media,Evento HSE,En Proceso,93,False,Ambiente
+IN00179,20250219,A017,EQ0024,L013,Media,Evento en correa,Cerrada,0,False,Operación
+IN00180,20250324,A017,EQ0024,L013,Alta,Incidente operacional,En Proceso,105,False,Seguridad
+IN00181,20250424,A004,EQ0052,L009,Baja,Evento en taller,Abierta,49,False,Geotecnia
+IN00182,20250211,A004,EQ0036,L009,Alta,Derrame menor,Cerrada,0,False,Seguridad
+IN00183,20250402,A017,EQ0023,L013,Alta,Derrame menor,Vencida,116,False,Calidad
+IN00184,20250315,A008,EQ0033,L006,Baja,Evento en taller,Cerrada,0,False,Operación
+IN00185,20250330,A005,EQ0001,L016,Alta,Derrame menor,Vencida,41,False,Ambiente
+IN00186,20250628,A010,EQ0039,L005,Media,Acto subestándar,Cerrada,0,False,Calidad
+IN00187,20250321,A005,EQ0013,L016,Baja,Evento en taller,Abierta,32,False,Seguridad
+IN00188,20250116,A005,EQ0016,L016,Baja,Incidente de tránsito mina,Cerrada,0,False,Geotecnia
+IN00189,20250602,A005,EQ0044,L016,Alta,Riesgo geotécnico,Cerrada,0,False,Geotecnia
+IN00190,20250405,A004,EQ0011,L009,Alta,Riesgo geotécnico,Cerrada,0,False,Calidad
+IN00191,20250618,A017,EQ0055,L013,Baja,Falla de control crítico,Cerrada,0,False,Calidad
+IN00192,20250224,A017,EQ0014,L013,Alta,Condición subestándar,Cerrada,0,False,Ambiente
+IN00193,20250516,A017,EQ0040,L013,Baja,Evento en taller,Cerrada,0,False,Calidad
+IN00194,20250524,A004,EQ0051,L009,Baja,Acto subestándar,Abierta,60,True,Ambiente
+IN00195,20250323,A004,EQ0011,L009,Baja,Acto subestándar,En Proceso,21,False,Operación
+IN00196,20250619,A017,EQ0023,L013,Media,Bloqueo y etiquetado,Cerrada,0,False,Ambiente
+IN00197,20250322,A017,EQ0005,L013,Alta,Evento en taller,Abierta,20,True,Operación
+IN00198,20250509,A017,EQ0024,L013,Media,Derrame menor,Cerrada,0,False,Calidad
+IN00199,20250326,A008,EQ0058,L006,Media,Derrame menor,Cerrada,0,False,Ambiente
+IN00200,20250601,A005,EQ0029,L016,Baja,Condición subestándar,Abierta,100,False,Seguridad
+IN00201,20250223,A013,EQ0026,L007,Media,Acto subestándar,Cerrada,0,False,Ambiente
+IN00202,20250503,A005,EQ0001,L016,Media,Incidente de tránsito mina,Abierta,106,False,Geotecnia
+IN00203,20250226,A004,EQ0054,L009,Media,Falla de control crítico,En Proceso,93,False,Ambiente
+IN00204,20250224,A004,EQ0019,L009,Media,Bloqueo y etiquetado,Cerrada,0,False,Seguridad
+IN00205,20250422,A004,EQ0048,L009,Baja,Riesgo geotécnico,Cerrada,0,False,Geotecnia
+IN00206,20250630,A006,EQ0031,L016,Baja,Condición subestándar,Vencida,65,False,Geotecnia
+IN00207,20250422,A017,EQ0014,L013,Alta,Evento en correa,Cerrada,0,False,Geotecnia
+IN00208,20250204,A004,EQ0007,L009,Alta,Evento en correa,Cerrada,0,False,Seguridad
+IN00209,20250222,A010,EQ0015,L005,Media,Condición subestándar,En Proceso,110,False,Ambiente
+IN00210,20250417,A017,EQ0008,L013,Crítica,Incidente operacional,En Proceso,68,False,Ambiente
+IN00211,20250529,A004,EQ0052,L009,Baja,Incidente operacional,Cerrada,0,False,Calidad
+IN00212,20250610,A005,EQ0047,L016,Media,Casi accidente,Abierta,102,True,Seguridad
+IN00213,20250130,A004,EQ0046,L009,Baja,Incidente de tránsito mina,Cerrada,0,False,Geotecnia
+IN00214,20250119,A017,EQ0023,L013,Media,Evento en correa,Cerrada,0,False,Geotecnia
+IN00215,20250124,A004,EQ0007,L009,Media,Condición subestándar,En Proceso,101,False,Seguridad
+IN00216,20250404,A009,EQ0022,L006,Baja,Evento en correa,Cerrada,0,False,Ambiente
+IN00217,20250318,A009,EQ0022,L006,Baja,Incidente de tránsito mina,Cerrada,0,True,Calidad
+IN00218,20250217,A017,EQ0055,L013,Media,Derrame menor,Abierta,63,False,Calidad
+IN00219,20250404,A004,EQ0019,L009,Baja,Bloqueo y etiquetado,Cerrada,0,False,Ambiente
+IN00220,20250412,A017,EQ0055,L013,Baja,Evento en correa,Cerrada,0,True,Seguridad
+IN00221,20250527,A008,EQ0012,L006,Media,Condición subestándar,Cerrada,0,True,Operación
+IN00222,20250518,A004,EQ0052,L009,Media,Acto subestándar,Abierta,24,False,Seguridad
+IN00223,20250302,A004,EQ0059,L009,Media,Evento en correa,En Proceso,25,False,Geotecnia
+IN00224,20250522,A004,EQ0052,L009,Media,Bloqueo y etiquetado,En Proceso,103,False,Operación
+IN00225,20250607,A017,EQ0041,L013,Media,Casi accidente,Cerrada,0,False,Seguridad
+IN00226,20250331,A017,EQ0030,L013,Baja,Condición subestándar,Abierta,70,False,Seguridad
+IN00227,20250626,A004,EQ0046,L009,Baja,Evento en taller,En Proceso,64,False,Calidad
+IN00228,20250616,A013,EQ0026,L007,Baja,Evento en taller,Cerrada,0,False,Seguridad
+IN00229,20250412,A017,EQ0003,L013,Media,Casi accidente,En Proceso,75,True,Seguridad
+IN00230,20250601,A004,EQ0004,L009,Baja,Incidente operacional,Abierta,80,False,Operación
+IN00231,20250201,A005,EQ0013,L016,Baja,Derrame menor,Cerrada,0,False,Ambiente
+IN00232,20250224,A017,EQ0009,L013,Baja,Condición subestándar,Abierta,5,False,Calidad
+IN00233,20250210,A006,EQ0056,L016,Media,Acto subestándar,Cerrada,0,False,Calidad
+IN00234,20250129,A004,EQ0018,L009,Baja,Riesgo geotécnico,Cerrada,0,False,Ambiente
+IN00235,20250301,A004,EQ0011,L009,Media,Falla de control crítico,Cerrada,0,True,Ambiente
+IN00236,20250206,A017,EQ0017,L013,Media,Evento en correa,Abierta,108,False,Ambiente
+IN00237,20250520,A010,EQ0038,L005,Media,Evento en correa,En Proceso,77,True,Ambiente
+IN00238,20250118,A004,EQ0053,L009,Baja,Derrame menor,En Proceso,66,False,Seguridad
+IN00239,20250317,A008,EQ0058,L006,Baja,Derrame menor,En Proceso,61,False,Operación
+IN00240,20250620,A017,EQ0009,L013,Baja,Acto subestándar,Cerrada,0,False,Operación
+IN00241,20250616,A005,EQ0001,L016,Baja,Casi accidente,Cerrada,0,False,Operación
+IN00242,20250324,A004,EQ0002,L009,Media,Riesgo geotécnico,En Proceso,8,False,Ambiente
+IN00243,20250609,A010,EQ0015,L005,Media,Casi accidente,Vencida,115,False,Ambiente
+IN00244,20250409,A005,EQ0037,L016,Media,Bloqueo y etiquetado,Abierta,40,False,Calidad
+IN00245,20250203,A005,EQ0029,L016,Baja,Evento HSE,Cerrada,0,False,Geotecnia
+IN00246,20250331,A009,EQ0043,L006,Alta,Evento HSE,Cerrada,0,False,Geotecnia
+IN00247,20250627,A017,EQ0024,L013,Baja,Casi accidente,Abierta,96,False,Operación
+IN00248,20250327,A005,EQ0001,L016,Media,Acto subestándar,Cerrada,0,False,Operación
+IN00249,20250617,A005,EQ0029,L016,Baja,Derrame menor,Cerrada,0,False,Operación
+IN00250,20250104,A005,EQ0029,L016,Media,Evento en correa,Vencida,96,True,Geotecnia
+IN00251,20250305,A004,EQ0006,L009,Baja,Exposición a energía,Cerrada,0,False,Calidad
+IN00252,20250306,A008,EQ0033,L006,Media,Exposición a energía,Abierta,108,False,Ambiente
+IN00253,20250110,A004,EQ0006,L009,Baja,Derrame menor,Cerrada,0,False,Geotecnia
+IN00254,20250620,A004,EQ0036,L009,Baja,Incidente operacional,Cerrada,0,False,Geotecnia
+IN00255,20250205,A006,EQ0031,L016,Media,Casi accidente,Cerrada,0,True,Calidad
+IN00256,20250212,A004,EQ0019,L009,Baja,Exposición a energía,Cerrada,0,False,Ambiente
+IN00257,20250418,A004,EQ0010,L009,Media,Acto subestándar,Cerrada,0,False,Seguridad
+IN00258,20250501,A017,EQ0041,L013,Alta,Condición subestándar,Cerrada,0,False,Ambiente
+IN00259,20250626,A005,EQ0001,L016,Baja,Riesgo geotécnico,Cerrada,0,False,Seguridad
+IN00260,20250221,A012,EQ0035,L015,Media,Evento en taller,En Proceso,10,False,Ambiente
+IN00261,20250601,A005,EQ0044,L016,Baja,Incidente de tránsito mina,Cerrada,0,False,Operación
+IN00262,20250615,A010,EQ0025,L005,Alta,Bloqueo y etiquetado,Cerrada,0,False,Ambiente
+IN00263,20250513,A004,EQ0007,L009,Media,Evento en correa,Cerrada,0,False,Seguridad
+IN00264,20250402,A006,EQ0056,L016,Media,Bloqueo y etiquetado,Cerrada,0,False,Ambiente
+IN00265,20250218,A017,EQ0023,L013,Baja,Casi accidente,Abierta,89,False,Geotecnia
+IN00266,20250308,A017,EQ0040,L013,Media,Evento en correa,Cerrada,0,False,Calidad
+IN00267,20250115,A006,EQ0031,L016,Media,Evento en correa,En Proceso,87,True,Ambiente
+IN00268,20250514,A017,EQ0041,L013,Baja,Bloqueo y etiquetado,Vencida,43,False,Seguridad
+IN00269,20250415,A004,EQ0052,L009,Media,Evento en correa,Cerrada,0,True,Seguridad
+IN00270,20250506,A004,EQ0036,L009,Media,Exposición a energía,Cerrada,0,False,Ambiente
+IN00271,20250129,A005,EQ0001,L016,Baja,Riesgo geotécnico,En Proceso,117,False,Seguridad
+IN00272,20250107,A017,EQ0041,L013,Media,Evento en taller,Cerrada,0,False,Seguridad
+IN00273,20250419,A004,EQ0059,L009,Baja,Exposición a energía,Cerrada,0,False,Seguridad
+IN00274,20250323,A017,EQ0023,L013,Alta,Falla de control crítico,En Proceso,70,False,Calidad
+IN00275,20250511,A017,EQ0008,L013,Media,Acto subestándar,Cerrada,0,False,Geotecnia
+IN00276,20250615,A004,EQ0011,L009,Baja,Incidente de tránsito mina,En Proceso,51,False,Ambiente
+IN00277,20250326,A010,EQ0015,L005,Media,Incidente operacional,Cerrada,0,False,Ambiente
+IN00278,20250415,A004,EQ0059,L009,Crítica,Acto subestándar,Cerrada,0,False,Operación
+IN00279,20250422,A005,EQ0044,L016,Media,Exposición a energía,Cerrada,0,False,Seguridad
+IN00280,20250310,A005,EQ0034,L016,Media,Incidente de tránsito mina,Cerrada,0,False,Seguridad
+IN00281,20250531,A004,EQ0053,L009,Baja,Derrame menor,Abierta,76,False,Ambiente
+IN00282,20250106,A004,EQ0010,L009,Media,Casi accidente,Cerrada,0,False,Ambiente
+IN00283,20250411,A010,EQ0038,L005,Alta,Casi accidente,Abierta,117,False,Ambiente
+IN00284,20250113,A013,EQ0050,L007,Alta,Bloqueo y etiquetado,Cerrada,0,False,Calidad
+IN00285,20250505,A004,EQ0020,L009,Baja,Bloqueo y etiquetado,Cerrada,0,False,Calidad
+IN00286,20250214,A010,EQ0015,L005,Alta,Bloqueo y etiquetado,Cerrada,0,False,Geotecnia
+IN00287,20250130,A010,EQ0028,L005,Media,Acto subestándar,Vencida,111,False,Geotecnia
+IN00288,20250302,A005,EQ0001,L016,Baja,Falla de control crítico,Cerrada,0,False,Calidad
+IN00289,20250221,A013,EQ0026,L007,Baja,Evento en taller,Cerrada,0,False,Seguridad
+IN00290,20250219,A004,EQ0020,L009,Media,Exposición a energía,Cerrada,0,False,Geotecnia
+IN00291,20250628,A010,EQ0025,L005,Alta,Bloqueo y etiquetado,Abierta,59,False,Geotecnia
+IN00292,20250325,A008,EQ0042,L006,Media,Riesgo geotécnico,Cerrada,0,False,Operación
+IN00293,20250514,A013,EQ0026,L007,Baja,Condición subestándar,En Proceso,114,False,Calidad
+IN00294,20250326,A005,EQ0001,L016,Baja,Derrame menor,Cerrada,0,False,Operación
+IN00295,20250429,A004,EQ0049,L009,Baja,Evento en taller,Vencida,71,False,Geotecnia
+IN00296,20250109,A008,EQ0042,L006,Alta,Bloqueo y etiquetado,Cerrada,0,True,Geotecnia
+IN00297,20250113,A008,EQ0042,L006,Baja,Incidente de tránsito mina,En Proceso,102,False,Calidad
+IN00298,20250219,A004,EQ0053,L009,Media,Incidente de tránsito mina,Abierta,74,False,Seguridad
+IN00299,20250331,A004,EQ0010,L009,Baja,Evento en taller,En Proceso,25,False,Geotecnia
+IN00300,20250512,A017,EQ0009,L013,Media,Evento en taller,Cerrada,0,False,Geotecnia
+IN00301,20250106,A004,EQ0046,L009,Media,Falla de control crítico,Cerrada,0,False,Seguridad
+IN00302,20250302,A005,EQ0047,L016,Baja,Incidente de tránsito mina,Cerrada,0,False,Calidad
+IN00303,20250625,A017,EQ0005,L013,Alta,Evento en taller,Cerrada,0,False,Seguridad
+IN00304,20250425,A017,EQ0021,L013,Alta,Condición subestándar,Cerrada,0,False,Operación
+IN00305,20250107,A004,EQ0046,L009,Baja,Evento en correa,En Proceso,10,False,Calidad
+IN00306,20250520,A017,EQ0055,L013,Alta,Evento HSE,Abierta,41,False,Geotecnia
+IN00307,20250612,A004,EQ0006,L009,Baja,Condición subestándar,Cerrada,0,False,Geotecnia
+IN00308,20250407,A017,EQ0014,L013,Alta,Evento en correa,Cerrada,0,False,Ambiente
+IN00309,20250608,A010,EQ0025,L005,Media,Incidente operacional,Cerrada,0,False,Operación
+IN00310,20250607,A017,EQ0014,L013,Media,Riesgo geotécnico,En Proceso,100,False,Operación
+IN00311,20250204,A005,EQ0016,L016,Baja,Exposición a energía,Cerrada,0,False,Ambiente
+IN00312,20250606,A005,EQ0013,L016,Media,Condición subestándar,Abierta,29,False,Calidad
+IN00313,20250530,A017,EQ0023,L013,Baja,Bloqueo y etiquetado,Cerrada,0,False,Geotecnia
+IN00314,20250622,A004,EQ0018,L009,Baja,Falla de control crítico,En Proceso,93,False,Geotecnia
+IN00315,20250307,A004,EQ0046,L009,Media,Evento en correa,Cerrada,0,True,Ambiente
+IN00316,20250624,A017,EQ0024,L013,Media,Riesgo geotécnico,Cerrada,0,False,Operación
+IN00317,20250409,A013,EQ0050,L007,Alta,Falla de control crítico,En Proceso,85,False,Geotecnia
+IN00318,20250313,A010,EQ0038,L005,Baja,Acto subestándar,En Proceso,68,True,Seguridad
+IN00319,20250410,A017,EQ0030,L013,Alta,Condición subestándar,Cerrada,0,True,Geotecnia
+IN00320,20250508,A004,EQ0019,L009,Media,Acto subestándar,Cerrada,0,False,Seguridad
+IN00321,20250512,A004,EQ0059,L009,Alta,Bloqueo y etiquetado,Cerrada,0,False,Calidad
+IN00322,20250514,A005,EQ0001,L016,Media,Falla de control crítico,Cerrada,0,False,Operación
+IN00323,20250124,A004,EQ0010,L009,Media,Incidente operacional,Cerrada,0,False,Ambiente
+IN00324,20250222,A005,EQ0001,L016,Alta,Evento HSE,Abierta,64,False,Operación
+IN00325,20250607,A017,EQ0009,L013,Alta,Evento HSE,En Proceso,18,False,Seguridad
+IN00326,20250417,A017,EQ0014,L013,Media,Casi accidente,Cerrada,0,False,Operación
+IN00327,20250310,A010,EQ0039,L005,Baja,Condición subestándar,Vencida,93,False,Ambiente
+IN00328,20250411,A004,EQ0004,L009,Baja,Derrame menor,En Proceso,34,False,Geotecnia
+IN00329,20250501,A010,EQ0032,L005,Baja,Evento en taller,Abierta,55,False,Seguridad
+IN00330,20250110,A013,EQ0050,L007,Baja,Riesgo geotécnico,Cerrada,0,False,Operación
+IN00331,20250321,A004,EQ0060,L009,Baja,Casi accidente,Cerrada,0,False,Calidad
+IN00332,20250112,A004,EQ0002,L009,Media,Evento HSE,Cerrada,0,False,Geotecnia
+IN00333,20250131,A010,EQ0015,L005,Alta,Acto subestándar,Abierta,55,False,Geotecnia
+IN00334,20250509,A017,EQ0014,L013,Baja,Falla de control crítico,Cerrada,0,False,Calidad
+IN00335,20250609,A004,EQ0019,L009,Media,Evento HSE,Vencida,113,True,Calidad
+IN00336,20250511,A012,EQ0045,L015,Baja,Casi accidente,Cerrada,0,False,Operación
+IN00337,20250520,A017,EQ0027,L013,Media,Acto subestándar,En Proceso,77,False,Geotecnia
+IN00338,20250121,A004,EQ0011,L009,Crítica,Derrame menor,Cerrada,0,False,Calidad
+IN00339,20250222,A013,EQ0026,L007,Baja,Evento en taller,Abierta,81,False,Seguridad
+IN00340,20250302,A004,EQ0036,L009,Media,Evento en correa,En Proceso,14,False,Calidad
+IN00341,20250615,A008,EQ0042,L006,Media,Derrame menor,Cerrada,0,False,Operación
+IN00342,20250320,A008,EQ0042,L006,Baja,Condición subestándar,Cerrada,0,False,Calidad
+IN00343,20250509,A006,EQ0031,L016,Baja,Evento en taller,Cerrada,0,True,Seguridad
+IN00344,20250309,A005,EQ0034,L016,Media,Evento en correa,Cerrada,0,False,Operación
+IN00345,20250330,A017,EQ0008,L013,Baja,Acto subestándar,Cerrada,0,True,Seguridad
+IN00346,20250222,A017,EQ0003,L013,Media,Evento en taller,Cerrada,0,False,Geotecnia
+IN00347,20250401,A017,EQ0055,L013,Media,Falla de control crítico,Abierta,65,False,Operación
+IN00348,20250101,A004,EQ0010,L009,Baja,Condición subestándar,En Proceso,33,False,Calidad
+IN00349,20250528,A017,EQ0014,L013,Alta,Acto subestándar,Cerrada,0,False,Ambiente
+IN00350,20250428,A010,EQ0039,L005,Alta,Casi accidente,Cerrada,0,False,Seguridad
+IN00351,20250604,A012,EQ0045,L015,Baja,Condición subestándar,En Proceso,39,False,Geotecnia
+IN00352,20250507,A013,EQ0026,L007,Alta,Casi accidente,Abierta,66,False,Geotecnia
+IN00353,20250418,A004,EQ0006,L009,Media,Evento HSE,Vencida,42,False,Calidad
+IN00354,20250109,A004,EQ0054,L009,Baja,Falla de control crítico,Abierta,14,False,Ambiente
+IN00355,20250620,A004,EQ0046,L009,Media,Casi accidente,Cerrada,0,False,Operación
+IN00356,20250517,A010,EQ0038,L005,Media,Condición subestándar,En Proceso,104,False,Ambiente
+IN00357,20250603,A013,EQ0050,L007,Media,Bloqueo y etiquetado,Cerrada,0,False,Seguridad
+IN00358,20250609,A017,EQ0024,L013,Media,Acto subestándar,En Proceso,111,False,Calidad
+IN00359,20250602,A005,EQ0044,L016,Media,Bloqueo y etiquetado,Abierta,103,False,Ambiente
+IN00360,20250428,A004,EQ0059,L009,Media,Derrame menor,Cerrada,0,False,Operación
+IN00361,20250505,A010,EQ0025,L005,Alta,Bloqueo y etiquetado,Vencida,93,False,Operación
+IN00362,20250309,A005,EQ0047,L016,Baja,Incidente operacional,Cerrada,0,True,Ambiente
+IN00363,20250318,A005,EQ0016,L016,Media,Casi accidente,En Proceso,17,False,Geotecnia
+IN00364,20250608,A005,EQ0044,L016,Baja,Riesgo geotécnico,Abierta,16,False,Geotecnia
+IN00365,20250309,A008,EQ0012,L006,Baja,Exposición a energía,Cerrada,0,True,Calidad
+IN00366,20250422,A005,EQ0037,L016,Media,Bloqueo y etiquetado,Cerrada,0,False,Geotecnia
+IN00367,20250329,A009,EQ0043,L006,Media,Riesgo geotécnico,En Proceso,28,False,Calidad
+IN00368,20250429,A005,EQ0047,L016,Baja,Evento en correa,Cerrada,0,False,Calidad
+IN00369,20250507,A004,EQ0051,L009,Baja,Evento en correa,Cerrada,0,False,Calidad
+IN00370,20250131,A006,EQ0056,L016,Baja,Derrame menor,Cerrada,0,False,Geotecnia
+IN00371,20250420,A006,EQ0031,L016,Alta,Condición subestándar,Abierta,42,False,Geotecnia
+IN00372,20250413,A004,EQ0052,L009,Alta,Casi accidente,Cerrada,0,False,Geotecnia
+IN00373,20250223,A006,EQ0056,L016,Media,Evento en correa,En Proceso,98,False,Calidad
+IN00374,20250222,A017,EQ0055,L013,Media,Evento en taller,Vencida,97,False,Geotecnia
+IN00375,20250529,A017,EQ0014,L013,Baja,Exposición a energía,Cerrada,0,False,Geotecnia
+IN00376,20250530,A009,EQ0022,L006,Media,Bloqueo y etiquetado,Cerrada,0,False,Ambiente
+IN00377,20250414,A009,EQ0043,L006,Baja,Casi accidente,Cerrada,0,True,Calidad
+IN00378,20250315,A004,EQ0004,L009,Baja,Casi accidente,En Proceso,81,False,Operación
+IN00379,20250408,A010,EQ0038,L005,Media,Condición subestándar,Abierta,89,False,Geotecnia
+IN00380,20250417,A017,EQ0024,L013,Media,Derrame menor,Cerrada,0,False,Seguridad
+IN00381,20250524,A005,EQ0044,L016,Alta,Condición subestándar,Abierta,17,False,Seguridad
+IN00382,20250306,A004,EQ0053,L009,Baja,Evento HSE,Cerrada,0,False,Operación
+IN00383,20250619,A017,EQ0055,L013,Baja,Falla de control crítico,Abierta,112,False,Geotecnia
+IN00384,20250112,A004,EQ0020,L009,Media,Evento HSE,En Proceso,68,False,Operación
+IN00385,20250614,A017,EQ0041,L013,Crítica,Derrame menor,Cerrada,0,False,Geotecnia
+IN00386,20250110,A017,EQ0005,L013,Alta,Casi accidente,Cerrada,0,False,Calidad
+IN00387,20250518,A004,EQ0049,L009,Baja,Exposición a energía,Cerrada,0,False,Seguridad
+IN00388,20250522,A004,EQ0010,L009,Media,Acto subestándar,Abierta,59,False,Geotecnia
+IN00389,20250418,A005,EQ0037,L016,Media,Derrame menor,Cerrada,0,False,Calidad
+IN00390,20250309,A009,EQ0022,L006,Alta,Casi accidente,Cerrada,0,False,Operación
+IN00391,20250120,A004,EQ0010,L009,Baja,Evento en taller,En Proceso,49,False,Ambiente
+IN00392,20250514,A005,EQ0034,L016,Media,Riesgo geotécnico,Abierta,21,False,Ambiente
+IN00393,20250126,A008,EQ0042,L006,Media,Falla de control crítico,Vencida,68,False,Seguridad
+IN00394,20250609,A004,EQ0051,L009,Baja,Casi accidente,Vencida,101,False,Ambiente
+IN00395,20250408,A017,EQ0008,L013,Media,Falla de control crítico,En Proceso,112,False,Operación
+IN00396,20250418,A009,EQ0043,L006,Media,Casi accidente,En Proceso,96,False,Calidad
+IN00397,20250417,A008,EQ0012,L006,Media,Incidente de tránsito mina,Cerrada,0,False,Seguridad
+IN00398,20250106,A004,EQ0011,L009,Baja,Acto subestándar,Cerrada,0,False,Operación
+IN00399,20250625,A010,EQ0025,L005,Alta,Derrame menor,Vencida,30,False,Calidad
+IN00400,20250628,A006,EQ0056,L016,Baja,Evento en taller,Abierta,95,True,Ambiente
+IN00401,20250110,A004,EQ0019,L009,Media,Condición subestándar,Cerrada,0,False,Ambiente
+IN00402,20250403,A004,EQ0053,L009,Baja,Falla de control crítico,Cerrada,0,True,Calidad
+IN00403,20250101,A005,EQ0001,L016,Alta,Evento HSE,Cerrada,0,False,Operación
+IN00404,20250404,A017,EQ0005,L013,Alta,Acto subestándar,Abierta,113,True,Calidad
+IN00405,20250102,A017,EQ0017,L013,Baja,Evento HSE,En Proceso,41,False,Seguridad
+IN00406,20250207,A010,EQ0039,L005,Crítica,Evento HSE,Abierta,70,False,Ambiente
+IN00407,20250220,A017,EQ0023,L013,Baja,Exposición a energía,En Proceso,97,False,Ambiente
+IN00408,20250512,A017,EQ0014,L013,Media,Derrame menor,Cerrada,0,False,Operación
+IN00409,20250124,A004,EQ0046,L009,Media,Acto subestándar,Cerrada,0,False,Geotecnia
+IN00410,20250610,A017,EQ0023,L013,Media,Riesgo geotécnico,Cerrada,0,False,Geotecnia
+IN00411,20250124,A017,EQ0024,L013,Media,Condición subestándar,Abierta,117,False,Ambiente
+IN00412,20250528,A017,EQ0040,L013,Media,Evento HSE,Abierta,80,False,Operación
+IN00413,20250419,A004,EQ0007,L009,Media,Derrame menor,Cerrada,0,False,Calidad
+IN00414,20250611,A013,EQ0026,L007,Media,Derrame menor,Cerrada,0,False,Operación
+IN00415,20250401,A005,EQ0037,L016,Media,Derrame menor,Vencida,39,False,Seguridad
+IN00416,20250408,A012,EQ0035,L015,Baja,Bloqueo y etiquetado,Cerrada,0,False,Ambiente
+IN00417,20250522,A005,EQ0047,L016,Media,Acto subestándar,Cerrada,0,False,Operación
+IN00418,20250319,A004,EQ0019,L009,Baja,Incidente operacional,En Proceso,84,True,Geotecnia
+IN00419,20250323,A008,EQ0033,L006,Alta,Acto subestándar,Cerrada,0,False,Seguridad
+IN00420,20250613,A010,EQ0039,L005,Media,Riesgo geotécnico,Abierta,54,False,Operación
+IN00421,20250111,A017,EQ0014,L013,Baja,Bloqueo y etiquetado,En Proceso,35,False,Calidad
+IN00422,20250213,A004,EQ0006,L009,Baja,Evento en taller,Cerrada,0,True,Operación
+IN00423,20250609,A005,EQ0034,L016,Alta,Incidente operacional,Cerrada,0,False,Ambiente
+IN00424,20250606,A005,EQ0047,L016,Media,Evento HSE,Cerrada,0,False,Seguridad
+IN00425,20250524,A017,EQ0024,L013,Media,Incidente operacional,Cerrada,0,False,Seguridad
+IN00426,20250515,A004,EQ0006,L009,Baja,Falla de control crítico,En Proceso,74,True,Calidad
+IN00427,20250318,A005,EQ0029,L016,Baja,Derrame menor,Cerrada,0,False,Operación
+IN00428,20250602,A004,EQ0002,L009,Baja,Derrame menor,Cerrada,0,False,Geotecnia
+IN00429,20250107,A005,EQ0029,L016,Media,Exposición a energía,Cerrada,0,False,Geotecnia
+IN00430,20250202,A017,EQ0005,L013,Media,Bloqueo y etiquetado,Cerrada,0,True,Ambiente
+IN00431,20250531,A005,EQ0029,L016,Baja,Evento HSE,Cerrada,0,False,Ambiente
+IN00432,20250212,A017,EQ0024,L013,Baja,Acto subestándar,En Proceso,56,False,Operación
+IN00433,20250203,A017,EQ0023,L013,Alta,Exposición a energía,Cerrada,0,False,Ambiente
+IN00434,20250412,A013,EQ0050,L007,Crítica,Bloqueo y etiquetado,Vencida,50,False,Geotecnia
+IN00435,20250412,A006,EQ0031,L016,Media,Acto subestándar,Cerrada,0,False,Operación
+IN00436,20250403,A017,EQ0040,L013,Crítica,Bloqueo y etiquetado,Cerrada,0,False,Ambiente
+IN00437,20250106,A004,EQ0057,L009,Baja,Falla de control crítico,Cerrada,0,False,Geotecnia
+IN00438,20250209,A008,EQ0058,L006,Media,Derrame menor,Cerrada,0,False,Geotecnia
+IN00439,20250220,A017,EQ0021,L013,Baja,Falla de control crítico,En Proceso,34,False,Calidad
+IN00440,20250611,A005,EQ0044,L016,Alta,Derrame menor,Cerrada,0,False,Operación
+IN00441,20250508,A010,EQ0039,L005,Media,Casi accidente,En Proceso,40,False,Operación
+IN00442,20250513,A005,EQ0013,L016,Media,Incidente de tránsito mina,Cerrada,0,False,Seguridad
+IN00443,20250102,A017,EQ0055,L013,Baja,Acto subestándar,En Proceso,119,False,Seguridad
+IN00444,20250628,A017,EQ0014,L013,Baja,Bloqueo y etiquetado,Cerrada,0,False,Geotecnia
+IN00445,20250309,A006,EQ0031,L016,Baja,Evento en taller,Cerrada,0,False,Calidad
+IN00446,20250621,A012,EQ0045,L015,Media,Derrame menor,Cerrada,0,False,Geotecnia
+IN00447,20250127,A004,EQ0051,L009,Media,Condición subestándar,Cerrada,0,False,Seguridad
+IN00448,20250430,A004,EQ0019,L009,Alta,Derrame menor,Cerrada,0,False,Seguridad
+IN00449,20250203,A006,EQ0031,L016,Crítica,Riesgo geotécnico,Cerrada,0,False,Ambiente
+IN00450,20250301,A004,EQ0036,L009,Media,Bloqueo y etiquetado,Cerrada,0,False,Calidad
+IN00451,20250128,A005,EQ0037,L016,Baja,Derrame menor,Cerrada,0,False,Operación
+IN00452,20250509,A010,EQ0015,L005,Media,Derrame menor,Abierta,54,False,Geotecnia
+IN00453,20250127,A013,EQ0050,L007,Baja,Incidente de tránsito mina,Cerrada,0,False,Operación
+IN00454,20250327,A004,EQ0046,L009,Baja,Evento en correa,Cerrada,0,False,Geotecnia
+IN00455,20250109,A017,EQ0030,L013,Media,Casi accidente,Vencida,93,False,Operación
+IN00456,20250424,A010,EQ0032,L005,Crítica,Evento en taller,Abierta,84,False,Ambiente
+IN00457,20250606,A008,EQ0033,L006,Media,Bloqueo y etiquetado,Cerrada,0,False,Operación
+IN00458,20250129,A006,EQ0056,L016,Alta,Evento en correa,Cerrada,0,False,Geotecnia
+IN00459,20250507,A005,EQ0001,L016,Baja,Incidente operacional,Cerrada,0,False,Seguridad
+IN00460,20250205,A010,EQ0032,L005,Alta,Incidente de tránsito mina,Abierta,41,False,Ambiente
+IN00461,20250622,A017,EQ0055,L013,Crítica,Acto subestándar,Cerrada,0,True,Calidad
+IN00462,20250304,A004,EQ0010,L009,Baja,Falla de control crítico,Cerrada,0,False,Geotecnia
+IN00463,20250503,A006,EQ0031,L016,Baja,Falla de control crítico,Vencida,71,False,Geotecnia
+IN00464,20250622,A013,EQ0050,L007,Media,Casi accidente,Cerrada,0,False,Operación
+IN00465,20250305,A005,EQ0013,L016,Alta,Bloqueo y etiquetado,Cerrada,0,False,Calidad
+IN00466,20250203,A012,EQ0045,L015,Baja,Riesgo geotécnico,Cerrada,0,False,Seguridad
+IN00467,20250611,A013,EQ0026,L007,Media,Bloqueo y etiquetado,Abierta,93,False,Operación
+IN00468,20250303,A005,EQ0013,L016,Alta,Evento HSE,En Proceso,56,False,Seguridad
+IN00469,20250216,A009,EQ0043,L006,Alta,Casi accidente,Cerrada,0,False,Geotecnia
+IN00470,20250630,A005,EQ0013,L016,Media,Evento en taller,Cerrada,0,False,Operación
+IN00471,20250226,A008,EQ0042,L006,Media,Incidente operacional,Cerrada,0,False,Calidad
+IN00472,20250429,A017,EQ0017,L013,Baja,Bloqueo y etiquetado,Cerrada,0,False,Geotecnia
+IN00473,20250527,A004,EQ0010,L009,Baja,Riesgo geotécnico,Cerrada,0,True,Geotecnia
+IN00474,20250513,A010,EQ0025,L005,Baja,Acto subestándar,En Proceso,62,False,Ambiente
+IN00475,20250411,A005,EQ0029,L016,Media,Falla de control crítico,En Proceso,40,True,Ambiente
+IN00476,20250223,A005,EQ0034,L016,Media,Casi accidente,Cerrada,0,False,Seguridad
+IN00477,20250525,A004,EQ0053,L009,Baja,Derrame menor,Cerrada,0,False,Seguridad
+IN00478,20250101,A010,EQ0025,L005,Baja,Evento HSE,Cerrada,0,False,Geotecnia
+IN00479,20250506,A008,EQ0012,L006,Baja,Condición subestándar,Cerrada,0,False,Ambiente
+IN00480,20250328,A008,EQ0058,L006,Media,Incidente operacional,Cerrada,0,False,Ambiente
+IN00481,20250529,A004,EQ0057,L009,Baja,Bloqueo y etiquetado,Abierta,103,False,Geotecnia
+IN00482,20250325,A017,EQ0017,L013,Baja,Incidente de tránsito mina,Cerrada,0,False,Calidad
+IN00483,20250504,A017,EQ0024,L013,Baja,Derrame menor,Cerrada,0,False,Geotecnia
+IN00484,20250423,A004,EQ0057,L009,Baja,Evento en correa,Cerrada,0,False,Operación
+IN00485,20250620,A004,EQ0049,L009,Media,Bloqueo y etiquetado,Cerrada,0,False,Seguridad
+IN00486,20250513,A004,EQ0020,L009,Crítica,Condición subestándar,Cerrada,0,False,Geotecnia
+IN00487,20250112,A004,EQ0006,L009,Baja,Exposición a energía,Cerrada,0,False,Operación
+IN00488,20250224,A005,EQ0029,L016,Media,Falla de control crítico,Abierta,62,False,Geotecnia
+IN00489,20250409,A004,EQ0053,L009,Media,Exposición a energía,Abierta,103,False,Ambiente
+IN00490,20250616,A004,EQ0051,L009,Media,Condición subestándar,Cerrada,0,False,Operación
+IN00491,20250202,A008,EQ0042,L006,Baja,Incidente operacional,En Proceso,13,False,Operación
+IN00492,20250420,A006,EQ0031,L016,Baja,Evento en taller,En Proceso,98,False,Calidad
+IN00493,20250205,A017,EQ0003,L013,Baja,Incidente operacional,Cerrada,0,False,Ambiente
+IN00494,20250610,A004,EQ0006,L009,Baja,Falla de control crítico,Abierta,100,False,Ambiente
+IN00495,20250531,A004,EQ0049,L009,Media,Riesgo geotécnico,Cerrada,0,False,Ambiente
+IN00496,20250617,A012,EQ0035,L015,Alta,Riesgo geotécnico,En Proceso,92,False,Calidad
+IN00497,20250325,A005,EQ0047,L016,Baja,Falla de control crítico,Cerrada,0,False,Geotecnia
+IN00498,20250424,A005,EQ0029,L016,Baja,Casi accidente,Cerrada,0,False,Geotecnia
+IN00499,20250403,A005,EQ0001,L016,Baja,Exposición a energía,Cerrada,0,False,Geotecnia
+IN00500,20250209,A004,EQ0007,L009,Baja,Acto subestándar,En Proceso,109,False,Calidad

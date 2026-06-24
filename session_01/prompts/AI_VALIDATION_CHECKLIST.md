@@ -19,3 +19,10 @@ Antes de aceptar una respuesta generada por IA, validar:
 - Sugiere visuales decorativos.
 - Usa lenguaje absoluto sin evidencia.
 - Omite privacidad o calidad de datos.
+
+## Validación específica para minería
+- ¿La salida distingue mina, planta, mantenimiento, energía, HSE y OT?
+- ¿Evita usar nombres reales de faenas, personas o empresas?
+- ¿Explica si `ActualOutput` y `OutputUnits` son comparables entre áreas?
+- ¿Evita revelar causas raíz instructor-only del Dataset B?
+- ¿Propone decisiones accionables para la audiencia minera indicada?

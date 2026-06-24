@@ -1,4 +1,4 @@
-# Perfil del dataset de proyecto
+# Perfil dataset project
 
 ## Dim_Fecha
 - Filas: 181
@@ -7,12 +7,12 @@
 - Columnas numéricas: DateKey, Year, MonthNumber, WeekNumber
 
 ## Dim_Area
-- Filas: 6
+- Filas: 17
 - Columnas: 6
 - Nulos principales: sin nulos críticos.
 
 ## Dim_Equipo
-- Filas: 40
+- Filas: 60
 - Columnas: 9
 - Nulos principales: sin nulos críticos.
 
@@ -32,7 +32,7 @@
 - Nulos principales: sin nulos críticos.
 
 ## Dim_TipoTrabajo
-- Filas: 6
+- Filas: 12
 - Columnas: 4
 - Nulos principales: sin nulos críticos.
 
@@ -49,13 +49,13 @@
 - Columnas numéricas: SortOrder
 
 ## Dim_Servicio
-- Filas: 8
+- Filas: 12
 - Columnas: 4
 - Nulos principales: sin nulos críticos.
 - Columnas numéricas: DefaultSLAHours
 
 ## Dim_Ubicacion
-- Filas: 7
+- Filas: 17
 - Columnas: 5
 - Nulos principales: sin nulos críticos.
 
@@ -68,7 +68,7 @@
 ## Fact_OrdenesTrabajo
 - Filas: 5000
 - Columnas: 15
-- Nulos principales: ClosedDateKey=1702
+- Nulos principales: ClosedDateKey=1867
 - Columnas numéricas: CreatedDateKey, ClosedDateKey, EstimatedHours, ActualHours
 
 ## Fact_Costos

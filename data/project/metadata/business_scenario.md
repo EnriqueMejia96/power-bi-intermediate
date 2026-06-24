@@ -1,6 +1,5 @@
-# Escenario de negocio - Dataset B de proyecto final
+# Escenario de negocio - Dataset B de proyecto final minero
 
-        Organización sintética Tech&Eng con proyectos técnicos, órdenes de trabajo, mantenimiento, costos, SLA, seguridad, energía y productividad.
+Organización sintética Tech&Eng minera con operación de rajo abierto y planta concentradora. Gestiona flota mina, chancado, correas, molienda, flotación, relaves, mantenimiento, costos, SLA, seguridad HSE, energía y productividad por turno.
 
-        El dataset `project` (proyecto) usa el mismo esquema común. Dataset A contiene problemas controlados para aprendizaje progresivo; Dataset B conserva el esquema y cambia patrones operativos para evaluación de transferencia.
-        
+El dataset `project` usa el mismo esquema común que el otro dataset. Sus patrones operacionales principales son: Dispatch, relaves, molienda, flota mina y OT planta. Los datos son 100% sintéticos y no representan faenas, empresas ni personas reales.

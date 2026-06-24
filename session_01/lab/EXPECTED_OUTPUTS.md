@@ -36,3 +36,10 @@ Si se usa Power BI en vivo, el estudiante debería haber creado:
 - La audiencia del tablero no es genérica.
 - El KPI tiene una decisión asociada.
 - La recomendación de IA fue revisada, no copiada.
+
+## Resultado esperado del caso minero
+- Problema de negocio formulado como riesgo operacional minero.
+- Preguntas medibles para chancado, backlog, energía y HSE.
+- KPIs preliminares con tabla base y decisión asociada.
+- Páginas propuestas para resumen ejecutivo, operaciones, mantenimiento/SLA, energía y seguridad.
+- Riesgos de interpretación y validación humana explícitos.

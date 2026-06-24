@@ -56,3 +56,8 @@ Un archivo o copia de trabajo del plano de solución con:
 
 ## Límite pedagógico
 En esta sesión no se corrigen todos los problemas de calidad, no se diseña el modelo estrella definitivo, no se escriben medidas DAX avanzadas y no se publica nada en Power BI Service. Eso se aborda en módulos posteriores.
+
+## Caso minero del laboratorio
+La operación minera sintética está en riesgo de no cumplir sus metas operacionales por una combinación de bajo rendimiento en chancado, backlog de mantenimiento, consumo energético anormal y acciones HSE pendientes. El estudiante debe diseñar una solución Power BI para priorizar decisiones, definir audiencia, seleccionar KPIs y justificar qué datos usar.
+
+El blueprint debe incluir problema de negocio, preguntas analíticas, KPIs, datos necesarios, audiencia, páginas del dashboard, uso de IA, validaciones humanas y riesgos de interpretación.

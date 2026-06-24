@@ -1,81 +1,81 @@
 ProjectID,ProjectName,ProjectType,ClientID,AreaID,ResponsibleID,PriorityID,PlannedStartDate,PlannedEndDate
-PR0001,Proyecto TechEng 0001,Optimización,C006,A003,R026,P2,2025-05-20,2025-09-11
-PR0002,Proyecto TechEng 0002,Implementación,C017,A002,R023,P3,2025-01-22,2025-06-14
-PR0003,Proyecto TechEng 0003,Implementación,C006,A006,R023,P3,2025-05-28,2025-08-23
-PR0004,Proyecto TechEng 0004,Digitalización,C015,A001,R016,P2,2025-06-06,2025-07-28
-PR0005,Proyecto TechEng 0005,Optimización,C004,A002,R007,P1,2025-04-05,2025-06-02
-PR0006,Proyecto TechEng 0006,Implementación,C010,A005,R007,P3,2025-01-23,2025-04-03
-PR0007,Proyecto TechEng 0007,Expansión,C004,A001,R007,P3,2025-04-10,2025-05-30
-PR0008,Proyecto TechEng 0008,Digitalización,C019,A006,R001,P2,2025-05-20,2025-09-03
-PR0009,Proyecto TechEng 0009,Mantenimiento mayor,C008,A004,R016,P3,2025-02-08,2025-05-05
-PR0010,Proyecto TechEng 0010,Digitalización,C001,A003,R002,P1,2025-02-20,2025-07-09
-PR0011,Proyecto TechEng 0011,Digitalización,C011,A005,R016,P2,2025-02-07,2025-04-10
-PR0012,Proyecto TechEng 0012,Expansión,C015,A006,R019,P2,2025-05-11,2025-09-19
-PR0013,Proyecto TechEng 0013,Implementación,C012,A006,R014,P2,2025-01-20,2025-07-14
-PR0014,Proyecto TechEng 0014,Expansión,C001,A005,R011,P1,2025-04-02,2025-06-14
-PR0015,Proyecto TechEng 0015,Digitalización,C016,A001,R014,P3,2025-03-14,2025-07-07
-PR0016,Proyecto TechEng 0016,Digitalización,C004,A004,R007,P2,2025-05-10,2025-07-19
-PR0017,Proyecto TechEng 0017,Digitalización,C006,A003,R027,P3,2025-06-09,2025-10-28
-PR0018,Proyecto TechEng 0018,Mantenimiento mayor,C008,A005,R016,P1,2025-05-26,2025-10-22
-PR0019,Proyecto TechEng 0019,Digitalización,C010,A003,R022,P3,2025-02-22,2025-07-11
-PR0020,Proyecto TechEng 0020,Digitalización,C003,A003,R012,P3,2025-05-11,2025-08-23
-PR0021,Proyecto TechEng 0021,Digitalización,C005,A002,R026,P2,2025-03-29,2025-06-19
-PR0022,Proyecto TechEng 0022,Implementación,C008,A005,R029,P4,2025-02-03,2025-05-19
-PR0023,Proyecto TechEng 0023,Implementación,C015,A001,R013,P2,2025-01-27,2025-07-03
-PR0024,Proyecto TechEng 0024,Expansión,C004,A004,R025,P2,2025-02-24,2025-07-16
-PR0025,Proyecto TechEng 0025,Mantenimiento mayor,C007,A003,R012,P3,2025-02-10,2025-05-11
-PR0026,Proyecto TechEng 0026,Implementación,C006,A001,R018,P2,2025-06-06,2025-08-04
-PR0027,Proyecto TechEng 0027,Optimización,C012,A006,R004,P4,2025-01-23,2025-03-19
-PR0028,Proyecto TechEng 0028,Digitalización,C016,A002,R015,P4,2025-02-20,2025-06-02
-PR0029,Proyecto TechEng 0029,Mantenimiento mayor,C019,A005,R014,P3,2025-04-17,2025-08-20
-PR0030,Proyecto TechEng 0030,Expansión,C009,A004,R006,P3,2025-01-07,2025-02-18
-PR0031,Proyecto TechEng 0031,Digitalización,C014,A003,R022,P3,2025-05-12,2025-07-06
-PR0032,Proyecto TechEng 0032,Digitalización,C016,A003,R006,P4,2025-02-27,2025-04-14
-PR0033,Proyecto TechEng 0033,Optimización,C018,A006,R023,P1,2025-06-14,2025-09-09
-PR0034,Proyecto TechEng 0034,Mantenimiento mayor,C006,A003,R016,P2,2025-04-02,2025-07-28
-PR0035,Proyecto TechEng 0035,Implementación,C012,A003,R007,P1,2025-01-26,2025-06-23
-PR0036,Proyecto TechEng 0036,Implementación,C004,A002,R007,P4,2025-03-14,2025-06-28
-PR0037,Proyecto TechEng 0037,Expansión,C018,A005,R002,P3,2025-01-20,2025-02-21
-PR0038,Proyecto TechEng 0038,Implementación,C010,A006,R020,P2,2025-06-12,2025-09-22
-PR0039,Proyecto TechEng 0039,Digitalización,C015,A001,R025,P2,2025-03-10,2025-06-17
-PR0040,Proyecto TechEng 0040,Mantenimiento mayor,C020,A003,R004,P2,2025-05-10,2025-10-09
-PR0041,Proyecto TechEng 0041,Digitalización,C009,A003,R027,P1,2025-05-04,2025-08-13
-PR0042,Proyecto TechEng 0042,Digitalización,C019,A005,R028,P1,2025-02-02,2025-06-30
-PR0043,Proyecto TechEng 0043,Optimización,C006,A003,R004,P2,2025-06-18,2025-08-24
-PR0044,Proyecto TechEng 0044,Mantenimiento mayor,C008,A006,R009,P2,2025-01-04,2025-03-03
-PR0045,Proyecto TechEng 0045,Optimización,C020,A003,R009,P2,2025-05-30,2025-08-09
-PR0046,Proyecto TechEng 0046,Optimización,C016,A006,R014,P3,2025-05-18,2025-09-19
-PR0047,Proyecto TechEng 0047,Optimización,C002,A003,R013,P4,2025-01-12,2025-02-23
-PR0048,Proyecto TechEng 0048,Optimización,C002,A006,R003,P2,2025-01-22,2025-05-11
-PR0049,Proyecto TechEng 0049,Optimización,C005,A006,R019,P3,2025-02-11,2025-08-03
-PR0050,Proyecto TechEng 0050,Optimización,C013,A002,R001,P2,2025-01-03,2025-03-19
-PR0051,Proyecto TechEng 0051,Digitalización,C004,A002,R012,P3,2025-05-27,2025-08-31
-PR0052,Proyecto TechEng 0052,Expansión,C008,A004,R003,P2,2025-01-05,2025-05-18
-PR0053,Proyecto TechEng 0053,Implementación,C001,A001,R023,P4,2025-05-14,2025-11-09
-PR0054,Proyecto TechEng 0054,Mantenimiento mayor,C019,A001,R015,P3,2025-05-06,2025-09-04
-PR0055,Proyecto TechEng 0055,Digitalización,C002,A002,R008,P2,2025-04-27,2025-10-11
-PR0056,Proyecto TechEng 0056,Digitalización,C012,A003,R008,P3,2025-03-06,2025-08-28
-PR0057,Proyecto TechEng 0057,Optimización,C008,A002,R025,P3,2025-02-09,2025-07-06
-PR0058,Proyecto TechEng 0058,Implementación,C008,A006,R010,P2,2025-06-29,2025-11-09
-PR0059,Proyecto TechEng 0059,Expansión,C005,A003,R008,P2,2025-03-04,2025-07-17
-PR0060,Proyecto TechEng 0060,Expansión,C013,A002,R012,P3,2025-04-15,2025-05-16
-PR0061,Proyecto TechEng 0061,Implementación,C012,A005,R014,P2,2025-06-15,2025-09-05
-PR0062,Proyecto TechEng 0062,Optimización,C006,A006,R008,P1,2025-05-28,2025-07-25
-PR0063,Proyecto TechEng 0063,Expansión,C010,A001,R025,P1,2025-04-08,2025-05-19
-PR0064,Proyecto TechEng 0064,Implementación,C001,A006,R017,P3,2025-03-23,2025-07-07
-PR0065,Proyecto TechEng 0065,Optimización,C019,A006,R012,P2,2025-06-26,2025-10-28
-PR0066,Proyecto TechEng 0066,Optimización,C004,A003,R029,P3,2025-03-26,2025-05-03
-PR0067,Proyecto TechEng 0067,Expansión,C016,A002,R005,P2,2025-04-11,2025-09-06
-PR0068,Proyecto TechEng 0068,Digitalización,C012,A004,R007,P2,2025-05-15,2025-06-20
-PR0069,Proyecto TechEng 0069,Expansión,C005,A006,R025,P3,2025-03-22,2025-04-29
-PR0070,Proyecto TechEng 0070,Expansión,C004,A001,R005,P4,2025-01-21,2025-04-25
-PR0071,Proyecto TechEng 0071,Mantenimiento mayor,C013,A002,R004,P3,2025-04-16,2025-09-21
-PR0072,Proyecto TechEng 0072,Implementación,C009,A001,R021,P2,2025-05-09,2025-08-22
-PR0073,Proyecto TechEng 0073,Mantenimiento mayor,C004,A002,R020,P3,2025-06-16,2025-09-13
-PR0074,Proyecto TechEng 0074,Expansión,C004,A006,R016,P3,2025-05-04,2025-10-20
-PR0075,Proyecto TechEng 0075,Implementación,C010,A002,R028,P2,2025-05-31,2025-09-24
-PR0076,Proyecto TechEng 0076,Optimización,C020,A001,R008,P2,2025-04-05,2025-09-05
-PR0077,Proyecto TechEng 0077,Mantenimiento mayor,C004,A001,R006,P2,2025-02-19,2025-07-13
-PR0078,Proyecto TechEng 0078,Expansión,C008,A004,R005,P2,2025-05-07,2025-09-07
-PR0079,Proyecto TechEng 0079,Expansión,C013,A001,R014,P1,2025-01-18,2025-06-17
-PR0080,Proyecto TechEng 0080,Expansión,C020,A006,R025,P3,2025-05-12,2025-09-17
+PR0001,Optimización de Chancado Primario 001,Automatización,C004,A004,R005,P1,2025-02-19,2025-07-13
+PR0002,Reemplazo de Correa CV-101 002,Transformación Digital,C008,A003,R011,P3,2025-05-07,2025-09-07
+PR0003,Mejora de Disponibilidad de Camiones CAEX 003,Mina,C013,A008,R015,P2,2025-01-18,2025-06-17
+PR0004,Modernización Sistema Dispatch 004,Transformación Digital,C020,A015,R012,P1,2025-05-12,2025-09-17
+PR0005,Upgrade SCADA Planta 005,Seguridad,C017,A015,R028,P3,2025-04-13,2025-07-02
+PR0006,Reducción de Consumo Energético en Molienda 006,Mina,C016,A007,R002,P3,2025-05-18,2025-07-14
+PR0007,Programa de Seguridad en Taller Mina 007,Seguridad,C015,A013,R003,P1,2025-03-11,2025-04-25
+PR0008,Mejoramiento Sistema de Relaves 008,Planta,C011,A014,R001,P3,2025-01-27,2025-06-05
+PR0009,Cambio de Revestimientos Molino SAG 009,Energía,C005,A017,R008,P3,2025-02-04,2025-04-23
+PR0010,Automatización de Reporte de Producción 010,Mantenimiento,C005,A012,R007,P1,2025-02-18,2025-04-07
+PR0011,Proyecto de Monitoreo Geotécnico 011,Energía,C005,A005,R025,P2,2025-01-25,2025-07-21
+PR0012,Mejora de Confiabilidad de Bombas de Pulpa 012,Transformación Digital,C001,A007,R013,P2,2025-04-03,2025-08-22
+PR0013,Programa de Reducción de Backlog 013,Producción,C011,A007,R005,P2,2025-03-10,2025-06-27
+PR0014,Optimización de Flotación 014,Confiabilidad,C002,A001,R009,P3,2025-05-12,2025-09-30
+PR0015,Reemplazo de Variadores en Correas 015,Automatización,C011,A002,R023,P3,2025-02-09,2025-07-05
+PR0016,Implementación de Tablero Operacional 016,Planta,C013,A013,R024,P2,2025-05-03,2025-10-15
+PR0017,Optimización de Chancado Primario 017,Automatización,C010,A015,R004,P2,2025-06-25,2025-08-17
+PR0018,Reemplazo de Correa CV-101 018,Confiabilidad,C007,A010,R027,P3,2025-02-22,2025-08-04
+PR0019,Mejora de Disponibilidad de Camiones CAEX 019,Planta,C010,A014,R030,P1,2025-04-14,2025-08-25
+PR0020,Modernización Sistema Dispatch 020,Energía,C005,A005,R015,P2,2025-02-18,2025-07-14
+PR0021,Upgrade SCADA Planta 021,Seguridad,C018,A009,R011,P3,2025-05-16,2025-09-29
+PR0022,Reducción de Consumo Energético en Molienda 022,Producción,C011,A010,R017,P3,2025-05-24,2025-09-15
+PR0023,Programa de Seguridad en Taller Mina 023,Mantenimiento,C015,A015,R021,P4,2025-05-13,2025-09-19
+PR0024,Mejoramiento Sistema de Relaves 024,Energía,C008,A002,R011,P2,2025-03-31,2025-08-23
+PR0025,Cambio de Revestimientos Molino SAG 025,Seguridad,C017,A003,R001,P4,2025-03-04,2025-07-10
+PR0026,Automatización de Reporte de Producción 026,Producción,C019,A004,R017,P3,2025-04-01,2025-05-14
+PR0027,Proyecto de Monitoreo Geotécnico 027,Planta,C009,A006,R003,P3,2025-06-03,2025-07-19
+PR0028,Mejora de Confiabilidad de Bombas de Pulpa 028,Energía,C017,A008,R005,P2,2025-05-16,2025-10-21
+PR0029,Programa de Reducción de Backlog 029,Producción,C008,A001,R025,P4,2025-03-14,2025-07-05
+PR0030,Optimización de Flotación 030,Seguridad,C012,A008,R028,P3,2025-02-05,2025-03-11
+PR0031,Reemplazo de Variadores en Correas 031,Automatización,C003,A003,R023,P4,2025-01-31,2025-04-22
+PR0032,Implementación de Tablero Operacional 032,Planta,C010,A002,R020,P2,2025-03-29,2025-08-13
+PR0033,Optimización de Chancado Primario 033,Transformación Digital,C010,A008,R019,P1,2025-04-25,2025-07-31
+PR0034,Reemplazo de Correa CV-101 034,Mantenimiento,C004,A014,R015,P2,2025-01-15,2025-07-02
+PR0035,Mejora de Disponibilidad de Camiones CAEX 035,Infraestructura,C015,A006,R015,P3,2025-02-01,2025-06-23
+PR0036,Modernización Sistema Dispatch 036,Planta,C004,A006,R019,P3,2025-01-20,2025-06-17
+PR0037,Upgrade SCADA Planta 037,Mina,C016,A001,R027,P1,2025-03-11,2025-05-26
+PR0038,Reducción de Consumo Energético en Molienda 038,Seguridad,C011,A011,R018,P2,2025-04-17,2025-08-13
+PR0039,Programa de Seguridad en Taller Mina 039,Automatización,C005,A016,R007,P1,2025-05-23,2025-07-04
+PR0040,Mejoramiento Sistema de Relaves 040,Energía,C005,A002,R013,P3,2025-04-03,2025-05-04
+PR0041,Cambio de Revestimientos Molino SAG 041,Mina,C001,A009,R029,P3,2025-01-03,2025-06-16
+PR0042,Automatización de Reporte de Producción 042,Mantenimiento,C014,A010,R006,P3,2025-03-29,2025-05-18
+PR0043,Proyecto de Monitoreo Geotécnico 043,Planta,C017,A002,R027,P3,2025-03-25,2025-08-21
+PR0044,Mejora de Confiabilidad de Bombas de Pulpa 044,Transformación Digital,C003,A009,R021,P2,2025-05-28,2025-09-01
+PR0045,Programa de Reducción de Backlog 045,Mantenimiento,C018,A017,R019,P4,2025-03-28,2025-07-28
+PR0046,Optimización de Flotación 046,Transformación Digital,C019,A004,R011,P2,2025-05-23,2025-10-15
+PR0047,Reemplazo de Variadores en Correas 047,Seguridad,C003,A006,R006,P1,2025-02-14,2025-05-03
+PR0048,Implementación de Tablero Operacional 048,Producción,C006,A016,R002,P3,2025-02-04,2025-05-12
+PR0049,Optimización de Chancado Primario 049,Transformación Digital,C006,A017,R002,P4,2025-02-19,2025-05-03
+PR0050,Reemplazo de Correa CV-101 050,Planta,C010,A005,R001,P3,2025-04-24,2025-07-07
+PR0051,Mejora de Disponibilidad de Camiones CAEX 051,Confiabilidad,C009,A009,R012,P3,2025-01-16,2025-03-26
+PR0052,Modernización Sistema Dispatch 052,Confiabilidad,C002,A006,R020,P3,2025-04-06,2025-06-22
+PR0053,Upgrade SCADA Planta 053,Seguridad,C013,A015,R030,P2,2025-06-23,2025-09-05
+PR0054,Reducción de Consumo Energético en Molienda 054,Infraestructura,C001,A009,R008,P2,2025-02-25,2025-05-02
+PR0055,Programa de Seguridad en Taller Mina 055,Energía,C008,A004,R009,P3,2025-03-21,2025-07-22
+PR0056,Mejoramiento Sistema de Relaves 056,Producción,C002,A008,R024,P1,2025-05-05,2025-10-08
+PR0057,Cambio de Revestimientos Molino SAG 057,Confiabilidad,C016,A001,R006,P2,2025-06-30,2025-08-07
+PR0058,Automatización de Reporte de Producción 058,Transformación Digital,C010,A017,R013,P4,2025-04-21,2025-07-21
+PR0059,Proyecto de Monitoreo Geotécnico 059,Confiabilidad,C006,A008,R017,P2,2025-06-15,2025-11-08
+PR0060,Mejora de Confiabilidad de Bombas de Pulpa 060,Automatización,C006,A015,R005,P4,2025-06-25,2025-10-25
+PR0061,Programa de Reducción de Backlog 061,Producción,C017,A012,R024,P2,2025-05-22,2025-07-26
+PR0062,Optimización de Flotación 062,Producción,C007,A013,R025,P3,2025-05-06,2025-07-02
+PR0063,Reemplazo de Variadores en Correas 063,Seguridad,C006,A013,R002,P2,2025-05-08,2025-10-27
+PR0064,Implementación de Tablero Operacional 064,Infraestructura,C008,A012,R027,P4,2025-01-03,2025-06-18
+PR0065,Optimización de Chancado Primario 065,Automatización,C010,A008,R014,P3,2025-03-05,2025-04-27
+PR0066,Reemplazo de Correa CV-101 066,Seguridad,C005,A012,R024,P2,2025-02-04,2025-04-20
+PR0067,Mejora de Disponibilidad de Camiones CAEX 067,Mantenimiento,C017,A011,R017,P4,2025-01-15,2025-06-26
+PR0068,Modernización Sistema Dispatch 068,Confiabilidad,C011,A017,R015,P2,2025-04-03,2025-05-17
+PR0069,Upgrade SCADA Planta 069,Transformación Digital,C008,A005,R010,P2,2025-04-24,2025-06-23
+PR0070,Reducción de Consumo Energético en Molienda 070,Energía,C020,A002,R019,P4,2025-01-11,2025-03-27
+PR0071,Programa de Seguridad en Taller Mina 071,Planta,C003,A011,R002,P1,2025-05-23,2025-11-05
+PR0072,Mejoramiento Sistema de Relaves 072,Automatización,C005,A006,R018,P4,2025-01-08,2025-05-11
+PR0073,Cambio de Revestimientos Molino SAG 073,Seguridad,C017,A012,R025,P2,2025-01-11,2025-06-17
+PR0074,Automatización de Reporte de Producción 074,Energía,C003,A002,R013,P4,2025-03-20,2025-09-07
+PR0075,Proyecto de Monitoreo Geotécnico 075,Infraestructura,C003,A008,R027,P1,2025-06-05,2025-09-27
+PR0076,Mejora de Confiabilidad de Bombas de Pulpa 076,Mantenimiento,C014,A017,R009,P4,2025-04-02,2025-05-24
+PR0077,Programa de Reducción de Backlog 077,Energía,C013,A002,R024,P2,2025-03-13,2025-06-16
+PR0078,Optimización de Flotación 078,Energía,C011,A012,R010,P3,2025-06-17,2025-11-29
+PR0079,Reemplazo de Variadores en Correas 079,Mantenimiento,C019,A004,R029,P2,2025-04-15,2025-05-19
+PR0080,Implementación de Tablero Operacional 080,Transformación Digital,C006,A004,R006,P3,2025-05-30,2025-08-13

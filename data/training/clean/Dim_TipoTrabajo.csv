@@ -1,7 +1,13 @@
 WorkTypeID,WorkTypeName,WorkCategory,PlannedFlag
-WT1,Preventivo,Mantenimiento,True
-WT2,Correctivo,Mantenimiento,False
-WT3,Inspección,Control,True
-WT4,Mejora,Proyecto,True
-WT5,Instalación,Proyecto,True
-WT6,Soporte,Servicio,False
+WT1,Preventivo,Preventivo,True
+WT2,Correctivo no planificado,Correctivo,False
+WT3,Predictivo,Predictivo,True
+WT4,Inspección operacional,Inspección,True
+WT5,Inspección HSE,Inspección,True
+WT6,Overhaul,Proyecto,True
+WT7,Cambio de componentes,Correctivo,False
+WT8,Lubricación,Preventivo,True
+WT9,Calibración de instrumentación,Preventivo,True
+WT10,Parada planta,Proyecto,True
+WT11,Emergencia operacional,Emergencia,False
+WT12,Soporte OT,Emergencia,False

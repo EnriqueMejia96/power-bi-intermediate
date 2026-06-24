@@ -23,3 +23,18 @@ Microsoft Copilot for Power BI, Microsoft Copilot for Microsoft 365, Power BI Q&
 
 ## Advertencia de privacidad
 Usar solo datos sintéticos o descripciones anonimizadas. No incluir clientes, contratos, personas, ubicaciones reales ni credenciales.
+
+## Prompt minero adicional
+**Título:** Diseñar dashboard minero ejecutivo y operativo.
+
+**Cuándo usarlo:** al pasar de KPIs a wireframe.
+
+**Prompt:** "Propón páginas Power BI para una operación minera sintética: resumen ejecutivo, operaciones, mantenimiento/SLA, energía, seguridad y causa raíz. Para cada página indica audiencia, pregunta, KPIs, visuales, filtros, drill-through, tooltips, uso de IA y riesgos de interpretación."
+
+**Inputs requeridos:** audiencia, KPIs priorizados, tablas y restricciones.
+
+**Output esperado:** wireframe textual por página.
+
+**Checklist de validación humana:** verificar que cada visual responda una decisión y que no haya sobrecarga.
+
+**Advertencia de privacidad:** usar solo descripciones sintéticas.

@@ -1,9 +1,13 @@
 ServiceID,ServiceName,ServiceCategory,DefaultSLAHours
-SV1,Soporte OT,TI/OT,24
-SV2,Mantenimiento eléctrico,Mantenimiento,48
-SV3,Mantenimiento mecánico,Mantenimiento,48
-SV4,Gestión de proyectos,Proyecto,120
-SV5,Seguridad HSE,Seguridad,24
-SV6,Energía,Energía,72
-SV7,Automatización,Automatización,36
-SV8,Mesa técnica,Servicio,24
+SV1,Mantenimiento Mecánico Mina,Mina,24
+SV2,Mantenimiento Eléctrico Mina,Mina,24
+SV3,Mantenimiento Planta,Planta,36
+SV4,Inspección de Correas,Mantenimiento,18
+SV5,Soporte Dispatch,Operaciones,12
+SV6,Automatización y Control,Automatización,24
+SV7,Energía y Subestaciones,Energía,36
+SV8,Seguridad HSE,Seguridad,24
+SV9,Gestión de Relaves,Planta,48
+SV10,Monitoreo Geotécnico,Ingeniería,24
+SV11,Soporte SCADA,Automatización,18
+SV12,Gestión de Paradas Planta,Mantenimiento,72
