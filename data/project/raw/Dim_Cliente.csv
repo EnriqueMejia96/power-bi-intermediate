@@ -1,0 +1,21 @@
+ClientID,ClientName,Segment,Region,ContractType,_SourceFile,_ExportedAt,_LegacyRowNumber
+C001,Cliente Sintético 01,Minería,Centro,SLA,project_dim_cliente_export.csv,2026-06-23T00:00:00,1
+C002,Cliente Sintético 02,Infraestructura,Norte,Spot,project_dim_cliente_export.csv,2026-06-23T00:00:00,2
+C003,Cliente Sintético 03,Servicios,Sur,SLA,project_dim_cliente_export.csv,2026-06-23T00:00:00,3
+C004,Cliente Sintético 04,Minería,Lima,Proyecto,project_dim_cliente_export.csv,2026-06-23T00:00:00,4
+C005,Cliente Sintético 05,Minería,Oriente,Proyecto,project_dim_cliente_export.csv,2026-06-23T00:00:00,5
+C006,Cliente Sintético 06,Energía,Centro,SLA,project_dim_cliente_export.csv,2026-06-23T00:00:00,6
+C007,Cliente Sintético 07,Infraestructura,Centro,Retainer,project_dim_cliente_export.csv,2026-06-23T00:00:00,7
+C008,Cliente Sintético 08,Infraestructura,Sur,SLA,project_dim_cliente_export.csv,2026-06-23T00:00:00,8
+C009,Cliente Sintético 09,Infraestructura,Oriente,Proyecto,project_dim_cliente_export.csv,2026-06-23T00:00:00,9
+C010,Cliente Sintético 10,Servicios,Oriente,Spot,project_dim_cliente_export.csv,2026-06-23T00:00:00,10
+C011,Cliente Sintético 11,Infraestructura,Norte,Retainer,project_dim_cliente_export.csv,2026-06-23T00:00:00,11
+C012,Cliente Sintético 12,Manufactura,Oriente,Retainer,project_dim_cliente_export.csv,2026-06-23T00:00:00,12
+C013,Cliente Sintético 13,Infraestructura,Lima,SLA,project_dim_cliente_export.csv,2026-06-23T00:00:00,13
+C014,Cliente Sintético 14,Infraestructura,Lima,Proyecto,project_dim_cliente_export.csv,2026-06-23T00:00:00,14
+C015,Cliente Sintético 15,Minería,Norte,SLA,project_dim_cliente_export.csv,2026-06-23T00:00:00,15
+C016,Cliente Sintético 16,Servicios,Sur,Retainer,project_dim_cliente_export.csv,2026-06-23T00:00:00,16
+C017,Cliente Sintético 17,Servicios,Lima,Retainer,project_dim_cliente_export.csv,2026-06-23T00:00:00,17
+C018,Cliente Sintético 18,Manufactura,Sur,SLA,project_dim_cliente_export.csv,2026-06-23T00:00:00,18
+C019,Cliente Sintético 19,Infraestructura,Oriente,SLA,project_dim_cliente_export.csv,2026-06-23T00:00:00,19
+C020,Cliente Sintético 20,Minería,Oriente,Retainer,project_dim_cliente_export.csv,2026-06-23T00:00:00,20

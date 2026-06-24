@@ -1,0 +1,41 @@
+EquipmentID,EquipmentName,EquipmentType,Criticality,AreaID,Manufacturer,Model,CommissioningDate,ActiveFlag
+EQ0001,Equipo Sintético 0001,PLC,Alta,A003,Kuntur Labs,M-353,2020-11-11,True
+EQ0002,Equipo Sintético 0002,PLC,Media,A004,InnovaPower,M-564,2022-06-05,True
+EQ0003,Equipo Sintético 0003,PLC,Media,A004,InnovaPower,M-114,2018-11-20,True
+EQ0004,Equipo Sintético 0004,PLC,Baja,A004,NovaControls,M-968,2019-07-01,True
+EQ0005,Equipo Sintético 0005,Transformador,Media,A004,AndesTech,M-611,2020-09-08,True
+EQ0006,Equipo Sintético 0006,Transformador,Alta,A005,NovaControls,M-782,2021-04-17,True
+EQ0007,Equipo Sintético 0007,Tablero,Alta,A001,Kuntur Labs,M-438,2022-03-13,True
+EQ0008,Equipo Sintético 0008,Transportador,Media,A004,Kuntur Labs,M-141,2023-09-10,True
+EQ0009,Equipo Sintético 0009,Transformador,Media,A005,Aster Systems,M-482,2023-02-18,True
+EQ0010,Equipo Sintético 0010,Servidor OT,Media,A001,Aster Systems,M-146,2023-12-29,True
+EQ0011,Equipo Sintético 0011,Transformador,Alta,A005,NovaControls,M-124,2017-11-16,True
+EQ0012,Equipo Sintético 0012,Compresor,Baja,A004,Kuntur Labs,M-986,2023-05-14,True
+EQ0013,Equipo Sintético 0013,Servidor OT,Baja,A004,Kuntur Labs,M-123,2024-05-15,True
+EQ0014,Equipo Sintético 0014,Bomba,Media,A006,AndesTech,M-684,2019-12-23,True
+EQ0015,Equipo Sintético 0015,Bomba,Media,A002,Kuntur Labs,M-700,2020-04-07,True
+EQ0016,Equipo Sintético 0016,Tablero,Baja,A005,AndesTech,M-309,2022-07-27,True
+EQ0017,Equipo Sintético 0017,Compresor,Media,A005,AndesTech,M-459,2020-05-14,True
+EQ0018,Equipo Sintético 0018,Tablero,Media,A005,Aster Systems,M-635,2022-03-19,True
+EQ0019,Equipo Sintético 0019,Compresor,Baja,A006,Aster Systems,M-711,2021-12-22,True
+EQ0020,Equipo Sintético 0020,Bomba,Media,A001,InnovaPower,M-157,2022-02-13,True
+EQ0021,Equipo Sintético 0021,Sensor,Alta,A005,AndesTech,M-101,2024-04-23,True
+EQ0022,Equipo Sintético 0022,Bomba,Media,A003,AndesTech,M-685,2024-11-13,True
+EQ0023,Equipo Sintético 0023,Servidor OT,Media,A005,NovaControls,M-287,2023-04-02,True
+EQ0024,Equipo Sintético 0024,Bomba,Alta,A006,InnovaPower,M-501,2020-07-29,True
+EQ0025,Equipo Sintético 0025,Sensor,Alta,A003,NovaControls,M-979,2018-07-26,True
+EQ0026,Equipo Sintético 0026,Transformador,Baja,A001,InnovaPower,M-285,2017-06-25,True
+EQ0027,Equipo Sintético 0027,Compresor,Media,A006,NovaControls,M-183,2019-02-01,True
+EQ0028,Equipo Sintético 0028,Tablero,Alta,A001,AndesTech,M-416,2021-04-07,True
+EQ0029,Equipo Sintético 0029,Bomba,Baja,A004,NovaControls,M-313,2017-10-18,True
+EQ0030,Equipo Sintético 0030,Compresor,Baja,A002,InnovaPower,M-378,2021-05-01,True
+EQ0031,Equipo Sintético 0031,Compresor,Media,A003,Kuntur Labs,M-901,2017-04-30,True
+EQ0032,Equipo Sintético 0032,Transformador,Media,A005,Aster Systems,M-666,2019-08-31,True
+EQ0033,Equipo Sintético 0033,Transportador,Media,A003,NovaControls,M-123,2021-05-11,True
+EQ0034,Equipo Sintético 0034,Tablero,Baja,A005,AndesTech,M-751,2019-04-20,True
+EQ0035,Equipo Sintético 0035,Compresor,Alta,A003,Kuntur Labs,M-863,2018-04-18,True
+EQ0036,Equipo Sintético 0036,Sensor,Alta,A002,Kuntur Labs,M-115,2024-09-01,True
+EQ0037,Equipo Sintético 0037,PLC,Baja,A005,InnovaPower,M-366,2020-06-08,True
+EQ0038,Equipo Sintético 0038,Bomba,Media,A006,AndesTech,M-342,2022-04-29,True
+EQ0039,Equipo Sintético 0039,Servidor OT,Media,A005,AndesTech,M-553,2019-05-28,True
+EQ0040,Equipo Sintético 0040,Compresor,Baja,A003,Kuntur Labs,M-371,2020-03-29,True

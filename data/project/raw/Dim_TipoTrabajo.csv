@@ -1,0 +1,7 @@
+WorkTypeID,WorkTypeName,WorkCategory,PlannedFlag,_SourceFile,_ExportedAt,_LegacyRowNumber
+WT1,Preventivo,Mantenimiento,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,1
+WT2,Correctivo,Mantenimiento,False,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,2
+WT3,Inspección,Control,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,3
+WT4,Mejora,Proyecto,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,4
+WT5,Instalación,Proyecto,True,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,5
+WT6,Soporte,Servicio,False,project_dim_tipotrabajo_export.csv,2026-06-23T00:00:00,6

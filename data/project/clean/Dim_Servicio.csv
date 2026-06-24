@@ -1,0 +1,9 @@
+ServiceID,ServiceName,ServiceCategory,DefaultSLAHours
+SV1,Soporte OT,TI/OT,24
+SV2,Mantenimiento eléctrico,Mantenimiento,48
+SV3,Mantenimiento mecánico,Mantenimiento,48
+SV4,Gestión de proyectos,Proyecto,120
+SV5,Seguridad HSE,Seguridad,24
+SV6,Energía,Energía,72
+SV7,Automatización,Automatización,36
+SV8,Mesa técnica,Servicio,24

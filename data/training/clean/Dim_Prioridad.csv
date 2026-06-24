@@ -1,0 +1,5 @@
+PriorityID,PriorityName,PriorityRank,TargetResponseHours,TargetResolutionHours
+P1,Crítica,1,2,8
+P2,Alta,2,4,24
+P3,Media,3,12,72
+P4,Baja,4,24,120

@@ -1,0 +1,501 @@
+IncidentID,DateKey,AreaID,EquipmentID,LocationID,Severity,IncidentType,CorrectiveActionStatus,DaysOpen,LostTimeFlag,RiskCategory,_SourceFile,_ExportedAt,_LegacyRowNumber
+IN00001,20240228,A005,EQ0032,L004,Baja,Casi accidente,Abierta,87,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,1
+IN00002,20240306,A004,EQ0008,L006,Baja,Ambiental,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,2
+IN00003,20240409,A001,EQ0040,L006,Media,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,3
+IN00004,20240709,A006,EQ0001,L001,Baja,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,4
+IN00005,20240508,A004,EQ0022,L006,Baja,Lesión menor,Abierta,48,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,5
+IN00006,20240306,A001,EQ0023,L006,Media,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,6
+IN00007,20240730,A005,EQ0032,L004,Baja,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,7
+IN00008,20240216,A003,EQ0013,L006,Media,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,8
+IN00009,20240812,A003,EQ0029,L006,Media,Ambiental,En progreso,28,True,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,9
+IN00010,20240102,A004,EQ0003,L006,Media,Casi accidente,Abierta,57,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,10
+IN00011,20240530,A001,EQ0018,L006,Media,Lesión menor,Cerrada,0,True,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,11
+IN00012,20240131,A004,EQ0016,L006,Media,Lesión menor,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,12
+IN00013,20240411,A004,EQ0039,L006,Media,Casi accidente,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,13
+IN00014,20240712,A001,EQ0040,L006,Baja,Ambiental,Abierta,83,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,14
+IN00015,20240204,A003,EQ0036,L006,Baja,Casi accidente,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,15
+IN00016,20240711,A005,EQ0025,L004,Baja,Casi accidente,Abierta,79,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,16
+IN00017,20240421,A003,EQ0002,L006,Baja,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,17
+IN00018,20240403,A003,EQ0029,L006,Baja,Condición insegura,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,18
+IN00019,20240502,A003,EQ0009,L006,Baja,Lesión menor,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,19
+IN00020,20241207,A002,EQ0034,L006,Baja,Ambiental,En progreso,37,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,20
+IN00021,20240904,A004,EQ0016,L006,Alta,Casi accidente,Cerrada,0,True,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,21
+IN00022,20240610,A006,EQ0028,L001,Media,Lesión menor,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,22
+IN00023,20240315,A001,EQ0023,L006,Media,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,23
+IN00024,20241022,A001,EQ0018,L006,Baja,Casi accidente,Abierta,26,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,24
+IN00025,20240719,A003,EQ0026,L006,Baja,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,25
+IN00026,20240705,A003,EQ0035,L006,Media,Casi accidente,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,26
+IN00027,20241114,A006,EQ0030,L001,Media,Daño equipo,Abierta,55,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,27
+IN00028,20240330,A003,EQ0013,L006,Baja,Daño equipo,Abierta,4,True,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,28
+IN00029,20241212,A004,EQ0008,L006,Baja,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,29
+IN00030,20240228,A004,EQ0011,L006,Media,Daño equipo,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,30
+IN00031,20240911,A002,EQ0021,L006,Media,Condición insegura,En progreso,38,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,31
+IN00032,20240305,A004,EQ0011,L006,Media,Casi accidente,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,32
+IN00033,20240124,A005,EQ0032,L004,Baja,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,33
+IN00034,20240904,A002,EQ0014,L006,Baja,Lesión menor,En progreso,68,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,34
+IN00035,20240827,A004,EQ0008,L006,Alta,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,35
+IN00036,20241001,A005,EQ0032,L004,Media,Lesión menor,En progreso,49,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,36
+IN00037,20240104,A006,EQ0030,L001,Baja,Daño equipo,En progreso,62,True,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,37
+IN00038,20240302,A002,EQ0005,L006,Baja,Ambiental,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,38
+IN00039,20240520,A002,EQ0021,L006,Media,Casi accidente,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,39
+IN00040,20241227,A002,EQ0021,L006,Baja,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,40
+IN00041,20241208,A004,EQ0016,L006,Media,Lesión menor,Abierta,50,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,41
+IN00042,20241130,A005,EQ0025,L004,Baja,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,42
+IN00043,20240919,A002,EQ0021,L006,Baja,Ambiental,En progreso,79,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,43
+IN00044,20240329,A001,EQ0038,L006,Media,Ambiental,En progreso,58,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,44
+IN00045,20241006,A006,EQ0006,L001,Media,Condición insegura,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,45
+IN00046,20240424,A004,EQ0016,L006,Media,Lesión menor,Abierta,23,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,46
+IN00047,20240513,A006,EQ0017,L001,Alta,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,47
+IN00048,20241221,A005,EQ0020,L004,Baja,Lesión menor,Abierta,79,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,48
+IN00049,20240410,A006,EQ0030,L001,Baja,Daño equipo,En progreso,40,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,49
+IN00050,20241231,A006,EQ0028,L001,Media,Daño equipo,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,50
+IN00051,20241026,A001,EQ0038,L006,Baja,Casi accidente,En progreso,10,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,51
+IN00052,20240530,A005,EQ0007,L004,Baja,Ambiental,Abierta,7,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,52
+IN00053,20240416,A004,EQ0011,L006,Baja,Daño equipo,Abierta,56,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,53
+IN00054,20241102,A006,EQ0017,L001,Media,Casi accidente,En progreso,65,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,54
+IN00055,20241202,A006,EQ0030,L001,Baja,Lesión menor,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,55
+IN00056,20241202,A003,EQ0002,L006,Media,Casi accidente,Abierta,22,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,56
+IN00057,20240419,A005,EQ0010,L004,Baja,Lesión menor,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,57
+IN00058,20241118,A006,EQ0001,L001,Media,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,58
+IN00059,20240516,A004,EQ0003,L006,Media,Ambiental,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,59
+IN00060,20240902,A006,EQ0017,L001,Alta,Condición insegura,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,60
+IN00061,20240808,A004,EQ0011,L006,Media,Condición insegura,Abierta,19,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,61
+IN00062,20240602,A005,EQ0033,L004,Baja,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,62
+IN00063,20240507,A002,EQ0005,L006,Media,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,63
+IN00064,20240703,A004,EQ0016,L006,Baja,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,64
+IN00065,20240124,A004,EQ0003,L006,Media,Daño equipo,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,65
+IN00066,20240918,A001,EQ0023,L006,Baja,Condición insegura,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,66
+IN00067,20240117,A003,EQ0026,L006,Baja,Lesión menor,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,67
+IN00068,20240404,A006,EQ0019,L001,Baja,Condición insegura,Abierta,34,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,68
+IN00069,20240813,A002,EQ0005,L006,Baja,Lesión menor,En progreso,51,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,69
+IN00070,20240916,A001,EQ0018,L006,Media,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,70
+IN00071,20241009,A003,EQ0035,L006,Media,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,71
+IN00072,20240711,A005,EQ0025,L004,Alta,Ambiental,Abierta,3,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,72
+IN00073,20240724,A005,EQ0024,L004,Media,Ambiental,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,73
+IN00074,20240731,A001,EQ0038,L006,Media,Ambiental,En progreso,46,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,74
+IN00075,20241116,A003,EQ0009,L006,Baja,Daño equipo,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,75
+IN00076,20241101,A001,EQ0023,L006,Baja,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,76
+IN00077,20240612,A003,EQ0013,L006,Baja,Lesión menor,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,77
+IN00078,20241211,A002,EQ0034,L006,Media,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,78
+IN00079,20240406,A005,EQ0031,L004,Baja,Ambiental,En progreso,11,True,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,79
+IN00080,20240421,A002,EQ0014,L006,Baja,Daño equipo,Abierta,38,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,80
+IN00081,20240211,A002,EQ0034,L006,Media,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,81
+IN00082,20241006,A003,EQ0012,L006,Media,Ambiental,En progreso,38,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,82
+IN00083,20240730,A001,EQ0018,L006,Baja,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,83
+IN00084,20240807,A003,EQ0004,L006,Media,Daño equipo,Abierta,7,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,84
+IN00085,20241015,A001,EQ0018,L006,Media,Ambiental,En progreso,6,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,85
+IN00086,20240416,A005,EQ0024,L004,Baja,Casi accidente,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,86
+IN00087,20240329,A001,EQ0027,L006,Media,Daño equipo,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,87
+IN00088,20240824,A006,EQ0030,L001,Media,Condición insegura,En progreso,55,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,88
+IN00089,20240102,A006,EQ0030,L001,Media,Lesión menor,En progreso,34,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,89
+IN00090,20240827,A003,EQ0026,L006,Baja,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,90
+IN00091,20240319,A004,EQ0016,L006,Baja,Condición insegura,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,91
+IN00092,20241027,A003,EQ0035,L006,Baja,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,92
+IN00093,20240327,A003,EQ0013,L006,Baja,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,93
+IN00094,20240528,A003,EQ0009,L006,Baja,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,94
+IN00095,20240904,A003,EQ0012,L006,Baja,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,95
+IN00096,20241023,A001,EQ0027,L006,Media,Daño equipo,Abierta,47,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,96
+IN00097,20241108,A003,EQ0026,L006,Baja,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,97
+IN00098,20240330,A005,EQ0020,L004,Media,Lesión menor,En progreso,18,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,98
+IN00099,20241110,A003,EQ0037,L006,Baja,Ambiental,En progreso,24,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,99
+IN00100,20240617,A003,EQ0013,L006,Media,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,100
+IN00101,20240611,A002,EQ0005,L006,Alta,Daño equipo,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,101
+IN00102,20240814,A005,EQ0020,L004,Media,Condición insegura,Abierta,30,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,102
+IN00103,20241225,A003,EQ0012,L006,Baja,Lesión menor,En progreso,60,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,103
+IN00104,20240807,A003,EQ0029,L006,Baja,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,104
+IN00105,20240503,A002,EQ0021,L006,Baja,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,105
+IN00106,20240118,A003,EQ0036,L006,Media,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,106
+IN00107,20241115,A005,EQ0031,L004,Baja,Casi accidente,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,107
+IN00108,20240509,A005,EQ0025,L004,Media,Casi accidente,Abierta,39,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,108
+IN00109,20241024,A006,EQ0017,L001,Alta,Ambiental,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,109
+IN00110,20240426,A001,EQ0027,L006,Media,Condición insegura,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,110
+IN00111,20240207,A001,EQ0015,L006,Alta,Lesión menor,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,111
+IN00112,20241220,A001,EQ0038,L006,Media,Lesión menor,Abierta,87,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,112
+IN00113,20240131,A005,EQ0024,L004,Media,Lesión menor,Abierta,79,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,113
+IN00114,20241220,A006,EQ0030,L001,Media,Lesión menor,Abierta,83,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,114
+IN00115,20240314,A003,EQ0009,L006,Media,Ambiental,En progreso,14,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,115
+IN00116,20240512,A003,EQ0009,L006,Media,Casi accidente,En progreso,80,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,116
+IN00117,20240227,A005,EQ0020,L004,Baja,Ambiental,En progreso,4,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,117
+IN00118,20241014,A005,EQ0031,L004,Alta,Daño equipo,Abierta,68,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,118
+IN00119,20240122,A003,EQ0037,L006,Baja,Lesión menor,Cerrada,0,True,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,119
+IN00120,20240721,A006,EQ0006,L001,Baja,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,120
+IN00121,20241222,A003,EQ0004,L006,Baja,Lesión menor,Abierta,48,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,121
+IN00122,20240524,A006,EQ0006,L001,Baja,Lesión menor,En progreso,72,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,122
+IN00123,20240311,A003,EQ0004,L006,Media,Condición insegura,En progreso,43,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,123
+IN00124,20241013,A004,EQ0039,L006,Baja,Lesión menor,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,124
+IN00125,20240813,A006,EQ0006,L001,Media,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,125
+IN00126,20241214,A002,EQ0005,L006,Alta,Condición insegura,En progreso,65,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,126
+IN00127,20240607,A003,EQ0013,L006,Baja,Lesión menor,En progreso,31,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,127
+IN00128,20240511,A002,EQ0034,L006,Baja,Ambiental,Cerrada,0,True,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,128
+IN00129,20240428,A003,EQ0037,L006,Media,Casi accidente,Cerrada,0,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,129
+IN00130,20240302,A006,EQ0028,L001,Media,Casi accidente,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,130
+IN00131,20240719,A005,EQ0024,L004,Media,Condición insegura,Abierta,38,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,131
+IN00132,20241213,A005,EQ0031,L004,Alta,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,132
+IN00133,20240828,A003,EQ0004,L006,Baja,Condición insegura,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,133
+IN00134,20240916,A001,EQ0023,L006,Media,Casi accidente,Abierta,83,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,134
+IN00135,20240925,A004,EQ0003,L006,Baja,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,135
+IN00136,20240319,A005,EQ0031,L004,Baja,Casi accidente,Abierta,19,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,136
+IN00137,20241014,A005,EQ0020,L004,Media,Ambiental,En progreso,56,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,137
+IN00138,20240104,A004,EQ0039,L006,Media,Daño equipo,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,138
+IN00139,20240613,A005,EQ0025,L004,Media,Daño equipo,Abierta,68,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,139
+IN00140,20240830,A006,EQ0030,L001,Baja,Lesión menor,En progreso,20,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,140
+IN00141,20240301,A004,EQ0003,L006,Media,Lesión menor,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,141
+IN00142,20240815,A003,EQ0013,L006,Media,Casi accidente,En progreso,56,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,142
+IN00143,20240126,A006,EQ0019,L001,Media,Lesión menor,Abierta,49,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,143
+IN00144,20240322,A003,EQ0036,L006,Media,Daño equipo,En progreso,73,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,144
+IN00145,20241007,A006,EQ0028,L001,Alta,Ambiental,En progreso,59,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,145
+IN00146,20240823,A005,EQ0020,L004,Baja,Ambiental,Abierta,85,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,146
+IN00147,20241215,A003,EQ0026,L006,Alta,Casi accidente,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,147
+IN00148,20240226,A005,EQ0007,L004,Baja,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,148
+IN00149,20241103,A006,EQ0028,L001,Media,Daño equipo,Cerrada,0,True,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,149
+IN00150,20240527,A003,EQ0037,L006,Baja,Casi accidente,Abierta,50,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,150
+IN00151,20241014,A002,EQ0014,L006,Alta,Daño equipo,Abierta,37,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,151
+IN00152,20240423,A006,EQ0017,L001,Baja,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,152
+IN00153,20241010,A004,EQ0039,L006,Media,Ambiental,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,153
+IN00154,20241112,A005,EQ0010,L004,Baja,Casi accidente,Abierta,53,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,154
+IN00155,20240923,A006,EQ0028,L001,Media,Ambiental,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,155
+IN00156,20240416,A003,EQ0026,L006,Baja,Daño equipo,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,156
+IN00157,20241108,A003,EQ0009,L006,Alta,Condición insegura,En progreso,81,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,157
+IN00158,20240413,A001,EQ0040,L006,Baja,Lesión menor,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,158
+IN00159,20240212,A004,EQ0039,L006,Media,Condición insegura,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,159
+IN00160,20241003,A002,EQ0034,L006,Baja,Condición insegura,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,160
+IN00161,20240321,A001,EQ0027,L006,Media,Lesión menor,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,161
+IN00162,20240107,A004,EQ0011,L006,Baja,Ambiental,Abierta,3,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,162
+IN00163,20240131,A006,EQ0001,L001,Baja,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,163
+IN00164,20240920,A003,EQ0029,L006,Baja,Casi accidente,Abierta,8,True,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,164
+IN00165,20240114,A006,EQ0028,L001,Baja,Condición insegura,En progreso,16,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,165
+IN00166,20240118,A004,EQ0011,L006,Media,Ambiental,En progreso,25,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,166
+IN00167,20241230,A002,EQ0005,L006,Media,Condición insegura,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,167
+IN00168,20240121,A002,EQ0021,L006,Media,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,168
+IN00169,20240911,A001,EQ0040,L006,Baja,Casi accidente,Abierta,54,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,169
+IN00170,20240628,A006,EQ0006,L001,Media,Lesión menor,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,170
+IN00171,20240502,A003,EQ0013,L006,Media,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,171
+IN00172,20241216,A003,EQ0012,L006,Media,Ambiental,Cerrada,0,True,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,172
+IN00173,20240505,A005,EQ0007,L004,Media,Lesión menor,Abierta,43,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,173
+IN00174,20240229,A001,EQ0040,L006,Baja,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,174
+IN00175,20240523,A003,EQ0035,L006,Baja,Casi accidente,Abierta,52,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,175
+IN00176,20240421,A006,EQ0019,L001,Media,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,176
+IN00177,20241007,A001,EQ0015,L006,Media,Casi accidente,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,177
+IN00178,20240906,A006,EQ0030,L001,Baja,Condición insegura,En progreso,84,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,178
+IN00179,20240206,A001,EQ0040,L006,Media,Lesión menor,En progreso,4,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,179
+IN00180,20241122,A001,EQ0018,L006,Baja,Casi accidente,Abierta,87,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,180
+IN00181,20241115,A003,EQ0035,L006,Baja,Condición insegura,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,181
+IN00182,20240630,A006,EQ0001,L001,Media,Daño equipo,Abierta,29,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,182
+IN00183,20240523,A003,EQ0026,L006,Baja,Condición insegura,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,183
+IN00184,20240701,A001,EQ0027,L006,Alta,Casi accidente,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,184
+IN00185,20240706,A006,EQ0017,L001,Baja,Ambiental,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,185
+IN00186,20240423,A006,EQ0017,L001,Media,Casi accidente,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,186
+IN00187,20240607,A006,EQ0006,L001,Baja,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,187
+IN00188,20240518,A004,EQ0011,L006,Media,Casi accidente,Abierta,47,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,188
+IN00189,20241224,A001,EQ0027,L006,Media,Daño equipo,En progreso,17,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,189
+IN00190,20240221,A004,EQ0008,L006,Baja,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,190
+IN00191,20240122,A003,EQ0012,L006,Baja,Lesión menor,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,191
+IN00192,20240214,A005,EQ0020,L004,Alta,Daño equipo,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,192
+IN00193,20240226,A002,EQ0005,L006,Baja,Daño equipo,Cerrada,0,True,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,193
+IN00194,20240926,A003,EQ0036,L006,Baja,Lesión menor,En progreso,53,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,194
+IN00195,20240509,A003,EQ0037,L006,Baja,Lesión menor,En progreso,23,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,195
+IN00196,20240626,A002,EQ0014,L006,Baja,Condición insegura,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,196
+IN00197,20241029,A003,EQ0012,L006,Alta,Condición insegura,En progreso,42,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,197
+IN00198,20241011,A001,EQ0023,L006,Media,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,198
+IN00199,20241129,A003,EQ0036,L006,Baja,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,199
+IN00200,20240825,A004,EQ0003,L006,Baja,Condición insegura,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,200
+IN00201,20241008,A003,EQ0002,L006,Media,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,201
+IN00202,20240102,A003,EQ0029,L006,Baja,Condición insegura,En progreso,21,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,202
+IN00203,20240424,A006,EQ0028,L001,Alta,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,203
+IN00204,20240703,A005,EQ0032,L004,Baja,Daño equipo,En progreso,80,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,204
+IN00205,20241130,A005,EQ0024,L004,Baja,Casi accidente,Abierta,56,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,205
+IN00206,20240720,A004,EQ0016,L006,Baja,Condición insegura,Abierta,77,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,206
+IN00207,20240920,A003,EQ0002,L006,Alta,Condición insegura,En progreso,83,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,207
+IN00208,20240220,A001,EQ0018,L006,Media,Casi accidente,Abierta,25,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,208
+IN00209,20241009,A002,EQ0005,L006,Media,Condición insegura,Abierta,44,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,209
+IN00210,20241215,A004,EQ0003,L006,Baja,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,210
+IN00211,20240509,A001,EQ0023,L006,Media,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,211
+IN00212,20241019,A003,EQ0037,L006,Baja,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,212
+IN00213,20240316,A005,EQ0031,L004,Alta,Casi accidente,Cerrada,0,True,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,213
+IN00214,20241125,A001,EQ0023,L006,Media,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,214
+IN00215,20240910,A004,EQ0008,L006,Baja,Condición insegura,Cerrada,0,True,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,215
+IN00216,20240806,A006,EQ0006,L001,Baja,Ambiental,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,216
+IN00217,20240803,A003,EQ0004,L006,Media,Daño equipo,Abierta,8,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,217
+IN00218,20241031,A006,EQ0030,L001,Baja,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,218
+IN00219,20240405,A002,EQ0034,L006,Media,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,219
+IN00220,20240307,A005,EQ0032,L004,Baja,Casi accidente,En progreso,88,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,220
+IN00221,20240809,A006,EQ0001,L001,Baja,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,221
+IN00222,20241108,A003,EQ0009,L006,Alta,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,222
+IN00223,20241202,A005,EQ0020,L004,Baja,Casi accidente,En progreso,9,True,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,223
+IN00224,20241202,A006,EQ0019,L001,Baja,Lesión menor,En progreso,16,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,224
+IN00225,20240301,A006,EQ0006,L001,Baja,Daño equipo,En progreso,81,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,225
+IN00226,20240107,A001,EQ0018,L006,Baja,Lesión menor,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,226
+IN00227,20240317,A005,EQ0024,L004,Media,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,227
+IN00228,20240822,A001,EQ0015,L006,Media,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,228
+IN00229,20240528,A004,EQ0022,L006,Media,Casi accidente,Cerrada,0,True,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,229
+IN00230,20240204,A003,EQ0035,L006,Media,Daño equipo,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,230
+IN00231,20240522,A005,EQ0007,L004,Media,Ambiental,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,231
+IN00232,20240824,A003,EQ0029,L006,Media,Daño equipo,En progreso,37,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,232
+IN00233,20240120,A005,EQ0031,L004,Baja,Casi accidente,Abierta,66,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,233
+IN00234,20241123,A003,EQ0036,L006,Alta,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,234
+IN00235,20240527,A004,EQ0011,L006,Baja,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,235
+IN00236,20240307,A004,EQ0022,L006,Media,Lesión menor,En progreso,58,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,236
+IN00237,20240522,A001,EQ0018,L006,Baja,Condición insegura,En progreso,17,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,237
+IN00238,20240629,A005,EQ0033,L004,Media,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,238
+IN00239,20241015,A004,EQ0008,L006,Baja,Lesión menor,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,239
+IN00240,20240205,A005,EQ0010,L004,Alta,Ambiental,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,240
+IN00241,20240620,A003,EQ0012,L006,Media,Lesión menor,Abierta,59,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,241
+IN00242,20240826,A003,EQ0012,L006,Baja,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,242
+IN00243,20241022,A002,EQ0034,L006,Media,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,243
+IN00244,20240213,A005,EQ0020,L004,Media,Casi accidente,Abierta,64,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,244
+IN00245,20240211,A006,EQ0028,L001,Media,Ambiental,En progreso,13,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,245
+IN00246,20241221,A005,EQ0020,L004,Alta,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,246
+IN00247,20241206,A005,EQ0031,L004,Media,Lesión menor,Abierta,38,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,247
+IN00248,20240427,A003,EQ0002,L006,Media,Casi accidente,Cerrada,0,True,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,248
+IN00249,20240625,A005,EQ0010,L004,Media,Daño equipo,En progreso,12,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,249
+IN00250,20240308,A005,EQ0024,L004,Alta,Condición insegura,En progreso,53,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,250
+IN00251,20241017,A004,EQ0011,L006,Baja,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,251
+IN00252,20241214,A006,EQ0001,L001,Baja,Daño equipo,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,252
+IN00253,20240706,A005,EQ0031,L004,Baja,Daño equipo,En progreso,10,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,253
+IN00254,20240823,A004,EQ0008,L006,Media,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,254
+IN00255,20240903,A003,EQ0035,L006,Baja,Casi accidente,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,255
+IN00256,20240627,A003,EQ0013,L006,Baja,Lesión menor,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,256
+IN00257,20240606,A002,EQ0021,L006,Baja,Condición insegura,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,257
+IN00258,20241002,A002,EQ0034,L006,Baja,Daño equipo,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,258
+IN00259,20240425,A002,EQ0014,L006,Alta,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,259
+IN00260,20241112,A004,EQ0008,L006,Baja,Daño equipo,Abierta,55,True,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,260
+IN00261,20240528,A006,EQ0017,L001,Media,Lesión menor,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,261
+IN00262,20241023,A004,EQ0016,L006,Alta,Ambiental,En progreso,67,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,262
+IN00263,20240616,A005,EQ0025,L004,Media,Casi accidente,En progreso,62,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,263
+IN00264,20240510,A003,EQ0026,L006,Media,Lesión menor,Abierta,9,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,264
+IN00265,20240213,A004,EQ0039,L006,Baja,Daño equipo,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,265
+IN00266,20240524,A006,EQ0006,L001,Baja,Ambiental,En progreso,27,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,266
+IN00267,20240912,A004,EQ0008,L006,Baja,Casi accidente,En progreso,80,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,267
+IN00268,20240711,A004,EQ0003,L006,Baja,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,268
+IN00269,20240811,A003,EQ0004,L006,Media,Lesión menor,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,269
+IN00270,20240802,A006,EQ0001,L001,Baja,Daño equipo,En progreso,83,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,270
+IN00271,20240614,A001,EQ0015,L006,Media,Daño equipo,En progreso,12,True,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,271
+IN00272,20240420,A004,EQ0039,L006,Media,Casi accidente,En progreso,79,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,272
+IN00273,20240305,A003,EQ0002,L006,Media,Casi accidente,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,273
+IN00274,20240219,A003,EQ0002,L006,Baja,Lesión menor,En progreso,11,True,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,274
+IN00275,20240924,A002,EQ0014,L006,Media,Condición insegura,En progreso,4,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,275
+IN00276,20240609,A001,EQ0027,L006,Baja,Lesión menor,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,276
+IN00277,20240128,A001,EQ0027,L006,Media,Casi accidente,En progreso,14,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,277
+IN00278,20241025,A006,EQ0001,L001,Alta,Daño equipo,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,278
+IN00279,20240516,A006,EQ0001,L001,Baja,Ambiental,Abierta,62,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,279
+IN00280,20240411,A002,EQ0034,L006,Baja,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,280
+IN00281,20240621,A005,EQ0033,L004,Baja,Ambiental,Abierta,89,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,281
+IN00282,20240517,A001,EQ0027,L006,Media,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,282
+IN00283,20240527,A006,EQ0006,L001,Alta,Casi accidente,Abierta,49,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,283
+IN00284,20240410,A001,EQ0040,L006,Media,Casi accidente,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,284
+IN00285,20240114,A006,EQ0030,L001,Media,Lesión menor,Abierta,20,True,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,285
+IN00286,20240811,A001,EQ0038,L006,Baja,Ambiental,En progreso,47,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,286
+IN00287,20240928,A005,EQ0025,L004,Baja,Ambiental,Cerrada,0,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,287
+IN00288,20241214,A004,EQ0039,L006,Media,Condición insegura,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,288
+IN00289,20240223,A002,EQ0005,L006,Baja,Condición insegura,En progreso,42,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,289
+IN00290,20240306,A003,EQ0004,L006,Media,Casi accidente,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,290
+IN00291,20240603,A004,EQ0039,L006,Media,Daño equipo,En progreso,12,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,291
+IN00292,20241012,A005,EQ0024,L004,Media,Condición insegura,Abierta,34,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,292
+IN00293,20240819,A005,EQ0025,L004,Baja,Condición insegura,En progreso,49,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,293
+IN00294,20240831,A006,EQ0030,L001,Baja,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,294
+IN00295,20240714,A001,EQ0038,L006,Baja,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,295
+IN00296,20241227,A002,EQ0005,L006,Alta,Daño equipo,En progreso,68,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,296
+IN00297,20240523,A004,EQ0011,L006,Baja,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,297
+IN00298,20240206,A003,EQ0009,L006,Alta,Casi accidente,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,298
+IN00299,20240623,A004,EQ0011,L006,Baja,Lesión menor,Abierta,67,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,299
+IN00300,20241128,A006,EQ0017,L001,Baja,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,300
+IN00301,20240721,A001,EQ0023,L006,Media,Ambiental,En progreso,17,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,301
+IN00302,20241022,A002,EQ0034,L006,Media,Lesión menor,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,302
+IN00303,20240909,A005,EQ0010,L004,Media,Ambiental,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,303
+IN00304,20241127,A005,EQ0033,L004,Alta,Lesión menor,Abierta,4,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,304
+IN00305,20240811,A001,EQ0023,L006,Media,Condición insegura,En progreso,85,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,305
+IN00306,20241001,A005,EQ0033,L004,Media,Ambiental,Abierta,39,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,306
+IN00307,20240812,A005,EQ0033,L004,Media,Daño equipo,En progreso,34,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,307
+IN00308,20240412,A003,EQ0012,L006,Media,Lesión menor,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,308
+IN00309,20240113,A005,EQ0032,L004,Baja,Ambiental,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,309
+IN00310,20240601,A005,EQ0031,L004,Baja,Lesión menor,En progreso,57,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,310
+IN00311,20241211,A001,EQ0023,L006,Baja,Casi accidente,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,311
+IN00312,20240209,A003,EQ0004,L006,Baja,Condición insegura,Abierta,24,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,312
+IN00313,20240329,A004,EQ0039,L006,Media,Condición insegura,Abierta,15,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,313
+IN00314,20240101,A001,EQ0038,L006,Media,Condición insegura,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,314
+IN00315,20240602,A002,EQ0014,L006,Media,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,315
+IN00316,20241212,A005,EQ0020,L004,Baja,Ambiental,Abierta,52,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,316
+IN00317,20240607,A001,EQ0018,L006,Baja,Daño equipo,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,317
+IN00318,20241029,A003,EQ0029,L006,Baja,Daño equipo,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,318
+IN00319,20240805,A003,EQ0013,L006,Media,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,319
+IN00320,20240130,A004,EQ0039,L006,Media,Casi accidente,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,320
+IN00321,20240419,A003,EQ0004,L006,Media,Lesión menor,En progreso,88,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,321
+IN00322,20240615,A006,EQ0017,L001,Media,Lesión menor,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,322
+IN00323,20240427,A006,EQ0019,L001,Media,Condición insegura,En progreso,38,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,323
+IN00324,20240415,A003,EQ0013,L006,Baja,Condición insegura,En progreso,62,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,324
+IN00325,20240807,A006,EQ0019,L001,Baja,Lesión menor,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,325
+IN00326,20240418,A003,EQ0013,L006,Media,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,326
+IN00327,20241110,A001,EQ0015,L006,Baja,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,327
+IN00328,20241123,A003,EQ0004,L006,Media,Lesión menor,Cerrada,0,True,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,328
+IN00329,20240109,A006,EQ0017,L001,Alta,Daño equipo,En progreso,41,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,329
+IN00330,20241229,A006,EQ0028,L001,Baja,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,330
+IN00331,20240724,A003,EQ0037,L006,Baja,Condición insegura,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,331
+IN00332,20240603,A001,EQ0040,L006,Baja,Ambiental,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,332
+IN00333,20240720,A005,EQ0032,L004,Media,Lesión menor,En progreso,62,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,333
+IN00334,20241025,A003,EQ0035,L006,Media,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,334
+IN00335,20240215,A002,EQ0014,L006,Baja,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,335
+IN00336,20240301,A004,EQ0039,L006,Alta,Lesión menor,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,336
+IN00337,20240116,A003,EQ0035,L006,Baja,Daño equipo,En progreso,65,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,337
+IN00338,20241008,A003,EQ0009,L006,Alta,Casi accidente,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,338
+IN00339,20241017,A003,EQ0029,L006,Media,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,339
+IN00340,20240119,A004,EQ0003,L006,Baja,Ambiental,Abierta,42,True,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,340
+IN00341,20241029,A002,EQ0014,L006,Media,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,341
+IN00342,20240505,A003,EQ0012,L006,Baja,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,342
+IN00343,20240117,A005,EQ0032,L004,Media,Casi accidente,En progreso,43,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,343
+IN00344,20240727,A005,EQ0025,L004,Baja,Ambiental,En progreso,10,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,344
+IN00345,20240903,A003,EQ0013,L006,Baja,Casi accidente,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,345
+IN00346,20240124,A006,EQ0030,L001,Baja,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,346
+IN00347,20240402,A002,EQ0005,L006,Baja,Daño equipo,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,347
+IN00348,20240213,A005,EQ0032,L004,Media,Daño equipo,Abierta,72,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,348
+IN00349,20240326,A003,EQ0035,L006,Baja,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,349
+IN00350,20240426,A003,EQ0002,L006,Baja,Lesión menor,Abierta,81,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,350
+IN00351,20241130,A006,EQ0030,L001,Baja,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,351
+IN00352,20240622,A005,EQ0025,L004,Alta,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,352
+IN00353,20240813,A005,EQ0010,L004,Baja,Ambiental,Abierta,3,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,353
+IN00354,20240319,A004,EQ0011,L006,Media,Lesión menor,Abierta,7,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,354
+IN00355,20240807,A003,EQ0009,L006,Baja,Casi accidente,En progreso,59,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,355
+IN00356,20240426,A004,EQ0011,L006,Baja,Casi accidente,Abierta,70,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,356
+IN00357,20240609,A002,EQ0014,L006,Baja,Lesión menor,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,357
+IN00358,20240302,A005,EQ0032,L004,Alta,Casi accidente,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,358
+IN00359,20240821,A003,EQ0012,L006,Media,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,359
+IN00360,20240207,A003,EQ0036,L006,Alta,Casi accidente,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,360
+IN00361,20240531,A004,EQ0022,L006,Baja,Casi accidente,En progreso,49,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,361
+IN00362,20240602,A005,EQ0024,L004,Media,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,362
+IN00363,20240517,A003,EQ0037,L006,Alta,Casi accidente,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,363
+IN00364,20240321,A006,EQ0001,L001,Alta,Condición insegura,Abierta,17,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,364
+IN00365,20240214,A006,EQ0017,L001,Baja,Ambiental,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,365
+IN00366,20240826,A002,EQ0014,L006,Alta,Condición insegura,Abierta,63,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,366
+IN00367,20241208,A005,EQ0033,L004,Media,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,367
+IN00368,20240324,A001,EQ0038,L006,Media,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,368
+IN00369,20240210,A004,EQ0039,L006,Baja,Condición insegura,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,369
+IN00370,20240310,A005,EQ0025,L004,Media,Condición insegura,Abierta,65,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,370
+IN00371,20240418,A003,EQ0012,L006,Media,Lesión menor,Abierta,49,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,371
+IN00372,20240514,A002,EQ0034,L006,Baja,Lesión menor,En progreso,45,True,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,372
+IN00373,20240419,A005,EQ0024,L004,Alta,Casi accidente,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,373
+IN00374,20240207,A005,EQ0020,L004,Alta,Casi accidente,En progreso,48,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,374
+IN00375,20241002,A006,EQ0019,L001,Baja,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,375
+IN00376,20240116,A001,EQ0018,L006,Media,Casi accidente,Abierta,42,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,376
+IN00377,20240427,A003,EQ0035,L006,Media,Casi accidente,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,377
+IN00378,20241007,A001,EQ0023,L006,Alta,Ambiental,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,378
+IN00379,20240808,A003,EQ0036,L006,Baja,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,379
+IN00380,20240304,A002,EQ0034,L006,Media,Lesión menor,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,380
+IN00381,20240213,A003,EQ0012,L006,Baja,Daño equipo,Abierta,74,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,381
+IN00382,20240811,A001,EQ0038,L006,Alta,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,382
+IN00383,20240104,A002,EQ0014,L006,Baja,Condición insegura,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,383
+IN00384,20240421,A004,EQ0022,L006,Alta,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,384
+IN00385,20241103,A001,EQ0038,L006,Media,Ambiental,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,385
+IN00386,20240429,A004,EQ0039,L006,Alta,Lesión menor,Cerrada,0,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,386
+IN00387,20240505,A006,EQ0006,L001,Baja,Casi accidente,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,387
+IN00388,20240227,A005,EQ0032,L004,Media,Daño equipo,Abierta,89,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,388
+IN00389,20240613,A002,EQ0021,L006,Alta,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,389
+IN00390,20240325,A005,EQ0032,L004,Baja,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,390
+IN00391,20240108,A003,EQ0035,L006,Media,Condición insegura,En progreso,65,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,391
+IN00392,20240728,A001,EQ0038,L006,Baja,Ambiental,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,392
+IN00393,20240106,A002,EQ0005,L006,Media,Ambiental,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,393
+IN00394,20240803,A006,EQ0006,L001,Alta,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,394
+IN00395,20240314,A001,EQ0027,L006,Baja,Ambiental,Cerrada,0,True,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,395
+IN00396,20240414,A003,EQ0002,L006,Media,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,396
+IN00397,20240131,A005,EQ0025,L004,Alta,Casi accidente,Abierta,89,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,397
+IN00398,20240317,A002,EQ0005,L006,Baja,Ambiental,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,398
+IN00399,20240512,A003,EQ0029,L006,Baja,Condición insegura,En progreso,79,True,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,399
+IN00400,20240505,A001,EQ0023,L006,Media,Lesión menor,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,400
+IN00401,20241225,A003,EQ0037,L006,Baja,Daño equipo,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,401
+IN00402,20240202,A003,EQ0035,L006,Alta,Daño equipo,En progreso,7,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,402
+IN00403,20240625,A003,EQ0013,L006,Media,Ambiental,En progreso,39,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,403
+IN00404,20240712,A004,EQ0003,L006,Baja,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,404
+IN00405,20241224,A001,EQ0023,L006,Baja,Casi accidente,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,405
+IN00406,20241028,A002,EQ0021,L006,Alta,Ambiental,Abierta,80,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,406
+IN00407,20240813,A006,EQ0017,L001,Baja,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,407
+IN00408,20240818,A003,EQ0026,L006,Baja,Condición insegura,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,408
+IN00409,20241125,A006,EQ0028,L001,Alta,Lesión menor,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,409
+IN00410,20240109,A005,EQ0025,L004,Media,Condición insegura,Abierta,40,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,410
+IN00411,20241016,A004,EQ0039,L006,Baja,Lesión menor,Abierta,3,True,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,411
+IN00412,20240409,A003,EQ0012,L006,Media,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,412
+IN00413,20240818,A002,EQ0021,L006,Media,Ambiental,En progreso,9,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,413
+IN00414,20240621,A005,EQ0010,L004,Baja,Daño equipo,Abierta,55,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,414
+IN00415,20240618,A001,EQ0027,L006,Alta,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,415
+IN00416,20241129,A006,EQ0001,L001,Baja,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,416
+IN00417,20241118,A005,EQ0025,L004,Baja,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,417
+IN00418,20240303,A005,EQ0007,L004,Media,Condición insegura,En progreso,78,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,418
+IN00419,20240524,A006,EQ0001,L001,Baja,Lesión menor,En progreso,74,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,419
+IN00420,20240128,A006,EQ0001,L001,Baja,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,420
+IN00421,20240327,A001,EQ0027,L006,Media,Casi accidente,En progreso,80,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,421
+IN00422,20240712,A005,EQ0020,L004,Baja,Lesión menor,Cerrada,0,True,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,422
+IN00423,20240326,A005,EQ0024,L004,Alta,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,423
+IN00424,20240723,A001,EQ0027,L006,Baja,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,424
+IN00425,20240725,A004,EQ0008,L006,Alta,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,425
+IN00426,20241225,A005,EQ0025,L004,Media,Ambiental,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,426
+IN00427,20241001,A006,EQ0019,L001,Media,Ambiental,Abierta,30,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,427
+IN00428,20240717,A003,EQ0029,L006,Media,Casi accidente,Abierta,84,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,428
+IN00429,20240219,A005,EQ0020,L004,Baja,Casi accidente,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,429
+IN00430,20240107,A003,EQ0004,L006,Baja,Ambiental,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,430
+IN00431,20241019,A006,EQ0006,L001,Baja,Lesión menor,Abierta,64,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,431
+IN00432,20240901,A001,EQ0023,L006,Media,Ambiental,En progreso,20,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,432
+IN00433,20241124,A006,EQ0001,L001,Baja,Ambiental,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,433
+IN00434,20240316,A003,EQ0009,L006,Alta,Condición insegura,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,434
+IN00435,20240717,A003,EQ0037,L006,Baja,Condición insegura,Cerrada,0,True,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,435
+IN00436,20241024,A003,EQ0026,L006,Media,Lesión menor,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,436
+IN00437,20240508,A002,EQ0034,L006,Baja,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,437
+IN00438,20240610,A005,EQ0033,L004,Baja,Lesión menor,Abierta,55,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,438
+IN00439,20241012,A005,EQ0033,L004,Baja,Lesión menor,En progreso,4,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,439
+IN00440,20241111,A003,EQ0026,L006,Media,Lesión menor,En progreso,42,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,440
+IN00441,20240625,A004,EQ0022,L006,Media,Daño equipo,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,441
+IN00442,20240305,A004,EQ0016,L006,Media,Casi accidente,En progreso,24,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,442
+IN00443,20241112,A006,EQ0028,L001,Baja,Lesión menor,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,443
+IN00444,20240806,A004,EQ0016,L006,Baja,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,444
+IN00445,20240610,A003,EQ0026,L006,Baja,Ambiental,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,445
+IN00446,20240914,A001,EQ0023,L006,Media,Casi accidente,Abierta,77,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,446
+IN00447,20240516,A003,EQ0013,L006,Baja,Lesión menor,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,447
+IN00448,20240116,A003,EQ0036,L006,Media,Daño equipo,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,448
+IN00449,20240721,A001,EQ0038,L006,Media,Lesión menor,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,449
+IN00450,20240622,A001,EQ0027,L006,Media,Ambiental,En progreso,15,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,450
+IN00451,20241206,A004,EQ0016,L006,Baja,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,451
+IN00452,20240905,A003,EQ0004,L006,Media,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,452
+IN00453,20241203,A006,EQ0030,L001,Baja,Casi accidente,En progreso,62,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,453
+IN00454,20240816,A005,EQ0032,L004,Baja,Condición insegura,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,454
+IN00455,20240526,A005,EQ0024,L004,Baja,Ambiental,Abierta,48,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,455
+IN00456,20240208,A004,EQ0003,L006,Baja,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,456
+IN00457,20241116,A003,EQ0035,L006,Baja,Condición insegura,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,457
+IN00458,20240113,A001,EQ0015,L006,Baja,Daño equipo,Abierta,72,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,458
+IN00459,20241218,A004,EQ0003,L006,Media,Condición insegura,Cerrada,0,True,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,459
+IN00460,20240320,A004,EQ0016,L006,Media,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,460
+IN00461,20240808,A002,EQ0021,L006,Media,Condición insegura,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,461
+IN00462,20240328,A005,EQ0025,L004,Alta,Daño equipo,Abierta,25,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,462
+IN00463,20240621,A004,EQ0039,L006,Media,Ambiental,Abierta,9,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,463
+IN00464,20240806,A002,EQ0034,L006,Baja,Daño equipo,En progreso,60,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,464
+IN00465,20241001,A003,EQ0009,L006,Baja,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,465
+IN00466,20240109,A003,EQ0012,L006,Baja,Lesión menor,Abierta,21,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,466
+IN00467,20241217,A001,EQ0040,L006,Alta,Casi accidente,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,467
+IN00468,20240409,A003,EQ0026,L006,Media,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,468
+IN00469,20240914,A002,EQ0034,L006,Baja,Ambiental,En progreso,66,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,469
+IN00470,20240326,A005,EQ0024,L004,Baja,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,470
+IN00471,20241220,A002,EQ0014,L006,Baja,Casi accidente,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,471
+IN00472,20241102,A005,EQ0025,L004,Media,Casi accidente,En progreso,55,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,472
+IN00473,20240223,A005,EQ0033,L004,Media,Daño equipo,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,473
+IN00474,20240509,A006,EQ0001,L001,Media,Ambiental,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,474
+IN00475,20240603,A003,EQ0004,L006,Baja,Lesión menor,Abierta,40,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,475
+IN00476,20240920,A002,EQ0021,L006,Media,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,476
+IN00477,20241128,A001,EQ0040,L006,Media,Ambiental,En progreso,74,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,477
+IN00478,20241028,A001,EQ0038,L006,Baja,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,478
+IN00479,20240421,A004,EQ0016,L006,Media,Casi accidente,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,479
+IN00480,20240916,A005,EQ0010,L004,Media,Casi accidente,En progreso,21,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,480
+IN00481,20241125,A001,EQ0015,L006,Baja,Casi accidente,Cerrada,0,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,481
+IN00482,20240211,A005,EQ0032,L004,Media,Lesión menor,Abierta,70,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,482
+IN00483,20240318,A003,EQ0029,L006,Baja,Daño equipo,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,483
+IN00484,20240927,A003,EQ0029,L006,Alta,Daño equipo,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,484
+IN00485,20240519,A001,EQ0027,L006,Baja,Condición insegura,En progreso,60,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,485
+IN00486,20241106,A001,EQ0040,L006,Baja,Daño equipo,En progreso,43,True,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,486
+IN00487,20241113,A003,EQ0036,L006,Baja,Lesión menor,Cerrada,0,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,487
+IN00488,20240517,A003,EQ0013,L006,Baja,Ambiental,Cerrada,0,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,488
+IN00489,20241230,A005,EQ0032,L004,Baja,Ambiental,Abierta,49,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,489
+IN00490,20241120,A003,EQ0035,L006,Alta,Lesión menor,En progreso,74,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,490
+IN00491,20240409,A003,EQ0037,L006,Media,Ambiental,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,491
+IN00492,20240909,A003,EQ0012,L006,Alta,Condición insegura,Cerrada,0,True,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,492
+IN00493,20240609,A001,EQ0015,L006,Baja,Condición insegura,En progreso,37,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,493
+IN00494,20240916,A006,EQ0019,L001,Baja,Casi accidente,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,494
+IN00495,20240707,A002,EQ0021,L006,Media,Daño equipo,En progreso,80,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,495
+IN00496,20240718,A005,EQ0020,L004,Media,Ambiental,En progreso,88,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,496
+IN00497,20240727,A003,EQ0037,L006,Media,Daño equipo,Abierta,54,False,Ambiente,training_fact_incidentes_export.csv,2026-06-23T00:00:00,497
+IN00498,20240520,A003,EQ0029,L006,Baja,Condición insegura,En progreso,43,False,Seguridad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,498
+IN00499,20240717,A006,EQ0017,L001,Baja,Condición insegura,Abierta,16,False,Operación,training_fact_incidentes_export.csv,2026-06-23T00:00:00,499
+IN00500,20240427,A005,EQ0010,L004,Baja,Lesión menor,Cerrada,0,False,Calidad,training_fact_incidentes_export.csv,2026-06-23T00:00:00,500

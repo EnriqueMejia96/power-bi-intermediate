@@ -1,0 +1,7 @@
+AreaID,AreaName,BusinessUnit,AreaType,ManagerName,LocationID
+A001,Operaciones Mina,Servicios,Soporte,Manager Sintético 01,L003
+A002,Mantenimiento Planta,Servicios,Operativa,Manager Sintético 02,L002
+A003,Ingeniería de Proyectos,Servicios,Operativa,Manager Sintético 03,L006
+A004,Servicios TI/OT,Ingeniería,Operativa,Manager Sintético 04,L007
+A005,Seguridad HSE,Soporte,Proyecto,Manager Sintético 05,L006
+A006,Energía y Utilities,Soporte,Proyecto,Manager Sintético 06,L007

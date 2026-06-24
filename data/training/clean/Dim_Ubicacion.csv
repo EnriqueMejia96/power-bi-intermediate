@@ -1,0 +1,8 @@
+LocationID,LocationName,Site,Zone,Country
+L001,Planta Norte,Industrial,Norte,Perú
+L002,Planta Sur,Industrial,Sur,Perú
+L003,Campus Técnico,Corporativo,Centro,Perú
+L004,Centro de Servicios,Servicios,Centro,Perú
+L005,Subestación Este,Energía,Este,Perú
+L006,Patio Logístico,Logística,Oeste,Perú
+L007,Nodo Remoto,Remoto,Norte,Perú

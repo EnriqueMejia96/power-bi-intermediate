@@ -1,0 +1,7 @@
+AreaID,AreaName,BusinessUnit,AreaType,ManagerName,LocationID,_SourceFile,_ExportedAt,_LegacyRowNumber
+A001,OPERACIONES MINA,Operaciones,Operativa,Manager Sintético 01,L006,training_dim_area_export.csv,2026-06-23T00:00:00,1
+A002,Mantenimiento Planta ,Soporte,Proyecto,Manager Sintético 02,L006,training_dim_area_export.csv,2026-06-23T00:00:00,2
+A003,Ingeniería de Proyectos,Servicios,Operativa,Manager Sintético 03,L006,training_dim_area_export.csv,2026-06-23T00:00:00,3
+A004,Servicios TI/OT,Ingeniería,Operativa,Manager Sintético 04,L006,training_dim_area_export.csv,2026-06-23T00:00:00,4
+A005,Seguridad HSE,Ingeniería,Soporte,Manager Sintético 05,L004,training_dim_area_export.csv,2026-06-23T00:00:00,5
+A006,Energía y Utilities,Soporte,Proyecto,Manager Sintético 06,L001,training_dim_area_export.csv,2026-06-23T00:00:00,6

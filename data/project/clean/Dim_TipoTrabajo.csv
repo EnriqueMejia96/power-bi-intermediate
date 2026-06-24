@@ -1,0 +1,7 @@
+WorkTypeID,WorkTypeName,WorkCategory,PlannedFlag
+WT1,Preventivo,Mantenimiento,True
+WT2,Correctivo,Mantenimiento,False
+WT3,Inspección,Control,True
+WT4,Mejora,Proyecto,True
+WT5,Instalación,Proyecto,True
+WT6,Soporte,Servicio,False

@@ -1,0 +1,33 @@
+# Normalizar finales de línea para evitar cambios ruidosos entre Windows, macOS y Linux.
+* text=auto eol=lf
+
+# Archivos de texto del repositorio.
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.env text eol=lf
+.env.example text eol=lf
+.gitignore text eol=lf
+Makefile text eol=lf
+
+# Binarios y archivos Office/PDF.
+*.xlsx binary
+*.xls binary
+*.docx binary
+*.pptx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+
+# Power BI se trabaja manualmente y sus binarios no deben normalizarse.
+*.pbix binary
+*.pbit binary
+*.pbip binary
+*.pbir binary

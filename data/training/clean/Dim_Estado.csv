@@ -1,0 +1,6 @@
+StatusID,StatusName,StatusGroup,SortOrder,IsClosed
+S1,Nuevo,Abierto,1,False
+S2,En Proceso,Abierto,2,False
+S3,En Espera,Abierto,3,False
+S4,Cerrado,Cerrado,4,True
+S5,Cancelado,Cerrado,5,True

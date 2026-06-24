@@ -1,0 +1,10 @@
+pandas
+numpy
+openpyxl
+pyyaml
+python-dotenv
+typer
+rich
+pytest
+pytest-cov
+faker

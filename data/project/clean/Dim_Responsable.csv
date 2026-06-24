@@ -1,0 +1,31 @@
+ResponsibleID,ResponsibleName,Role,Team,AreaID
+R001,Responsable Sintético 01,Técnico Líder,Backoffice,A001
+R002,Responsable Sintético 02,Planner,Turno B,A001
+R003,Responsable Sintético 03,Técnico Líder,Backoffice,A005
+R004,Responsable Sintético 04,Supervisor,Turno A,A005
+R005,Responsable Sintético 05,Analista,Turno C,A001
+R006,Responsable Sintético 06,Supervisor,Turno B,A003
+R007,Responsable Sintético 07,Técnico Líder,Backoffice,A002
+R008,Responsable Sintético 08,Planner,Turno C,A002
+R009,Responsable Sintético 09,Analista,Turno A,A004
+R010,Responsable Sintético 10,Técnico Líder,Turno C,A005
+R011,Responsable Sintético 11,Supervisor,Backoffice,A003
+R012,Responsable Sintético 12,Planner,Backoffice,A004
+R013,Responsable Sintético 13,Planner,Turno A,A002
+R014,Responsable Sintético 14,Planner,Turno A,A003
+R015,Responsable Sintético 15,Ingeniero,Turno B,A001
+R016,Responsable Sintético 16,Supervisor,Turno B,A006
+R017,Responsable Sintético 17,Planner,Backoffice,A004
+R018,Responsable Sintético 18,Analista,Backoffice,A001
+R019,Responsable Sintético 19,Analista,Turno C,A004
+R020,Responsable Sintético 20,Técnico Líder,Turno A,A001
+R021,Responsable Sintético 21,Supervisor,Turno C,A006
+R022,Responsable Sintético 22,Ingeniero,Backoffice,A003
+R023,Responsable Sintético 23,Supervisor,Turno C,A004
+R024,Responsable Sintético 24,Ingeniero,Turno C,A004
+R025,Responsable Sintético 25,Técnico Líder,Backoffice,A001
+R026,Responsable Sintético 26,Planner,Turno A,A005
+R027,Responsable Sintético 27,Ingeniero,Turno C,A005
+R028,Responsable Sintético 28,Supervisor,Turno B,A003
+R029,Responsable Sintético 29,Ingeniero,Turno B,A004
+R030,Responsable Sintético 30,Técnico Líder,Turno C,A005

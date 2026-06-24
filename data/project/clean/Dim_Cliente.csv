@@ -1,0 +1,21 @@
+ClientID,ClientName,Segment,Region,ContractType
+C001,Cliente Sintético 01,Minería,Centro,SLA
+C002,Cliente Sintético 02,Infraestructura,Norte,Spot
+C003,Cliente Sintético 03,Servicios,Sur,SLA
+C004,Cliente Sintético 04,Minería,Lima,Proyecto
+C005,Cliente Sintético 05,Minería,Oriente,Proyecto
+C006,Cliente Sintético 06,Energía,Centro,SLA
+C007,Cliente Sintético 07,Infraestructura,Centro,Retainer
+C008,Cliente Sintético 08,Infraestructura,Sur,SLA
+C009,Cliente Sintético 09,Infraestructura,Oriente,Proyecto
+C010,Cliente Sintético 10,Servicios,Oriente,Spot
+C011,Cliente Sintético 11,Infraestructura,Norte,Retainer
+C012,Cliente Sintético 12,Manufactura,Oriente,Retainer
+C013,Cliente Sintético 13,Infraestructura,Lima,SLA
+C014,Cliente Sintético 14,Infraestructura,Lima,Proyecto
+C015,Cliente Sintético 15,Minería,Norte,SLA
+C016,Cliente Sintético 16,Servicios,Sur,Retainer
+C017,Cliente Sintético 17,Servicios,Lima,Retainer
+C018,Cliente Sintético 18,Manufactura,Sur,SLA
+C019,Cliente Sintético 19,Infraestructura,Oriente,SLA
+C020,Cliente Sintético 20,Minería,Oriente,Retainer
