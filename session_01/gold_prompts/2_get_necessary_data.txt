@@ -1,0 +1,43 @@
+Usa el archivo `catalogo_csv.md` como fuente principal de información.
+
+Necesito responder la siguiente pregunta medible:
+
+[MEASURABLE QUESTION]
+
+Analiza el catálogo y determina qué archivos `.csv` son necesarios para resolver el problema. La respuesta debe estar completamente en español y entregarse en formato Markdown.
+
+Para cada archivo necesario, indica:
+
+| Archivo CSV | Por qué es necesario | Campos relevantes | Uso dentro del análisis |
+|---|---|---|---|
+
+Además, propone las relaciones entre las tablas necesarias usando este formato:
+
+| Desde la tabla | Desde el campo | A la tabla | Al campo | Cardinalidad | Dirección de filtro cruzado | Explicación |
+|---|---|---|---|---|---|---|
+
+Incluye también:
+
+1. Archivos opcionales o complementarios.
+2. Archivos descartados y motivo del descarte.
+3. Modelo de datos sugerido.
+4. Supuestos que deben validarse.
+5. Recomendación final.
+
+Usa cardinalidades como `1:1`, `1:N`, `N:1` o `N:N`.
+
+Para la dirección de filtro cruzado, usa valores como:
+
+- `Única`
+- `Ambos`
+- `No recomendada`
+
+No inventes información. Si una relación es inferida a partir del catálogo, indícalo claramente.
+
+El archivo final debe llamarse:
+
+`csv_necesarios_modelo_datos.md`
+
+
+Recuerda:
+[MEASURABLE QUESTION] = 'Que areas y servicios concentran mayor incumplimiento SLA durante el periodo analizado, y que prioridad deberia atender primero la jefatura de operaciones o mantenimiento?'

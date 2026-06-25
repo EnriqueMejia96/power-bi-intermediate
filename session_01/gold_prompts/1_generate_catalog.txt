@@ -1,0 +1,39 @@
+Analiza todos los archivos `.csv` disponibles en la carpeta proporcionada y genera un catálogo técnico en español.
+
+No asumas información que no esté respaldada por los datos. Cuando una descripción sea inferida, indícalo con frases como “parece representar” o “probablemente corresponde a”.
+
+Para cada archivo, crea una sección con este formato:
+
+## Nombre del archivo: `archivo.csv`
+
+### Resumen
+Describe brevemente qué tipo de información parece contener el archivo.
+
+### Campos detectados
+
+| Campo | Tipo estimado | Descripción probable | Ejemplos de valores | Valores vacíos | Observaciones |
+|---|---|---|---|---|---|
+
+### Posibles identificadores
+Indica qué campos podrían funcionar como ID, clave primaria o clave de relación con otros archivos.
+
+### Calidad de datos
+Resume problemas detectados, como valores vacíos, formatos inconsistentes, columnas duplicadas o nombres poco claros.
+
+### Relaciones posibles con otros archivos
+Indica si algún campo parece relacionarse con campos de otros archivos.
+
+Al finalizar, agrega una sección general llamada:
+
+# Resumen global del catálogo
+
+Incluye:
+- Número total de archivos analizados
+- Número total de campos únicos detectados
+- Campos comunes entre varios archivos
+- Posibles relaciones entre archivos
+- Recomendaciones para mejorar la estructura o documentación de los datos
+
+El resultado debe estar completamente en español y guardarse como archivo Markdown llamado:
+
+`catalogo_csv.md`

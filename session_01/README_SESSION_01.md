@@ -31,6 +31,29 @@ Si esos comandos ya devolvieron `training: OK` y `project: OK`, el laboratorio p
 - Plantilla principal: `session_01/templates/BI_SOLUTION_BLUEPRINT_TEMPLATE.md`.
 - Guías Power BI manuales: `powerbi/manual_steps/`.
 
+## Secuencia recomendada de lectura
+Usa este orden si necesitas completar el laboratorio de forma guiada, conectando problema de negocio, pregunta medible, KPI conceptual, datos requeridos, Power Query, DAX y visuales.
+
+| Orden | Archivo | Para qué leerlo |
+|---:|---|---|
+| 1 | `session_01/README_SESSION_01.md` | Entender el objetivo del módulo y el ciclo analítico completo. |
+| 2 | `session_01/lab/START_HERE_AFTER_DATA_GENERATION.md` | Confirmar el punto de partida después de generar datos. |
+| 3 | `session_01/lab/LAB_GUIDE.md` | Revisar el caso, actividades y entregable esperado. |
+| 4 | `session_01/lab/LAB_STEPS.md` | Seguir la ejecución detallada del laboratorio. |
+| 5 | `data/training/metadata/business_scenario.md` | Identificar el problema de negocio y contexto operativo. |
+| 6 | `session_01/lab/BUSINESS_PROBLEM_FRAMEWORK.md` | Convertir dolor operativo en pregunta medible, KPI, datos y visual. |
+| 7 | `session_01/templates/BUSINESS_QUESTION_CANVAS.md` | Redactar una pregunta medible con métrica, periodo, dimensión y decisión. |
+| 8 | `session_01/templates/KPI_TREE_TEMPLATE.md` | Definir KPI principal y KPIs de diagnóstico. |
+| 9 | `data/training/dictionary/data_dictionary.md` | Ubicar tablas, columnas, llaves y significado de los datos. |
+| 10 | `session_01/templates/DATA_REQUIREMENTS_TEMPLATE.md` | Documentar datos requeridos, transformaciones y reglas de calidad. |
+| 11 | `powerbi/manual_steps/import_csv_files.md` | Importar el subconjunto de CSV necesario en Power BI Desktop. |
+| 12 | `powerbi/manual_steps/power_query_quick_recap.md` | Revisar tipos, llaves, fechas y problemas que luego se resolverán en Power Query. |
+| 13 | `powerbi/manual_steps/model_view_quick_recap.md` | Validar relaciones entre hechos y dimensiones. |
+| 14 | `powerbi/dax_backlog/mining_kpi_measure_backlog.md` | Revisar medidas DAX futuras; en Módulo 1 se mantienen conceptuales. |
+| 15 | `powerbi/manual_steps/report_view_quick_recap.md` | Crear visuales mínimos y saber qué campo colocar en cada bucket visual. |
+| 16 | `powerbi/report_wireframes/mining_sla_backlog_dashboard_wireframe.md` | Consultar visuales recomendados para el caso SLA/backlog minero. |
+| 17 | `session_01/templates/BI_SOLUTION_BLUEPRINT_TEMPLATE.md` | Completar el blueprint final con problema, pregunta, KPIs, datos, visuales y validación. |
+
 ## Agenda sugerida de 2 horas
 | Minutos | Bloque | Resultado |
 |---:|---|---|

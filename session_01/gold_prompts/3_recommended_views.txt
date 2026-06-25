@@ -1,0 +1,208 @@
+Ya cuento con los siguientes archivos:
+
+1. `catalogo_csv.md`: contiene el catálogo técnico de todos los archivos `.csv`, sus campos, tipos estimados, ejemplos de valores, posibles identificadores y relaciones sugeridas.
+2. `csv_necesarios_modelo_datos.md`: contiene los archivos `.csv` necesarios para resolver el problema de negocio, la explicación de uso de cada archivo y las relaciones sugeridas entre tablas.
+
+Ahora necesito diseñar un dashboard en Power BI para responder la siguiente pregunta medible:
+
+[MEASURABLE QUESTION]
+
+Usa únicamente la información disponible en `catalogo_csv.md` y `csv_necesarios_modelo_datos.md`.
+
+El objetivo es generar una lista de visualizaciones recomendadas para Power BI, indicando exactamente cómo configurar cada visualización.
+
+Todo el resultado debe estar escrito en español y entregarse en formato Markdown `.md`.
+
+# Instrucciones importantes
+
+- No inventes campos, tablas ni relaciones que no aparezcan en los archivos proporcionados.
+- Si una métrica, medida o visualización requiere una suposición, indícalo claramente.
+- Prioriza visualizaciones que ayuden directamente a responder la pregunta medible.
+- Evita gráficos genéricos que no aporten valor al análisis.
+- Usa los nombres exactos de las tablas y campos según aparezcan en los archivos.
+- Considera las relaciones entre tablas definidas en `csv_necesarios_modelo_datos.md`.
+- Si se necesitan medidas DAX, propónlas de forma clara.
+- Si no hay suficiente información para definir una visualización, explica qué dato falta.
+
+# Estructura esperada del archivo
+
+## 1. Pregunta medible del dashboard
+
+Reescribe brevemente la pregunta que el dashboard debe responder:
+
+> [MEASURABLE QUESTION]
+
+## 2. Objetivo del dashboard
+
+Explica en pocas líneas qué debe permitir analizar el dashboard y qué decisiones debería apoyar.
+
+## 3. Tablas y campos base para el dashboard
+
+Crea una tabla resumen con los archivos o tablas que se utilizarán:
+
+| Tabla / CSV | Rol en el dashboard | Campos relevantes | Uso principal |
+|---|---|---|---|
+
+## 4. Medidas necesarias
+
+Lista las métricas o medidas que se necesitan para construir las visualizaciones.
+
+Usa este formato:
+
+| Nombre de la medida | Descripción | Tabla base | Campos utilizados | Agregación / lógica | DAX sugerido |
+|---|---|---|---|---|---|
+
+Cuando sea posible, incluye fórmulas DAX.  
+Si la fórmula exacta no puede definirse con la información disponible, indica qué validación falta.
+
+Ejemplo de formato:
+
+```DAX
+Total Ventas = SUM('ventas'[monto_venta])
+````
+
+## 5. Visualizaciones recomendadas
+
+Para cada visualización, usa exactamente la siguiente estructura:
+
+---
+
+### Visualización 1: [Nombre descriptivo]
+
+**Tipo de visualización en Power BI:**
+Ejemplo: tarjeta, gráfico de barras, gráfico de líneas, matriz, gráfico de columnas agrupadas, gráfico circular, mapa, segmentador, tabla, gráfico de dispersión, KPI, waterfall, decomposition tree, etc.
+
+**Objetivo de la visualización:**
+Explica qué pregunta específica responde esta visualización y cómo ayuda a resolver la pregunta medible principal.
+
+**Nivel de importancia:**
+Obligatoria / Recomendada / Opcional
+
+**Tablas necesarias:**
+Lista las tablas o archivos `.csv` usados en esta visualización.
+
+**Campos y configuración exacta en Power BI:**
+
+| Elemento de configuración | Campo / Medida | Tabla | Agregación | Observaciones |
+| ------------------------- | -------------- | ----- | ---------- | ------------- |
+| Eje X                     |                |       |            |               |
+| Eje Y / Valores           |                |       |            |               |
+| Leyenda                   |                |       |            |               |
+| Detalles                  |                |       |            |               |
+| Tooltips                  |                |       |            |               |
+| Filtros del visual        |                |       |            |               |
+| Ordenamiento              |                |       |            |               |
+
+Adapta esta tabla según el tipo de visualización.
+Por ejemplo:
+
+* Para una **tarjeta**, usa: Campo / Medida, Agregación, Filtro aplicado.
+* Para una **matriz**, usa: Filas, Columnas, Valores, Tooltips, Filtros.
+* Para un **mapa**, usa: Ubicación, Latitud, Longitud, Tamaño, Color, Tooltips.
+* Para un **gráfico de líneas**, usa: Eje X, Eje Y, Leyenda, Tooltips, Filtros.
+* Para un **gráfico de barras**, usa: Eje Y, Eje X / Valores, Leyenda, Tooltips, Filtros.
+
+**Medidas DAX necesarias:**
+
+```DAX
+-- Incluir aquí las medidas necesarias para esta visualización
+```
+
+**Filtros recomendados:**
+Indica filtros específicos para esta visualización, si aplica.
+
+**Interacciones recomendadas:**
+Explica si la visualización debería filtrar a otras visualizaciones o solo responder a filtros externos.
+
+**Drill-down o jerarquías:**
+Indica si debe permitir navegación por niveles, por ejemplo: año > trimestre > mes > día, categoría > subcategoría > producto, país > región > ciudad, etc.
+
+**Formato recomendado:**
+Indica recomendaciones de formato, como unidades, porcentajes, separadores de miles, moneda, etiquetas de datos, orientación del gráfico o colores condicionales.
+
+**Justificación:**
+Explica por qué esta visualización es útil para responder la pregunta medible.
+
+**Supuestos o validaciones necesarias:**
+Indica cualquier supuesto que deba validarse antes de construir esta visualización.
+
+---
+
+## 6. Segmentadores recomendados
+
+Sugiere filtros globales para el dashboard.
+
+Usa esta tabla:
+
+| Segmentador | Campo | Tabla | Tipo de segmentador | Por qué es útil |
+| ----------- | ----- | ----- | ------------------- | --------------- |
+
+Ejemplos de tipos de segmentador:
+
+* Fecha
+* Rango numérico
+* Categoría
+* Región
+* Cliente
+* Producto
+* Estado
+* Canal
+* Tipo de transacción
+
+## 7. Diseño sugerido del dashboard
+
+Propón una organización visual del dashboard en Power BI.
+
+Usa esta estructura:
+
+### Parte superior
+
+Indica qué KPIs o tarjetas deben ir arriba.
+
+### Parte central
+
+Indica qué gráficos principales deben ocupar el centro del dashboard.
+
+### Parte inferior
+
+Indica qué tablas, matrices o gráficos de detalle deben ir abajo.
+
+### Panel lateral
+
+Indica qué segmentadores deberían colocarse en un panel lateral.
+
+## 8. Orden recomendado de lectura
+
+Explica en qué orden debería leer el usuario las visualizaciones para responder correctamente la pregunta medible.
+
+## 9. Riesgos y limitaciones
+
+Incluye una lista de riesgos, por ejemplo:
+
+* Campos necesarios que no existen en el catálogo.
+* Relaciones que deben validarse.
+* Métricas que dependen de supuestos.
+* Posibles relaciones muchos-a-muchos.
+* Fechas con formatos inconsistentes.
+* Valores nulos en campos clave.
+* Agregaciones que podrían cambiar la interpretación del resultado.
+
+## 10. Recomendación final
+
+Concluye con una recomendación breve indicando:
+
+* Cuáles son las visualizaciones más importantes.
+* Qué medidas deben crearse primero.
+* Qué relaciones deben estar correctamente configuradas.
+* Qué validaciones son críticas antes de publicar el dashboard.
+
+# Formato de entrega
+
+Entrega el resultado como un archivo Markdown llamado:
+
+`visualizaciones_powerbi_dashboard.md`
+
+Todo el contenido debe estar escrito en español.
+
+Recuerda:
+[MEASURABLE QUESTION] = 'Que areas y servicios concentran mayor incumplimiento SLA durante el periodo analizado, y que prioridad deberia atender primero la jefatura de operaciones o mantenimiento?'
