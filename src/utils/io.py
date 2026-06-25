@@ -21,13 +21,15 @@ def write_csv(df: pd.DataFrame, path: Path, root: Path) -> None:
 def write_text(content: str, path: Path, root: Path) -> None:
     ensure_within_root(root, path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(content, encoding="utf-8", newline="\n")
+    with path.open("w", encoding="utf-8", newline="\n") as file:
+        file.write(content)
 
 
 def write_json(data: dict, path: Path, root: Path) -> None:
     ensure_within_root(root, path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n")
+    with path.open("w", encoding="utf-8", newline="\n") as file:
+        file.write(json.dumps(data, ensure_ascii=False, indent=2))
 
 
 def read_csv(path: Path) -> pd.DataFrame:
